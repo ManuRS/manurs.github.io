@@ -5,9 +5,8 @@ Computational Neuroscience
 Computer Science
 
 Check out my research:
-<a href="https://scholar.google.es/citations?user=JlKzj1cAAAAJ" class="btn">Google Scholar</a>
-<a href="https://orcid.org/0000-0003-2909-4664" class="btn">ORCID</a>
-<a href="https://www.researchgate.net/profile/Manuel_Reyes-Sanchez" class="btn">Research Gate</a>
+<a href="https://orcid.org/0000-0003-2909-4664" class="button">ORCID</a>
+
 
 # Contact
 
