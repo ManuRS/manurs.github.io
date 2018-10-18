@@ -10,7 +10,7 @@ Computational Neuroscience.
 
 mnrs94@gmail.com
 
-# More:
+# ¿More?:
 
 <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/manuscritor/"> <img src="/resources/ig.png" width="50" height="50"> </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/manuscritor/"> <img src="/resources/tw.png" width="50" height="50"> </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
