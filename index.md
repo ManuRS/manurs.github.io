@@ -4,19 +4,19 @@ PhD Student. Working to be a link between science and computers. Interested in i
 
 ## Check out my research:
 
-<a href="https://linkedin.com/in/manuelrs/" class="button">Linkedin</a>
-<a href="https://orcid.org/0000-0003-2909-4664" class="button">ORCID</a>
-<a href="https://scholar.google.es/citations?user=JlKzj1cAAAAJ" class="button">Google Scholar</a>
+<a href="https://linkedin.com/in/manuelrs/" class="button">Linkedin</a>&nbsp;&nbsp;
+<a href="https://orcid.org/0000-0003-2909-4664" class="button">ORCID</a>&nbsp;&nbsp;
+<a href="https://scholar.google.es/citations?user=JlKzj1cAAAAJ" class="button">Google Scholar</a>&nbsp;&nbsp;
 <a href="https://www.researchgate.net/profile/Manuel_Reyes-Sanchez" class="button">Research Gate</a>
 
 ## Take a look at my code:
 
-<a href="https://github.com/manurs" class="button">Github</a>
+<a href="https://github.com/manurs" class="button">Github</a>&nbsp;&nbsp;
 <a href="https://manurs.github.io/code/" class="button">Projects list</a>
 
 ## Projects I contribute:
 
-<a href="https://github.com/GNB-UAM" class="button">GNB Repository</a>
+<a href="https://github.com/GNB-UAM" class="button">GNB Repository</a>&nbsp;&nbsp;
 <a href="https://github.com/GNB-UAM/RTHybrid" class="button">RTHybrid</a>
 
 ## Contact
