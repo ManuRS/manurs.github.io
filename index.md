@@ -34,7 +34,7 @@ PhD Student. Working to be a link between science and computers. Interested in i
 
 <p style="text-align: center"> manuel.reyes@uam.es</p>
 
-## Other stuff
+## Other stuff.
 
 <p style="text-align: center">
 <a target="_blank" rel="noopener noreferrer" href="https://disquisicionesnocturnas.wordpress.com/"> <img src="/resources/wp.png" width="50" height="50"> </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
