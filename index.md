@@ -9,22 +9,22 @@ layout: index
 PhD Student. Working to be a link between science and computers. Interested in information processing, computational neuroscience and machine learning. Research: hybrid neuronal circuits.
 </p>
 
-<p style="text-align: center">
-<a target="_blank" href="https://keybase.io/manurs" class="button">Keybase</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="publications" class="button">Publications page</a>
-</p>
-
-
 ## Check out my research
 
 <p style="text-align: center">
+
+</p>
+
+<p style="text-align: center">
+<a href="publications" class="button">Publications page</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a target="_blank" href="https://orcid.org/0000-0003-2909-4664" class="button">ORCID</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a target="_blank" href="https://scholar.google.es/citations?user=JlKzj1cAAAAJ" class="button">Google Scholar</a>
+<a target="_blank" href="https://linkedin.com/in/manuelrs/" class="button">Linkedin</a>
+
 </p>
 
 <p style="text-align: center">
 <a target="_blank" href="https://www.researchgate.net/profile/Manuel_Reyes-Sanchez" class="button">Research Gate</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a target="_blank" href="https://linkedin.com/in/manuelrs/" class="button">Linkedin</a>
+<a target="_blank" href="https://scholar.google.es/citations?user=JlKzj1cAAAAJ" class="button">Google Scholar</a>
 </p>
 
 
@@ -50,6 +50,11 @@ PhD Student. Working to be a link between science and computers. Interested in i
 
 <p style="text-align: center"> manuel.reyes@uam.es</p>
 
+## PGP public key
+
+<p style="text-align: center"> 
+<a target="_blank" href="https://keybase.io/manurs" class="button">Keybase</a>
+</p>
 
 ## Other stuff
 
