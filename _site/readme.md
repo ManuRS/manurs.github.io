@@ -22,10 +22,9 @@ gem 'github-pages', group: :jekyll_plugins
 bundle install
 apt install ruby2.x-dev # if fails
 ```
-RUN
+RUN (<http://localhost:4000>)
 ```
 bundle exec jekyll serve
-(<http://localhost:4000>)
 ```
 UPDATE
 ```

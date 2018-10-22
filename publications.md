@@ -12,15 +12,19 @@ Amaducci, R., Reyes-Sanchez, M., Elices, I., Rodriguez, F. B., & Varona, P. (201
 
 # Congress
 
+#### 27th Annual Computational Neuroscience Meeting - CNS 2018, Setattle, USA
+
+Oral presentation: 
+
+Reyes-Sanchez, M., Amaducci, R., Elices, I., Rodriguez, F. B., & Varona, P. (2018). Assisted construction of hybrid circuits: making easy the implementation and automation of interactions between living and model neurons. (CNS 2018, Seattle, USA).
+
 # Congress posters
 
-#### 27th Annual Computational Neuroscience Meeting - CNS 2018, Setattle, US
+#### 27th Annual Computational Neuroscience Meeting - CNS 2018, Setattle, USA
 
-Assisted construction of hybrid circuits: making easy the implementation and automation of interactions between living and model neurons.
+Elices, I., Reyes-Sanchez, M., Amaducci, R., Rodriguez, F. B., & Varona, P. (2018). Unveiling and Characterizing Dynamical Invariants in Central Pattern Generators. (CNS 2018, Seattle, USA).
 
-Unveiling and Characterizing Dynamical Invariants in Central Pattern Generators.
-
-A cross-platform real-time model library to build hybrid neural circuits
+Amaducci, R., Reyes-Sanchez, M., Elices, I., Rodriguez, F. B., & Varona, P. (2018). A cross-platform real-time model library to build hybrid neural circuits. (CNS 2018, Seattle, USA).
 
 #### 11th Federation of European Neuroscience Societies Forum of Neuroscience - FENS 2018, Berlin, Germany
 
@@ -44,3 +48,8 @@ Amaducci, R., Muñiz, C., Reyes-Sanchez, M., Rodriguez, F. B., & Varona., P. (20
 
 # Others
 
+Assistant at Eight Summer School of the Centre of Neural Dynamics - SSCND8, 2018, Ottawa, Canada 
+
+Final master dissertation in spanish (TFM): http://repositorio.uam.es/handle/10486/681056
+
+Final degree dissertation in spanish (TFG): http://repositorio.uam.es/handle/10486/677161
