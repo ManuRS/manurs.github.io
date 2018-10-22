@@ -10,7 +10,7 @@ PhD Student. Working to be a link between science and computers. Interested in i
 </p>
 
 <p style="text-align: center">
-<a target="_blank" rel="noopener noreferrer" href="https://keybase.io/manurs" class="button">Keybase</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a target="_blank" href="https://keybase.io/manurs" class="button">Keybase</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="publications" class="button">Publications page</a>
 </p>
 
@@ -18,20 +18,20 @@ PhD Student. Working to be a link between science and computers. Interested in i
 ## Check out my research
 
 <p style="text-align: center">
-<a target="_blank" rel="noopener noreferrer" href="https://orcid.org/0000-0003-2909-4664" class="button">ORCID</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a target="_blank" rel="noopener noreferrer" href="https://scholar.google.es/citations?user=JlKzj1cAAAAJ" class="button">Google Scholar</a>
+<a target="_blank" href="https://orcid.org/0000-0003-2909-4664" class="button">ORCID</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a target="_blank" href="https://scholar.google.es/citations?user=JlKzj1cAAAAJ" class="button">Google Scholar</a>
 </p>
 
 <p style="text-align: center">
-<a target="_blank" rel="noopener noreferrer" href="https://www.researchgate.net/profile/Manuel_Reyes-Sanchez" class="button">Research Gate</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/manuelrs/" class="button">Linkedin</a>
+<a target="_blank" href="https://www.researchgate.net/profile/Manuel_Reyes-Sanchez" class="button">Research Gate</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a target="_blank" href="https://linkedin.com/in/manuelrs/" class="button">Linkedin</a>
 </p>
 
 
 ## Take a look at my code
 
 <p style="text-align: center">
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/manurs" class="button">Github</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a target="_blank" href="https://github.com/manurs" class="button">Github</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="projects" class="button">Projects page</a>
 </p>
 
@@ -39,8 +39,8 @@ PhD Student. Working to be a link between science and computers. Interested in i
 ## Projects I contribute
 
 <p style="text-align: center">
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/GNB-UAM" class="button">GNB Repository</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/GNB-UAM/RTHybrid" class="button">RTHybrid</a>
+<a target="_blank" href="https://github.com/GNB-UAM" class="button">GNB Repository</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a target="_blank" href="https://github.com/GNB-UAM/RTHybrid" class="button">RTHybrid</a>
 </p>
 
 
@@ -54,8 +54,8 @@ PhD Student. Working to be a link between science and computers. Interested in i
 ## Other stuff
 
 <p style="text-align: center">
-<a target="_blank" rel="noopener noreferrer" href="https://disquisicionesnocturnas.wordpress.com/"> <img src="/resources/wp.png" width="50" height="50"> </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a target="_blank" rel="noopener noreferrer" href="https://instagram.com/manuscritor/"> <img src="/resources/ig.png" width="50" height="50"> </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/manuscritor/"> <img src="/resources/tw.png" width="50" height="50"> </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a target="_blank" rel="noopener noreferrer" href="https://instagram.com/supazum/"> <img src="/resources/ig.png" width="50" height="50"> </a>
+<a target="_blank" href="https://disquisicionesnocturnas.wordpress.com/"> <img src="/resources/wp.png" width="50" height="50"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a target="_blank" href="https://instagram.com/manuscritor/"> <img src="/resources/ig.png" width="50" height="50"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a target="_blank" href="https://twitter.com/manuscritor/"> <img src="/resources/tw.png" width="50" height="50"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a target="_blank" href="https://instagram.com/supazum/"> <img src="/resources/ig.png" width="50" height="50"></a>
 </p>

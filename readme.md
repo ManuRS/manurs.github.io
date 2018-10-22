@@ -1,9 +1,9 @@
 # manurs web site source code
 
-## Offline
+### How to run offline
 https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
 
-1. Installa ruby and bundler
+1. Install ruby and bundler
 ```
 ruby --version # If you dont have ruby, install ruby
 gem install bundler
@@ -25,7 +25,7 @@ apt install ruby2.x-dev # if fails
 RUN
 ```
 bundle exec jekyll serve
-(http://localhost:4000)
+(<http://localhost:4000>)
 ```
 UPDATE
 ```
