@@ -26,33 +26,38 @@ I work with more peope, this is not only my work
 
 ## Python codes
 
-<a href="http://www.github.com/manurs/python-ejers" target="_blank">Random programming exercises</a>
-<br>Including search algorithms, fourier signal filters and stocastic neural networks
-
-<a href="http://www.github.com/manurs/python-graphs" target="_blank">Python graphs</a>
-<br>Can be used as a library
-
 <a href="http://www.github.com/manurs/disease-spread" target="_blank">Disease spread</a>
 <br>Simulate disease spread using graphs
 
 <a href="http://www.github.com/manurs/random-walk" target="_blank">Random walk</a>
 <br>Implementation and analisys of a levy bio-inspired random search
 
+<a href="http://www.github.com/manurs/python-ejers" target="_blank">Random programming exercises</a>
+<br>With some search algorithms, encriptation, text manage, trees...
+
+<a href="http://www.github.com/manurs/python-graphs" target="_blank">Python graphs</a>
+<br>Basic exercises and library
+
+## Jupyter Notebooks
+
+<a href="http://www.github.com/manurs/stochastic-neurons-net" target="_blank">Stochastic neurons net</a>
+<br>Connected in grid this neurons generate waves across the net 
+
+<a href="http://www.github.com/manurs/signal-filter" target="_blank">Signal filter</a>
+<br>Basic tutorial about frequency domain filtering
+
+
 ## Games
 
-Rogue Castle: video game developed with phaser
+<a href="http://www.github.com/manurs/RogueCastle" target="_blank">Rogue Castle: video game developed with phaser</a>
 
-<a href="https://manurs.github.io/RogueCastle/web/index.html" target="_blank">Game page</a>
+<a href="https://manurs.github.io/RogueCastle/web/index.html" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;Game page</a>
 
-<a href="http://www.github.com/manurs/RogueCastle" target="_blank">Code in GitHub</a>
+<a href="https://manurs.github.io/RogueCastle" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;Play now</a>
 
-<a href="https://manurs.github.io/RogueCastle" target="_blank">Play now</a>
+<a href="https://github.com/manurs/android-connect4" target="_blank">Connect 4: Android app (Android 7 Nougat)</a>
 
-Connect 4: Android app (Android 7 Nougat)
-
-<a href="https://github.com/manurs/android-connect4" target="_blank">Code in GitHub</a>
-
-<a href="https://www.dropbox.com/s/gem1lv7zg4mdg97/conecta4_v3_offline.apk" target="_blank">Download</a>
+<a href="https://www.dropbox.com/s/gem1lv7zg4mdg97/conecta4_v3_offline.apk" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;Download</a>
 
 ## Old projects
 

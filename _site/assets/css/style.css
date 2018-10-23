@@ -327,8 +327,8 @@ a:hover { text-decoration: underline; }
 
 .button { background-color: #4CAF50; /* Green */ border: none; color: white; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 12px; }
 @media screen and (min-width: 64em) { .button { padding: 16px 18px; } }
-@media screen and (min-width: 42em) and (max-width: 64em) { .button { padding: 12px 13px; } }
-@media screen and (max-width: 42em) { .button { padding: 6px 6px; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .button { padding: 16px 18px; } }
+@media screen and (max-width: 42em) { .button { padding: 16px 18px; } }
 
 .button:hover { background-color: #555; text-decoration: none; }
 
