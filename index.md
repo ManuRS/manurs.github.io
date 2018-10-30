@@ -14,9 +14,9 @@ Research: hybrid neuronal circuits.
 </p>
 
 # Check out my research
-<p style="text-align: center; border-style: solid; border-color: #189959; border-radius: 12px; padding: 5%;">
-<a target="_blank" href="https://linkedin.com/in/manuelrs/" class="button">Linkedin</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="publications" class="button">Publications</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<p style="text-align: center; border-style: solid; border-color: #189959; border-radius: 12px; padding: 3%;">
+<a target="_blank" href="https://linkedin.com/in/manuelrs/" class="button">Linkedin</a>&nbsp;&nbsp;&nbsp;
+<a href="publications" class="button">Publications</a>&nbsp;&nbsp;&nbsp;
 <a target="_blank" href="https://orcid.org/0000-0003-2909-4664" class="button">ORCID</a>
 <br><br>
 <a target="_blank" href="https://scholar.google.es/citations?user=JlKzj1cAAAAJ" class="button">Google Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
