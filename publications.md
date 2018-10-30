@@ -15,7 +15,7 @@ Amaducci, R., Reyes-Sanchez, M., Elices, I., Rodriguez, F.B., & Varona, P. (2017
 
 Oral presentation: 
 
-Reyes-Sanchez, M., Amaducci, R., Elices, I., Rodriguez, F.B., & Varona, P. (2018). Assisted construction of hybrid circuits: making easy the implementation and automation of interactions between living and model neurons. BMC Neuroscience, 19, (Part 1):O19. CNS 2018, Seattle, USA. doi: https://doi.org/10.1186/s12868-018-0452-x
+Reyes-Sanchez, M., Amaducci, R., Elices, I., Rodriguez, F.B., & Varona, P. (2018). Assisted construction of hybrid circuits: making easy the implementation and automation of interactions between living and model neurons. BMC Neuroscience, 19, (Part 1):O19. CNS 2018, Seattle, USA. https://doi.org/10.1186/s12868-018-0452-x
 
 # Congress (posters)
 
