@@ -50,7 +50,7 @@ Research: hybrid neuronal circuits.
 </p>
 
 # More
-<p style="text-align: center; border-style: solid; border-color: #189959; border-radius: 12px; padding: 3%;">
+<p style="text-align: center; border-style: solid; border-color: #189959; border-radius: 12px; padding: 3%; padding-bottom: 2%;">
 <a target="_blank" href="https://disquisicionesnocturnas.wordpress.com/"> <img src="/resources/wp.png" width="50" height="50"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a target="_blank" href="https://instagram.com/manuscritor/"> <img src="/resources/ig.png" width="50" height="50"></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a target="_blank" href="https://twitter.com/manuscritor/"> <img src="/resources/tw.png" width="50" height="50"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
