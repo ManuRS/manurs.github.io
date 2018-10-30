@@ -53,4 +53,4 @@ Final master dissertation in spanish (TFM): http://repositorio.uam.es/handle/104
 
 Final degree dissertation in spanish (TFG): http://repositorio.uam.es/handle/10486/677161
 
-<a target="_blank" href="file:///MRS.bib" class="button">BibTeX</a>
+<a target="_blank" href="https://raw.githubusercontent.com/manurs/manurs.github.io/master/MRS.bib" class="button">BibTeX</a>
