@@ -160,17 +160,17 @@
   }
 
   @include large {
-    max-width: 36rem;
+    max-width: 42rem;
     padding: 2rem 2rem;
     margin: 0 auto;
     font-size: 1.1rem;
   }
 
   @include medium {
-    max-width: 36rem;
-    padding: 2rem 4rem;
+    max-width: 42rem;
+    padding: 2rem 2rem;
     margin: 0 auto;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 
   @include small {
@@ -334,7 +334,7 @@
 
 /* More space for the text */
 
-.main-content-alt {
+.main-content-publications {
 
   /* Write effect*/
   overflow: hidden; /* Ensures the content is not revealed until the animation */

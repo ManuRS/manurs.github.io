@@ -51,13 +51,13 @@ I work with more peope, this is not only my work
 
 <a href="http://www.github.com/manurs/RogueCastle" target="_blank">Rogue Castle: video game developed with phaser</a>
 
-<a href="https://manurs.github.io/RogueCastle/web/index.html" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;Game page</a>
+<a href="https://manurs.github.io/RogueCastle/web/index.html" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Game page</a>
 
-<a href="https://manurs.github.io/RogueCastle" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;Play now</a>
+<a href="https://manurs.github.io/RogueCastle" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Play now</a>
 
 <a href="https://github.com/manurs/android-connect4" target="_blank">Connect 4: Android app (Android 7 Nougat)</a>
 
-<a href="https://www.dropbox.com/s/gem1lv7zg4mdg97/conecta4_v3_offline.apk" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;Download</a>
+<a href="https://www.dropbox.com/s/gem1lv7zg4mdg97/conecta4_v3_offline.apk" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Download</a>
 
 ## Old projects
 
@@ -65,7 +65,7 @@ I work with more peope, this is not only my work
 <br>Demo android app to measure heart rate via flashlight    
 
 <a href="http://www.github.com/manurs/neurogenetico" target="_blank">Neurogenetico</a>
-<br>Java Machine Learning platform (neural networks, genetic algorithms, kmeans, knn)   
+<br>Java Machine Learning platform<br>(neural networks, genetic algorithms, kmeans, knn)   
 
 <a href="http://www.github.com/manurs/compiler" target="_blank">Alfa compiler</a>
 <br>Pseudo-C (Alfa) compiler

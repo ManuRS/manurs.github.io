@@ -14,14 +14,13 @@ Research: hybrid neuronal circuits.
 </p>
 
 ## Check out my research
-
-<p style="text-align: center">
+<p style="text-align: center; background-color:powderblue;">
 <a target="_blank" href="https://linkedin.com/in/manuelrs/" class="button">Linkedin</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="publications" class="button">Publications</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a target="_blank" href="https://orcid.org/0000-0003-2909-4664" class="button">ORCID</a>
-</p>
 
-<p style="text-align: center">
+<br><br><br>
+
 <a target="_blank" href="https://scholar.google.es/citations?user=JlKzj1cAAAAJ" class="button">Google Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a target="_blank" href="https://www.researchgate.net/profile/Manuel_Reyes-Sanchez" class="button">Research Gate</a>
 </p>

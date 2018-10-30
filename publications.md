@@ -5,9 +5,9 @@ layout: publications
 
 # Publications
 
-Reyes-Sanchez, M., Amaducci, R., Elices, I., Rodriguez, F.B., & Varona, P. (2018). Automatic adaptation of model neurons and connections to build hybrid circuits with living networks. bioRxiv 419622. doi: <a href="https://doi.org/10.1101/419622" target="_blank">https://doi.org/10.1101/419622</a>
+Reyes-Sanchez, M., Amaducci, R., Elices, I., Rodriguez, F.B., & Varona, P. (2018). Automatic adaptation of model neurons and connections to build hybrid circuits with living networks. bioRxiv, 419622. <a href="https://doi.org/10.1101/419622" target="_blank">https://doi.org/10.1101/419622</a>
 
-Amaducci, R., Reyes-Sanchez, M., Elices, I., Rodriguez, F.B., & Varona, P. (2017). RTHybrid: a standardized and open-source real-time software model library for experimental neuroscience. bioRxiv 426643. doi: <a href="https://doi.org/10.1101/426643" target="_blank">https://doi.org/10.1101/426643</a>
+Amaducci, R., Reyes-Sanchez, M., Elices, I., Rodriguez, F.B., & Varona, P. (2017). RTHybrid: a standardized and open-source real-time software model library for experimental neuroscience. bioRxiv, 426643. <a href="https://doi.org/10.1101/426643" target="_blank">https://doi.org/10.1101/426643</a>
 
 # Congress (non-poster)
 
@@ -21,9 +21,9 @@ Reyes-Sanchez, M., Amaducci, R., Elices, I., Rodriguez, F.B., & Varona, P. (2018
 
 #### 27th Annual Computational Neuroscience Meeting - CNS 2018, Setattle, USA
 
-Elices, I., Reyes-Sanchez, M., Amaducci, R., Rodriguez, F.B., & Varona, P. (2018). Unveiling and Characterizing Dynamical Invariants in Central Pattern Generators. BMC Neuroscience, 19, (Part 1):P173. CNS 2018, Seattle, USA. doi: https://doi.org/10.1186/s12868-018-0452-x
+Elices, I., Reyes-Sanchez, M., Amaducci, R., Rodriguez, F.B., & Varona, P. (2018). Unveiling and Characterizing Dynamical Invariants in Central Pattern Generators. BMC Neuroscience, 19, (Part 1):P173. CNS 2018, Seattle, USA. https://doi.org/10.1186/s12868-018-0452-x
 
-Amaducci, R., Reyes-Sanchez, M., Elices, I., Rodriguez, F.B., & Varona, P. (2018). A cross-platform real-time model library to build hybrid neural circuits. BMC Neuroscience, 19, (Part 1):P172. CNS 2018, Seattle, USA. doi: https://doi.org/10.1186/s12868-018-0452-x
+Amaducci, R., Reyes-Sanchez, M., Elices, I., Rodriguez, F.B., & Varona, P. (2018). A cross-platform real-time model library to build hybrid neural circuits. BMC Neuroscience, 19, (Part 1):P172. CNS 2018, Seattle, USA. https://doi.org/10.1186/s12868-018-0452-x
 
 #### 11th Federation of European Neuroscience Societies Forum of Neuroscience - FENS 2018, Berlin, Germany
 
@@ -41,9 +41,9 @@ Amaducci, R., Muñiz, C., Reyes-Sanchez, M., Rodriguez, F.B., & Varona., P. (201
 
 #### 26th Annual Computational Neuroscience Meeting - CNS 2017, Antwerp, Belgium
 
-Reyes-Sanchez, M., Elices, I., Amaducci, R., Muñiz, C., Rodriguez, F.B., & Varona, P. (2017). Automatic calibration for hybrid circuits of living and artificial neurons. BMC Neuroscience, 18, (Part 3):P281. CNS 2017, Antwerp, Belgium. doi: https://doi.org/10.1186/s12868-017-0372-1
+Reyes-Sanchez, M., Elices, I., Amaducci, R., Muñiz, C., Rodriguez, F.B., & Varona, P. (2017). Automatic calibration for hybrid circuits of living and artificial neurons. BMC Neuroscience, 18, (Part 3):P281. CNS 2017, Antwerp, Belgium. https://doi.org/10.1186/s12868-017-0372-1
 
-Amaducci, R., Muñiz, C., Reyes-Sanchez, M., Rodriguez, F.B., & Varona., P. (2017). On the need for standardized real-time software technology in closed-loop neuroscience. BMC Neuroscience, 18, (Part 2):P104. CNS 2017, Antwerp, Belgium. doi: https://doi.org/10.1186/s12868-017-0371-2
+Amaducci, R., Muñiz, C., Reyes-Sanchez, M., Rodriguez, F.B., & Varona., P. (2017). On the need for standardized real-time software technology in closed-loop neuroscience. BMC Neuroscience, 18, (Part 2):P104. CNS 2017, Antwerp, Belgium. https://doi.org/10.1186/s12868-017-0371-2
 
 # Others
 
@@ -53,4 +53,5 @@ Final master dissertation in spanish (TFM): http://repositorio.uam.es/handle/104
 
 Final degree dissertation in spanish (TFG): http://repositorio.uam.es/handle/10486/677161
 
-<a target="_blank" href="https://raw.githubusercontent.com/manurs/manurs.github.io/master/MRS.bib" class="button">BibTeX</a>
+<p style="text-align: center"> <br>
+<a target="_blank" href="https://raw.githubusercontent.com/manurs/manurs.github.io/master/MRS.bib" class="button">BibTeX</a> </p>
