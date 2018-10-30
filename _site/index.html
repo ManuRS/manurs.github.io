@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=de556423239c84fd34b6f9ababb4b3f6f57c34d9">
+    <link rel="stylesheet" href="/assets/css/style.css?v=794d8cc915cd339be847b7a127114daa9fb612f4">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </head>
   <body>
     
@@ -20,9 +22,9 @@
 
     <main id="content" class="main-content" role="main">
 
-      <h2 id="about-me">About me</h2>
+      <h1 id="about-me">About me</h1>
 
-<p style="text-align: left">
+<p style="text-align: justify; border-style: solid; border-color: #189959; border-radius: 12px; padding: 5%;">
 PhD Student.
 <br /><br />
 Working to be a link between science and computers. Interested in information processing, computational neuroscience and machine learning.
@@ -30,48 +32,48 @@ Working to be a link between science and computers. Interested in information pr
 Research: hybrid neuronal circuits.
 </p>
 
-<h2 id="check-out-my-research">Check out my research</h2>
-<p style="text-align: center; background-color:powderblue;">
+<h1 id="check-out-my-research">Check out my research</h1>
+<p style="text-align: center; border-style: solid; border-color: #189959; border-radius: 12px; padding: 5%;">
 <a target="_blank" href="https://linkedin.com/in/manuelrs/" class="button">Linkedin</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="publications" class="button">Publications</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a target="_blank" href="https://orcid.org/0000-0003-2909-4664" class="button">ORCID</a>
-
-<br /><br /><br />
-
+<br /><br />
 <a target="_blank" href="https://scholar.google.es/citations?user=JlKzj1cAAAAJ" class="button">Google Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a target="_blank" href="https://www.researchgate.net/profile/Manuel_Reyes-Sanchez" class="button">Research Gate</a>
 </p>
 
-<h2 id="take-a-look-at-my-code">Take a look at my code</h2>
+<h1 id="take-a-look-at-my-code">Take a look at my code</h1>
 
-<p style="text-align: center">
+<p style="text-align: center; border-style: solid; border-color: #189959; border-radius: 12px; padding: 5%;">
 <a href="projects" class="button">Projects page</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a target="_blank" href="https://github.com/manurs" class="button">Github account</a>
 </p>
 
-<h2 id="projects-i-contribute">Projects I contribute</h2>
+<h1 id="projects-i-contribute">Projects I contribute</h1>
 
-<p style="text-align: center">
+<p style="text-align: center; border-style: solid; border-color: #189959; border-radius: 12px; padding: 5%;">
 <a target="_blank" href="https://github.com/GNB-UAM" class="button">GNB Repository</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a target="_blank" href="https://github.com/GNB-UAM/RTHybrid" class="button">RTHybrid</a>
 </p>
 
-<h2 id="contact">Contact</h2>
+<h1 id="contact-click-to-copy">Contact (click to copy)</h1>
 
-<p style="text-align: center"> mnrs94@gmail.com</p>
+<p style="text-align: center; border-style: solid; border-color: #189959; border-radius: 12px; padding: 5%;">
+<a id="mail1" class="button" onclick="copyToClipboard('#mail1')">mnrs94@gmail.com</a>
+<br /><br />
+<a id="mail2" class="button" onclick="copyToClipboard('#mail2')">manuel.reyes@uam.es</a>
+</p>
 
-<p style="text-align: center"> manuel.reyes@uam.es</p>
+<h1 id="pgp-public-key">PGP public key</h1>
 
-<h2 id="pgp-public-key">PGP public key</h2>
-
-<p style="text-align: center"> 
+<p style="text-align: center; border-style: solid; border-color: #189959; border-radius: 12px; padding: 5%;">
 <a target="_blank" href="https://keybase.io/manurs" class="button">Keybase</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a target="_blank" href="https://keybase.io/manurs/key.asc" class="button">Public key</a>
 </p>
 
-<h2 id="other-stuff">Other stuff</h2>
+<h1 id="more">More</h1>
 
-<p style="text-align: center">
+<p style="text-align: center; border-style: solid; border-color: #189959; border-radius: 12px; padding: 5%;">
 <a target="_blank" href="https://disquisicionesnocturnas.wordpress.com/"> <img src="/resources/wp.png" width="50" height="50" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a target="_blank" href="https://instagram.com/manuscritor/"> <img src="/resources/ig.png" width="50" height="50" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a target="_blank" href="https://twitter.com/manuscritor/"> <img src="/resources/tw.png" width="50" height="50" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -106,6 +108,14 @@ Research: hybrid neuronal circuits.
                   function topFunction() {
                       document.body.scrollTop = 0;
                       document.documentElement.scrollTop = 0;
+                  }
+
+                  function copyToClipboard(element) {
+                      var $temp = $("<input>");
+                      $("body").append($temp);
+                      $temp.val($(element).text()).select();
+                      document.execCommand("copy");
+                      $temp.remove();
                   }
               </script>
       <!--Common end-->

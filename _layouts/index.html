@@ -9,6 +9,8 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </head>
   <body>
     
@@ -49,6 +51,14 @@
                   function topFunction() {
                       document.body.scrollTop = 0;
                       document.documentElement.scrollTop = 0;
+                  }
+
+                  function copyToClipboard(element) {
+                      var $temp = $("<input>");
+                      $("body").append($temp);
+                      $temp.val($(element).text()).select();
+                      document.execCommand("copy");
+                      $temp.remove();
                   }
               </script>
       <!--Common end-->
