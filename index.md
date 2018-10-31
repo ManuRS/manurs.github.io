@@ -14,8 +14,8 @@ Research: hybrid neuronal circuits.
 
 # Check out my research
 <ul class="nav">
-<li><a target="_blank" href="https://linkedin.com/in/manuelrs/" class="button">Linkedin</a></li>
 <li><a href="publications" class="button">Publications</a></li>
+<li><a target="_blank" href="https://linkedin.com/in/manuelrs/" class="button">Linkedin</a></li>
 <li><a target="_blank" href="https://orcid.org/0000-0003-2909-4664" class="button">ORCID</a></li>
 <li><a target="_blank" href="https://scholar.google.es/citations?user=JlKzj1cAAAAJ" class="button">Google Scholar</a></li>
 <li><a target="_blank" href="https://www.researchgate.net/profile/Manuel_Reyes-Sanchez" class="button">Research Gate</a></li>
