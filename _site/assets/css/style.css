@@ -349,7 +349,10 @@ a:hover { text-decoration: underline; }
 @media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 1rem 3rem; } }
 @media screen and (max-width: 42em) { .page-header { padding: 2rem 1rem; } }
 
-.project-name { margin-top: 0; margin-bottom: 0.1rem; /* Write effect*/ overflow: hidden; /* Ensures the content is not revealed until the animation */ animation: typing 1.5s steps(100, end); }
+.project-name { margin-top: 0; margin-bottom: 0.1rem; /* Write effect
+overflow: hidden; /* Ensures the content is not revealed until the animation 
+animation:  typing 1.5s steps(100, end);
+*/ }
 @media screen and (min-width: 64em) { .project-name { font-size: 3.25rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .project-name { font-size: 2.25rem; } }
 @media screen and (max-width: 42em) { .project-name { font-size: 1.75rem; } }
