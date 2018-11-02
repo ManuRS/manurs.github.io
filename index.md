@@ -34,7 +34,7 @@ Research: hybrid neuronal circuits.
 
 ## Contact
 <ul class="nav">
-<li>The better way to contact me is sending an email<br>Just click to copy the direction<br></li>
+<li>The better way to contact me is sending an email<br>Click to copy the direction<br></li>
 <li><a id="mail1" class="button" onclick="copyToClipboard('#mail1')">mnrs94@gmail.com</a></li>
 <li><a id="mail2" class="button" onclick="copyToClipboard('#mail2')">manuel.reyes@uam.es</a></li>
 </ul>
