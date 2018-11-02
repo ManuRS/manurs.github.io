@@ -2,7 +2,7 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <link rel="shortcut icon" type="image/x-icon" href="resources/favicon.ico">
-    <title>Reyes-Sanchez, M.</title>
+    <title>Manuel Reyes-Sanchez</title>
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -59,6 +59,15 @@
                       $temp.val($(element).text()).select();
                       document.execCommand("copy");
                       $temp.remove();
+                  }
+
+                  function showTextPGP() {
+                      var x = document.getElementById('PGPtext');
+                      if (x.style.display === "none") {
+                          x.style.display = "block";
+                      } else {
+                          x.style.display = "none";
+                      }
                   }
               </script>
       <!--Common end-->

@@ -2,13 +2,13 @@
 <html lang="en-US">
   <head>
     <link rel="shortcut icon" type="image/x-icon" href="resources/favicon.ico">
-    <title>Reyes-Sanchez, M.</title>
+    <title>Manuel Reyes-Sanchez</title>
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=36f34f7cd9b01bb50a1dd76a3fad86ec589ed460">
+    <link rel="stylesheet" href="/assets/css/style.css?v=767632e01fa8b3ea02133faed214bf2be1339194">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   </head>
@@ -22,7 +22,7 @@
 
     <main id="content" class="main-content" role="main">
 
-      <h1 id="about-me">About me</h1>
+      <h2 id="about-me">About me</h2>
 <p style="text-align: justify; border-style: solid; border-color: #189959; border-radius: 12px; padding: 3%;">
 PhD Student.
 <br /><br />
@@ -31,8 +31,9 @@ Working to be a link between science and computers. Interested in information pr
 Research: hybrid neuronal circuits.
 </p>
 
-<h1 id="check-out-my-research">Check out my research</h1>
+<h2 id="check-out-my-research">Check out my research</h2>
 <ul class="nav">
+<li>I try to keep up to day at least the publications page and Lindekin</li><br />
 <li><a href="publications" class="button">Publications</a></li>
 <li><a target="_blank" href="https://linkedin.com/in/manuelrs/" class="button">Linkedin</a></li>
 <li><a target="_blank" href="https://orcid.org/0000-0003-2909-4664" class="button">ORCID</a></li>
@@ -40,27 +41,31 @@ Research: hybrid neuronal circuits.
 <li><a target="_blank" href="https://www.researchgate.net/profile/Manuel_Reyes-Sanchez" class="button">Research Gate</a></li>
 </ul>
 
-<h1 id="take-a-look-at-my-code">Take a look at my code</h1>
+<h2 id="take-a-look-at-my-code">Take a look at my code</h2>
 <ul class="nav">
+<li>I have a recopilatory page in this web<br />Also you can follow me on GitHub</li><br />
 <li><a href="projects" class="button">Projects page</a></li>
 <li><a target="_blank" href="https://github.com/manurs" class="button">Github account</a></li>
-</ul>
-
-<h1 id="projects-i-contribute">Projects I contribute</h1>
-<ul class="nav">
+<li>Some of my work in my current laboratory is also available</li>
 <li><a target="_blank" href="https://github.com/GNB-UAM" class="button">GNB Repository</a></li>
 <li><a target="_blank" href="https://github.com/GNB-UAM/RTHybrid" class="button">RTHybrid</a></li>
 </ul>
 
-<h1 id="contact-click-to-copy">Contact (click to copy)</h1>
+<h2 id="contact">Contact</h2>
 <ul class="nav">
+<li>The better way to contact me is sending an email<br />Just click to copy the direction<br /></li>
 <li><a id="mail1" class="button" onclick="copyToClipboard('#mail1')">mnrs94@gmail.com</a></li>
 <li><a id="mail2" class="button" onclick="copyToClipboard('#mail2')">manuel.reyes@uam.es</a></li>
 </ul>
 
-<h1 id="pgp-public-key">PGP public key</h1>
+<h2 id="pgp-public-key">PGP Public Key</h2>
 <ul class="nav">
-<li><a target="_blank" href="https://keybase.io/manurs" class="button">Keybase</a></li>
+<li>I truly believe private communication is a right<br />
+<a onclick="showTextPGP()">More info</a></li>
+<div id="PGPtext" style="display: none">
+(1) The way to guarantee privacy is use open protocols and programs that publicly expose their architecture allowing to know they have not access to the key points of the encryption<br /><br />(2) One of the big problems with truly honest services is that usually are not so user-friendly than other options<br /><br />For this reason I use Keybase, a platform that aims to be user-friendly that generates keys in device and store PGP Private Key (well) encripted by a only user know password<br />
+</div>
+<br /><li><a target="_blank" href="https://keybase.io/manurs" class="button">Keybase</a></li>
 <li><a target="_blank" href="https://keybase.io/manurs/key.asc" class="button">Public key</a></li>
 </ul>
 
@@ -108,6 +113,15 @@ Research: hybrid neuronal circuits.
                       $temp.val($(element).text()).select();
                       document.execCommand("copy");
                       $temp.remove();
+                  }
+
+                  function showTextPGP() {
+                      var x = document.getElementById('PGPtext');
+                      if (x.style.display === "none") {
+                          x.style.display = "block";
+                      } else {
+                          x.style.display = "none";
+                      }
                   }
               </script>
       <!--Common end-->

@@ -325,6 +325,10 @@ a:hover { text-decoration: underline; }
 
 .nav li { display: inline-block; padding: 3%; }
 
+.navb { list-style-type: none; text-align: center; padding: 0; margin: 0; }
+
+.navb li { display: inline-block; padding: 3%; }
+
 #myBtn { display: none; position: fixed; top: 20px; right: 30px; z-index: 99; font-size: 18px; border: none; outline: none; background-color: red; color: white; cursor: pointer; padding: 5px; border-radius: 4px; }
 
 #myBtn:hover { background-color: #555; }
