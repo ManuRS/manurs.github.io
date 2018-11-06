@@ -139,7 +139,7 @@
   background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
 
   @include large {
-    padding: 2rem 4rem;
+    padding: 1rem 3rem;
   }
 
   @include medium {
@@ -147,13 +147,13 @@
   }
 
   @include small {
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
   }
 }
 
 .project-name {
   margin-top: 0;
-  margin-bottom: 0.1rem;
+  margin-bottom: 0rem;
 
   @include large {
     font-size: 3.25rem;
