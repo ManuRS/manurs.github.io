@@ -19,9 +19,13 @@ Reyes-Sanchez, M., Amaducci, R., Elices, I., Rodriguez, F.B., & Varona, P. (2018
 
 # Congress (posters)
 
-#### 27th Annual Computational Neuroscience Meeting - CNS 2018, Setattle, USA
+#### SFN Neuroscience 2018, San Diego, USA
 
-Elices, I., Reyes-Sanchez, M., Amaducci, R., Rodriguez, F.B., & Varona, P. (2018). Unveiling and Characterizing Dynamical Invariants in Central Pattern Generators. BMC Neuroscience, 19, (Part 1):P173. CNS 2018, Seattle, USA. https://doi.org/10.1186/s12868-018-0452-x
+Elices, I., Reyes-Sanchez, M., Amaducci, R., Levi, R., Rodriguez, F.B., & Varona, P. (2018). Dynamical invariants underlying robustness and flexibility in sequential neural dynamics. SFN Neuroscience 2018, San Diego, USA.
+
+#### 27th Annual Computational Neuroscience Meeting - CNS 2018, Seattle, USA
+
+Elices, I., Reyes-Sanchez, M., Amaducci, R., Levi, R., Rodriguez, F.B., & Varona, P. (2018). Unveiling and Characterizing Dynamical Invariants in Central Pattern Generators. BMC Neuroscience, 19, (Part 1):P173. CNS 2018, Seattle, USA. https://doi.org/10.1186/s12868-018-0452-x
 
 Amaducci, R., Reyes-Sanchez, M., Elices, I., Rodriguez, F.B., & Varona, P. (2018). A cross-platform real-time model library to build hybrid neural circuits. BMC Neuroscience, 19, (Part 1):P172. CNS 2018, Seattle, USA. https://doi.org/10.1186/s12868-018-0452-x
 
@@ -29,7 +33,7 @@ Amaducci, R., Reyes-Sanchez, M., Elices, I., Rodriguez, F.B., & Varona, P. (2018
 
 Reyes-Sanchez, M., Amaducci, R., Elices, I., Rodriguez, F.B., & Varona, P. (2018). Auto-adaptation of neuron models to perform hybrid interactions with living neurons. P-H017. FENS 2018, Berlin, Germany.
 
-Elices, I., Reyes-Sanchez, M., Amaducci, R., Rodriguez, F.B., & Varona, P. (2018). Dynamical invariants in Central Pattern Generators. P-D058. FENS 2018, Berlin, Germany.
+Elices, I., Reyes-Sanchez, M., Amaducci, R., Levi, R., Rodriguez, F.B., & Varona, P. (2018). Dynamical invariants in Central Pattern Generators. P-D058. FENS 2018, Berlin, Germany.
 
 Amaducci, R., Reyes-Sanchez, M., Elices, I., Rodriguez, F.B., & Varona, P. (2018). Building hybrid circuits using a multiplatform real-time software model library. P-H016. FENS 2018, Berlin, Germany.
 
