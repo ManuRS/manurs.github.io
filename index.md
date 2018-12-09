@@ -50,6 +50,7 @@ Research: hybrid neuronal circuits.
 <li><a target="_blank" href="https://keybase.io/manurs/key.asc"  class="button">Public key</a></li>
 </ul>
 
+<!--
 <br>
 <p style="text-align: center;">
 <a target="_blank" href="https://disquisicionesnocturnas.wordpress.com/"> <img src="/resources/wp.png" width="50" height="50"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -57,3 +58,4 @@ Research: hybrid neuronal circuits.
 <a target="_blank" href="https://twitter.com/manuscritor/"> <img src="/resources/tw.png" width="50" height="50"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a target="_blank" href="https://instagram.com/supazum/"> <img src="/resources/ig.png" width="50" height="50"></a>
 </p>
+-->
