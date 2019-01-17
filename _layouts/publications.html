@@ -9,6 +9,17 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+    
   </head>
   <body>
     
@@ -34,11 +45,11 @@
 
               <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
               <script>
-                  // When the user scrolls down 20px from the top of the document, show the button
+                  // When the user scrolls down from the top of the document, show the button
                   window.onscroll = function() {scrollFunction()};
 
                   function scrollFunction() {
-                      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                      if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
                           document.getElementById("myBtn").style.display = "block";
                       } else {
                           document.getElementById("myBtn").style.display = "none";

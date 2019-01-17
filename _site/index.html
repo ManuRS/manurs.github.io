@@ -6,11 +6,22 @@
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
+    <meta name="theme-color" content="#E6FF00">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=6293394ce0137914e96a0bd5de071b0f650686a3">
+    <link rel="stylesheet" href="/assets/css/style.css?v=7d9cbb325fb29681dc927124166c2f95afb2317e">
+
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132559789-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-132559789-1');
+      </script>
+    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    
   </head>
   <body>
     
@@ -69,13 +80,15 @@ Research: hybrid neuronal circuits.
 <li><a target="_blank" href="https://keybase.io/manurs/key.asc" class="button">Public key</a></li>
 </ul>
 
-<p><br /></p>
+<!--
+<br>
 <p style="text-align: center;">
-<a target="_blank" href="https://disquisicionesnocturnas.wordpress.com/"> <img src="/resources/wp.png" width="50" height="50" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a target="_blank" href="https://instagram.com/manuscritor/"> <img src="/resources/ig.png" width="50" height="50" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a target="_blank" href="https://twitter.com/manuscritor/"> <img src="/resources/tw.png" width="50" height="50" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a target="_blank" href="https://instagram.com/supazum/"> <img src="/resources/ig.png" width="50" height="50" /></a>
+<a target="_blank" href="https://disquisicionesnocturnas.wordpress.com/"> <img src="/resources/wp.png" width="50" height="50"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a target="_blank" href="https://instagram.com/manuscritor/"> <img src="/resources/ig.png" width="50" height="50"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a target="_blank" href="https://twitter.com/manuscritor/"> <img src="/resources/tw.png" width="50" height="50"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a target="_blank" href="https://instagram.com/supazum/"> <img src="/resources/ig.png" width="50" height="50"></a>
 </p>
+-->
 
 
       <!--Common-->
@@ -90,7 +103,7 @@ Research: hybrid neuronal circuits.
 
               <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
               <script>
-                  // When the user scrolls down 20px from the top of the document, show the button
+                  // When the user scrolls down from the top of the document, show the button
                   window.onscroll = function() {scrollFunction()};
 
                   function scrollFunction() {
@@ -113,6 +126,7 @@ Research: hybrid neuronal circuits.
                       $temp.val($(element).text()).select();
                       document.execCommand("copy");
                       $temp.remove();
+                      alert("Email copied");
                   }
 
                   function showTextPGP() {
