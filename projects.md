@@ -21,9 +21,6 @@ I work with more peope, this is not only my work
 <a href="http://www.github.com/manurs/retweets-away" target="_blank">Retweets-away</a>
 <br>Search and filter tweets from and official twitter .csv archive
 
-<a href="http:/gist.github.com/manurs/" target="_blank">Gist</a>
-<br>Sometimes I put small codes on Github Gist
-
 ## Python codes
 
 <a href="http://www.github.com/manurs/disease-spread" target="_blank">Disease spread</a>
@@ -89,3 +86,6 @@ I work with more peope, this is not only my work
   
 <a href="http://www.github.com/manurs/guides.md" target="_blank">guides.md</a>
 <br>Small tutorials, instructions or configuration guides     
+
+<a href="http:/gist.github.com/manurs/" target="_blank">Gist</a>
+<br>Sometimes I put small codes on Github Gist
