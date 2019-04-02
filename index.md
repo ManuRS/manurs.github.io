@@ -1,5 +1,5 @@
 ---
-title: Manuel Reyes Sánchez
+title: Home
 layout: index
 ---
 
