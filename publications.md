@@ -51,8 +51,6 @@ Amaducci, R., Muñiz, C., Reyes-Sanchez, M., Rodriguez, F.B., & Varona., P. (201
 
 # Others
 
-Assistant at Eight Summer School of the Centre of Neural Dynamics - SSCND8, 2018, Ottawa, Canada 
-
 Final master dissertation in spanish (TFM): http://repositorio.uam.es/handle/10486/681056
 
 Final degree dissertation in spanish (TFG): http://repositorio.uam.es/handle/10486/677161
