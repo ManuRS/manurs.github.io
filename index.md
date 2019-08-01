@@ -24,12 +24,12 @@ Research: hybrid neuronal circuits.
 
 ## Take a look at my code
 <ul class="nav">
-<li>I have a recopilatory page in this web<br>Also you can follow me on GitHub</li><br>
-<li><a target="_blank" href="https://github.com/manurs" class="button">Github account</a></li>
-<li><a href="projects" class="button">Projects page</a></li>
-<li>Some of my work in my current laboratory is also available</li>
+<li>PhD - Some of my work in my current laboratory</li>
 <li><a target="_blank" href="https://github.com/GNB-UAM" class="button">GNB Repository</a></li>
 <li><a target="_blank" href="https://github.com/GNB-UAM/RTHybrid" class="button">RTHybrid</a></li>
+<li>You can follow me on GitHub<br>Also I have a personal projects page</li><br>
+<li><a target="_blank" href="https://github.com/manurs" class="button">Github account</a></li>
+<li><a href="projects" class="button">Projects page</a></li>
 </ul>
 
 ## Contact
