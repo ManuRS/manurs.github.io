@@ -19,6 +19,15 @@ Reyes-Sanchez, M., Amaducci, R., Elices, I., Rodriguez, F.B., & Varona, P. (2018
 
 # Congress (posters)
 
+#### 28th Annual Computational Neuroscience Meeting - CNS 2019, Barcelona, Spain
+
+Reyes-Sanchez, M., Amaducci, R., Elices, I., Rodriguez, F.B., & Varona, P. (2019). Transfer of rich living circuit dynamics to neuron models through graded synapses. BMC Neuroscience, 20, (Suppl 1):P323. CNS 2019, Barcelona, Spain. https://doi.org/10.1186/s12868-019-0538-0
+
+Elices, I., Reyes-Sanchez, M., Amaducci, R., Levi, R., Rodriguez, F.B., & Varona, P. (2019). Hybrid circuits to assess sequential neural rhythms from low dimensional observations. BMC Neuroscience, 20, (Suppl 1):P321. CNS 2019, Barcelona, Spain. https://doi.org/10.1186/s12868-019-0538-0
+
+Amaducci, R., Reyes-Sanchez, M., Elices, I., Rodriguez, F.B., & Varona, P. (2019). Robotic locomotion driven by the flexible rhythm of a living Central Pattern Generator. BMC Neuroscience, 20, (Suppl 1):P322. CNS 2019, Barcelona, Spain. https://doi.org/10.1186/s12868-019-0538-0
+
+
 #### SFN Neuroscience 2018, San Diego, USA
 
 Elices, I., Reyes-Sanchez, M., Amaducci, R., Levi, R., Rodriguez, F.B., & Varona, P. (2018). Dynamical invariants underlying robustness and flexibility in sequential neural dynamics. SFN Neuroscience 2018, San Diego, USA.
