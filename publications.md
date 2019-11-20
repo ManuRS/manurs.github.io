@@ -15,17 +15,17 @@ Amaducci, R., Reyes-Sanchez, M., Elices, I., Rodriguez, F.B., & Varona, P. (2019
 
 Oral presentation: 
 
-Reyes-Sanchez, M., Amaducci, R., Elices, I., Rodriguez, F.B., & Varona, P. (2018). Assisted construction of hybrid circuits: making easy the implementation and automation of interactions between living and model neurons. BMC Neuroscience, 19, (Part 1):O19. CNS 2018, Seattle, USA. https://doi.org/10.1186/s12868-018-0452-x
+Reyes-Sanchez, M., Amaducci, R., Elices, I., Rodriguez, F.B., & Varona, P. (2018). Assisted construction of hybrid circuits: making easy the implementation and automation of interactions between living and model neurons. BMC Neuroscience, 19(Suppl 2):64, O19. CNS 2018, Seattle, USA. https://doi.org/10.1186/s12868-018-0452-x
 
 # Congress (posters)
 
 #### 28th Annual Computational Neuroscience Meeting - CNS 2019, Barcelona, Spain
 
-Reyes-Sanchez, M., Amaducci, R., Elices, I., Rodriguez, F.B., & Varona, P. (2019). Transfer of rich living circuit dynamics to neuron models through graded synapses. BMC Neuroscience, 20, (Suppl 1):P323. CNS 2019, Barcelona, Spain. https://doi.org/10.1186/s12868-019-0538-0
+Reyes-Sanchez, M., Amaducci, R., Elices, I., Rodriguez, F.B., & Varona, P. (2019). Transfer of rich living circuit dynamics to neuron models through graded synapses. BMC Neuroscience, 20(Suppl 1):56, P323. CNS 2019, Barcelona, Spain. https://doi.org/10.1186/s12868-019-0538-0
 
-Elices, I., Reyes-Sanchez, M., Amaducci, R., Levi, R., Rodriguez, F.B., & Varona, P. (2019). Hybrid circuits to assess sequential neural rhythms from low dimensional observations. BMC Neuroscience, 20, (Suppl 1):P321. CNS 2019, Barcelona, Spain. https://doi.org/10.1186/s12868-019-0538-0
+Elices, I., Reyes-Sanchez, M., Amaducci, R., Levi, R., Rodriguez, F.B., & Varona, P. (2019). Hybrid circuits to assess sequential neural rhythms from low dimensional observations. BMC Neuroscience, 20(Suppl 1):56, P321. CNS 2019, Barcelona, Spain. https://doi.org/10.1186/s12868-019-0538-0
 
-Amaducci, R., Reyes-Sanchez, M., Elices, I., Rodriguez, F.B., & Varona, P. (2019). Robotic locomotion driven by the flexible rhythm of a living Central Pattern Generator. BMC Neuroscience, 20, (Suppl 1):P322. CNS 2019, Barcelona, Spain. https://doi.org/10.1186/s12868-019-0538-0
+Amaducci, R., Reyes-Sanchez, M., Elices, I., Rodriguez, F.B., & Varona, P. (2019). Robotic locomotion driven by the flexible rhythm of a living Central Pattern Generator. BMC Neuroscience, 20(Suppl 1):56, P322. CNS 2019, Barcelona, Spain. https://doi.org/10.1186/s12868-019-0538-0
 
 
 #### SFN Neuroscience 2018, San Diego, USA
@@ -34,9 +34,9 @@ Elices, I., Reyes-Sanchez, M., Amaducci, R., Levi, R., Rodriguez, F.B., & Varona
 
 #### 27th Annual Computational Neuroscience Meeting - CNS 2018, Seattle, USA
 
-Elices, I., Reyes-Sanchez, M., Amaducci, R., Levi, R., Rodriguez, F.B., & Varona, P. (2018). Unveiling and Characterizing Dynamical Invariants in Central Pattern Generators. BMC Neuroscience, 19, (Part 1):P173. CNS 2018, Seattle, USA. https://doi.org/10.1186/s12868-018-0452-x
+Elices, I., Reyes-Sanchez, M., Amaducci, R., Levi, R., Rodriguez, F.B., & Varona, P. (2018). Unveiling and Characterizing Dynamical Invariants in Central Pattern Generators. BMC Neuroscience, 19(Suppl 2):64, P173. CNS 2018, Seattle, USA. https://doi.org/10.1186/s12868-018-0452-x
 
-Amaducci, R., Reyes-Sanchez, M., Elices, I., Rodriguez, F.B., & Varona, P. (2018). A cross-platform real-time model library to build hybrid neural circuits. BMC Neuroscience, 19, (Part 1):P172. CNS 2018, Seattle, USA. https://doi.org/10.1186/s12868-018-0452-x
+Amaducci, R., Reyes-Sanchez, M., Elices, I., Rodriguez, F.B., & Varona, P. (2018). A cross-platform real-time model library to build hybrid neural circuits. BMC Neuroscience, 19(Suppl 2):64, P172. CNS 2018, Seattle, USA. https://doi.org/10.1186/s12868-018-0452-x
 
 #### 11th Federation of European Neuroscience Societies Forum of Neuroscience - FENS 2018, Berlin, Germany
 
@@ -54,9 +54,9 @@ Amaducci, R., Muñiz, C., Reyes-Sanchez, M., Rodriguez, F.B., & Varona., P. (201
 
 #### 26th Annual Computational Neuroscience Meeting - CNS 2017, Antwerp, Belgium
 
-Reyes-Sanchez, M., Elices, I., Amaducci, R., Muñiz, C., Rodriguez, F.B., & Varona, P. (2017). Automatic calibration for hybrid circuits of living and artificial neurons. BMC Neuroscience, 18, (Part 3):P281. CNS 2017, Antwerp, Belgium. https://doi.org/10.1186/s12868-017-0372-1
+Reyes-Sanchez, M., Elices, I., Amaducci, R., Muñiz, C., Rodriguez, F.B., & Varona, P. (2017). Automatic calibration for hybrid circuits of living and artificial neurons. BMC Neuroscience, 18(Suppl 1):60, P281. CNS 2017, Antwerp, Belgium. https://doi.org/10.1186/s12868-017-0372-1
 
-Amaducci, R., Muñiz, C., Reyes-Sanchez, M., Rodriguez, F.B., & Varona., P. (2017). On the need for standardized real-time software technology in closed-loop neuroscience. BMC Neuroscience, 18, (Part 2):P104. CNS 2017, Antwerp, Belgium. https://doi.org/10.1186/s12868-017-0371-2
+Amaducci, R., Muñiz, C., Reyes-Sanchez, M., Rodriguez, F.B., & Varona., P. (2017). On the need for standardized real-time software technology in closed-loop neuroscience. BMC Neuroscience, 18(Suppl 1):59, P104. CNS 2017, Antwerp, Belgium. https://doi.org/10.1186/s12868-017-0371-2
 
 # Others
 
