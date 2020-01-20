@@ -3,6 +3,13 @@ title: Publications
 layout: publications
 ---
 
+<p style="text-align: center">
+<a target="_blank" href="https://raw.githubusercontent.com/manurs/manurs.github.io/master/MRS.bib" class="button">BibTeX</a> 
+<a target="_blank" href="https://orcid.org/0000-0003-2909-4664" class="button">ORCID</a>
+<a target="_blank" href="https://scholar.google.es/citations?user=JlKzj1cAAAAJ" class="button">Google Scholar</a>
+<a target="_blank" href="https://www.researchgate.net/profile/Manuel_Reyes-Sanchez" class="button">Research Gate</a>
+</p>
+
 # Publications
 
 Reyes-Sanchez, M., Amaducci, R., Elices, I., Rodriguez, F.B., & Varona, P. (2018). Automatic adaptation of model neurons and connections to build hybrid circuits with living networks. bioRxiv, 419622. <a href="https://doi.org/10.1101/419622" target="_blank">https://doi.org/10.1101/419622</a>
@@ -63,6 +70,3 @@ Amaducci, R., Muñiz, C., Reyes-Sanchez, M., Rodriguez, F.B., & Varona., P. (201
 Final master dissertation in spanish (TFM): http://repositorio.uam.es/handle/10486/681056
 
 Final degree dissertation in spanish (TFG): http://repositorio.uam.es/handle/10486/677161
-
-<p style="text-align: center"> <br>
-<a target="_blank" href="https://raw.githubusercontent.com/manurs/manurs.github.io/master/MRS.bib" class="button">BibTeX</a> </p>
