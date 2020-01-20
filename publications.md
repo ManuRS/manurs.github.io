@@ -3,7 +3,9 @@ title: Publications
 layout: publications
 ---
 
-<br><a target="_blank" href="https://raw.githubusercontent.com/manurs/manurs.github.io/master/MRS.bib">BibTeX</a>, <a target="_blank" href="https://orcid.org/0000-0003-2909-4664">ORCID</a>, <a target="_blank" href="https://scholar.google.es/citations?user=JlKzj1cAAAAJ">Google Scholar</a>, <a target="_blank" href="https://www.researchgate.net/profile/Manuel_Reyes-Sanchez">Research Gate</a>
+# Links
+
+<a target="_blank" href="https://raw.githubusercontent.com/manurs/manurs.github.io/master/MRS.bib">BibTeX</a>, <a target="_blank" href="https://orcid.org/0000-0003-2909-4664">ORCID</a>, <a target="_blank" href="https://scholar.google.es/citations?user=JlKzj1cAAAAJ">Google Scholar</a>, <a target="_blank" href="https://www.researchgate.net/profile/Manuel_Reyes-Sanchez">Research Gate</a>
 
 # Publications
 
@@ -65,3 +67,6 @@ Amaducci, R., Muñiz, C., Reyes-Sanchez, M., Rodriguez, F.B., & Varona., P. (201
 Final master dissertation in spanish (TFM): http://repositorio.uam.es/handle/10486/681056
 
 Final degree dissertation in spanish (TFG): http://repositorio.uam.es/handle/10486/677161
+
+<p style="text-align: center"> <br>
+<a target="_blank" href="https://raw.githubusercontent.com/manurs/manurs.github.io/master/MRS.bib" class="button">BibTeX</a> </p>
