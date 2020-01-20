@@ -3,12 +3,12 @@ title: Publications
 layout: publications
 ---
 
-<p style="text-align: center">
-<a target="_blank" href="https://raw.githubusercontent.com/manurs/manurs.github.io/master/MRS.bib" class="button">BibTeX</a> 
-<a target="_blank" href="https://orcid.org/0000-0003-2909-4664" class="button">ORCID</a>
-<a target="_blank" href="https://scholar.google.es/citations?user=JlKzj1cAAAAJ" class="button">Google Scholar</a>
-<a target="_blank" href="https://www.researchgate.net/profile/Manuel_Reyes-Sanchez" class="button">Research Gate</a>
-</p>
+# Social & citations
+
+> <a target="_blank" href="https://raw.githubusercontent.com/manurs/manurs.github.io/master/MRS.bib">BibTeX</a> 
+> <a target="_blank" href="https://orcid.org/0000-0003-2909-4664">ORCID</a>
+> <a target="_blank" href="https://scholar.google.es/citations?user=JlKzj1cAAAAJ">Google Scholar</a>
+> <a target="_blank" href="https://www.researchgate.net/profile/Manuel_Reyes-Sanchez">Research Gate</a>
 
 # Publications
 
