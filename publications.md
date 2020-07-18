@@ -15,7 +15,13 @@ Amaducci, R., Reyes-Sanchez, M., Elices, I., Rodriguez, F.B., & Varona, P. (2019
 
 # Congress (non-poster)
 
-#### 27th Annual Computational Neuroscience Meeting - CNS 2018, Setattle, USA
+#### 29th Annual Computational Neuroscience Meeting - CNS 2020, Online
+
+Tutorial:
+
+Tools and techniques to bridge the gap between models and closed-loop neuroscience experiments. Closed-Loop Neuroscience Tutorial. CNS 2020, Online. <a href="https://gnb-uam.github.io/CNS2020-ClosedLoopNeuroscienceTutorial/"target="_blank">https://gnb-uam.github.io/CNS2020-ClosedLoopNeuroscienceTutorial</a>
+
+#### 27th Annual Computational Neuroscience Meeting - CNS 2018, Seattle, USA
 
 Oral presentation: 
 
