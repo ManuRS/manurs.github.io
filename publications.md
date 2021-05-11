@@ -30,7 +30,10 @@ Reyes-Sanchez, M., Amaducci, R., Elices, I., Rodriguez, F.B., & Varona, P. (2018
 # Congress (posters)
 
 #### 29th Annual Computational Neuroscience Meeting - CNS 2020, Online
-Reyes-Sanchez, M., Elices, I., Amaducci, R., Rodriguez, F.B., & Varona, P. (2019). Parameter exploration in neuron and synapse models driven by stimuli from living neuron recordings. BMC Neuroscience, 21(Suppl 1):54, P206. CNS 2020, Online https://doi.org/10.1186/s12868-020-00593-1
+
+Reyes-Sanchez, M., Elices, I., Amaducci, R., Rodriguez, F.B., & Varona, P. (2020). Parameter exploration in neuron and synapse models driven by stimuli from living neuron recordings. BMC Neuroscience, 21(Suppl 1):54, P206. CNS 2020, Online https://doi.org/10.1186/s12868-020-00593-1
+
+Amaducci, R., Elices, I., Reyes-Sanchez, M., Rodriguez, F.B., & Varona, P. (2020). Hybrid robot driven by a closed-loop interaction with a living central pattern generator with online feedback. BMC Neuroscience, 21(Suppl 1):54, P207. CNS 2020, Online https://doi.org/10.1186/s12868-020-00593-1
 
 
 #### 28th Annual Computational Neuroscience Meeting - CNS 2019, Barcelona, Spain
