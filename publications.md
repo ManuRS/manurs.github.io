@@ -29,6 +29,10 @@ Reyes-Sanchez, M., Amaducci, R., Elices, I., Rodriguez, F.B., & Varona, P. (2018
 
 # Congress (posters)
 
+#### 30th Annual Computational Neuroscience Meeting - CNS 2021, Online
+
+Reyes-Sanchez, M., Amaducci, R., Levi, R., Rodriguez, F.B., & Varona, P. (2021). Parameter adaptation of hybrid circuits by online exploration driven by genetic algorithms. Journal of Computational Neuroscience, 49(Suppl 1):S186, P192. CNS 2021, Online https://doi.org/10.1007/s10827-021-00801-9
+
 #### 29th Annual Computational Neuroscience Meeting - CNS 2020, Online
 
 Reyes-Sanchez, M., Elices, I., Amaducci, R., Rodriguez, F.B., & Varona, P. (2020). Parameter exploration in neuron and synapse models driven by stimuli from living neuron recordings. BMC Neuroscience, 21(Suppl 1):54, P206. CNS 2020, Online https://doi.org/10.1186/s12868-020-00593-1
