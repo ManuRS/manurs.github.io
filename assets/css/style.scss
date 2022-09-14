@@ -9,6 +9,12 @@
   to { opacity: 1 }
 }
 
+body {
+  @include large {
+    overflow-y:scroll;
+  }
+}
+
 .nav2 {
     list-style-type: none;
     text-align: center; 
@@ -209,7 +215,6 @@
     padding: 2rem 2rem;
     margin: 0 auto;
     font-size: 1.1rem;
-    overflow-y:scroll;
   }
 
   @include medium {
