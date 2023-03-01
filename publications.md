@@ -11,9 +11,16 @@ Amaducci, R., Reyes-Sanchez, M., Elices, I., Rodriguez, F.B., & Varona, P. (2019
 
 # Congress
 
+### 31th Annual Computational Neuroscience Meeting - CNS 2022, Melbourne
+
+Garrido-Peña, A., Sánchez-Martín, P., Reyes-Sanchez, M., Castilla, J., Tornero, J., Levi, R., Rodriguez, F.B., & Varona, P. (2022). Activity-dependent infrared laser stimulation to assess its biophysical effects on single neurons. Journal of Computational Neuroscience, 51(Suppl 1), F3. CNS 2022, Melbourne https://doi.org/10.1007/s10827-022-00841-9
+
+Soëtard, P.E., Amaducci, R., Sánchez-Martín, P., Reyes-Sanchez, M., Garrido-Peña, A., Levi, R., Rodriguez, F.B., & Varona, P. (2022). Dynamical principles of functional neural sequences validated in hybrid robots built with living central pattern generators. Journal of Computational Neuroscience, 51(Suppl 1), P110. CNS 2022, Melbourne https://doi.org/10.1007/s10827-022-00841-9
+
+
 ### 30th Annual Computational Neuroscience Meeting - CNS 2021, Online
 
-Reyes-Sanchez, M., Amaducci, R., Levi, R., Rodriguez, F.B., & Varona, P. (2021). Parameter adaptation of hybrid circuits by online exploration driven by genetic algorithms. Journal of Computational Neuroscience, 49(Suppl 1):S186, P192. CNS 2021, Online https://doi.org/10.1007/s10827-021-00801-9
+Reyes-Sanchez, M., Amaducci, R., Levi, R., Rodriguez, F.B., & Varona, P. (2021). Parameter adaptation of hybrid circuits by online exploration driven by genetic algorithms. Journal of Computational Neuroscience, 49(Suppl 1), P192. CNS 2021, Online https://doi.org/10.1007/s10827-021-00801-9
 
 ### 29th Annual Computational Neuroscience Meeting - CNS 2020, Online
 
