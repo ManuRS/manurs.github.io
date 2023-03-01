@@ -3,34 +3,34 @@ title: Publications
 layout: publications
 ---
 
-# Publications
+## Publications
 
 <a href="https://doi.org/10.1007/s12021-019-09440-z" target="_blank">
-M. Reyes-Sanchez, R. Amaducci, I. Elices, F.B. Rodriguez, P. Varona. 2020. Automatic Adaptation of Model Neurons and Connections to Build Hybrid Circuits with Living Networks. Neuroinformatics 18:377–393.
+M. Reyes-Sanchez, R. Amaducci, I. Elices, F.B. Rodriguez, P. Varona. 2020. Automatic Adaptation of Model Neurons and Connections to Build Hybrid Circuits with Living Networks. Neuroinformatics.
 </a>
 
 
 <a href="https://doi.org/10.3389/fninf.2019.00011" target="_blank">
-R. Amaducci, M. Reyes-Sanchez, I. Elices, F.B. Rodriguez, P. Varona. 2019. RTHybrid: A Standardized and Open-Source Real-Time Software Model Library for Experimental Neuroscience. Frontiers in Neuroinformatics 13:11.
+R. Amaducci, M. Reyes-Sanchez, I. Elices, F.B. Rodriguez, P. Varona. 2019. RTHybrid: A Standardized and Open-Source Real-Time Software Model Library for Experimental Neuroscience. Frontiers in Neuroinformatics.
 </a>
 
-# Congress
+## Congress
 
 ### 31th Annual Computational Neuroscience Meeting - CNS 2022, Melbourne
 
-Garrido-Peña, A., Sánchez-Martín, P., Reyes-Sanchez, M., Castilla, J., Tornero, J., Levi, R., Rodriguez, F.B., & Varona, P. (2022). Activity-dependent infrared laser stimulation to assess its biophysical effects on single neurons. Journal of Computational Neuroscience, 51(Suppl 1), F3. CNS 2022, Melbourne https://doi.org/10.1007/s10827-022-00841-9
+A. Garrido-Peña, P. Sánchez-Martín, M. Reyes-Sanchez, J. Castilla, J. Tornero, R. Levi, F.B. Rodriguez, P. Varona. 2022. Activity-dependent infrared laser stimulation to assess its biophysical effects on single neurons. Journal of Computational Neuroscience. CNS 2022, Melbourne. F3. https://doi.org/10.1007/s10827-022-00841-9
 
-Soëtard, P.E., Amaducci, R., Sánchez-Martín, P., Reyes-Sanchez, M., Garrido-Peña, A., Levi, R., Rodriguez, F.B., & Varona, P. (2022). Dynamical principles of functional neural sequences validated in hybrid robots built with living central pattern generators. Journal of Computational Neuroscience, 51(Suppl 1), P110. CNS 2022, Melbourne https://doi.org/10.1007/s10827-022-00841-9
+P.E. Soëtard,  R. Amaducci, P. Sánchez-Martín, M. Reyes-Sanchez, A. Garrido-Peña, R. Levi, F.B. Rodriguez, P. Varona. 2022. Dynamical principles of functional neural sequences validated in hybrid robots built with living central pattern generators. Journal of Computational Neuroscience. CNS 2022, Melbourne. P110. https://doi.org/10.1007/s10827-022-00841-9
 
 ### 30th Annual Computational Neuroscience Meeting - CNS 2021, Online
 
-Reyes-Sanchez, M., Amaducci, R., Levi, R., Rodriguez, F.B., & Varona, P. (2021). Parameter adaptation of hybrid circuits by online exploration driven by genetic algorithms. Journal of Computational Neuroscience, 49(Suppl 1), P192. CNS 2021, Online https://doi.org/10.1007/s10827-021-00801-9
+M. Reyes-Sanchez, R. Amaducci, R. Levi, F.B. Rodriguez, P. Varona. 2021. Parameter adaptation of hybrid circuits by online exploration driven by genetic algorithms. Journal of Computational Neuroscience. CNS 2021, Online. P192. https://doi.org/10.1007/s10827-021-00801-9
 
 ### 29th Annual Computational Neuroscience Meeting - CNS 2020, Online
 
-Reyes-Sanchez, M., Elices, I., Amaducci, R., Rodriguez, F.B., & Varona, P. (2020). Parameter exploration in neuron and synapse models driven by stimuli from living neuron recordings. BMC Neuroscience, 21(Suppl 1):54, P206. CNS 2020, Online https://doi.org/10.1186/s12868-020-00593-1
+M. Reyes-Sanchez, I. Elices, R. Amaducci, F.B. Rodriguez, P. Varona. 2020. Parameter exploration in neuron and synapse models driven by stimuli from living neuron recordings. BMC Neuroscience. CNS 2020, Online. P206. https://doi.org/10.1186/s12868-020-00593-1
 
-Amaducci, R., Elices, I., Reyes-Sanchez, M., Rodriguez, F.B., & Varona, P. (2020). Hybrid robot driven by a closed-loop interaction with a living central pattern generator with online feedback. BMC Neuroscience, 21(Suppl 1):54, P207. CNS 2020, Online https://doi.org/10.1186/s12868-020-00593-1
+R. Amaducci, I. Elices,  M. Reyes-Sanchez, A. Garrido-Peña, Rafael Levi, F.B. Rodriguez, P. Varona. 2020. Hybrid robot driven by a closed-loop interaction with a living central pattern generator with online feedback. BMC Neuroscience. CNS 2020, Online. P207. https://doi.org/10.1186/s12868-020-00593-1
 
 **(Tutorial talk and organizer)** Tools and techniques to bridge the gap between models and closed-loop neuroscience experiments. Closed-Loop Neuroscience Tutorial. CNS 2020, Online. https://gnb-uam.github.io/CNS2020-ClosedLoopNeuroscienceTutorial/
 
