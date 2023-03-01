@@ -74,19 +74,25 @@ Final degree dissertation in spanish (TFG): http://repositorio.uam.es/handle/104
 
 <!--
 <p style="text-align: center"> <br>
-<a target="_blank" href="https://raw.githubusercontent.com/manurs/manurs.github.io/master/MRS.bib" class="button">BibTeX</a> </p>
+<a target="_blank" href="https://raw.githubusercontent.com/manurs/manurs.github.io/master/MRS.bib" class="button">BibTeX</a>
+<a href="/" class="button">Home page</a>
+</p>
 -->
 
+# Links
+
+Email me at: manuel.reyes@uam.com
+
+GNB Repository: <a href="https://github.com/GNB-UAM" target="_blank">https://github.com/GNB-UAM</a>
+
+BibTeX file: <a href="https://raw.githubusercontent.com/manurs/manurs.github.io/master/MRS.bib" target="_blank">https://raw.githubusercontent.com/manurs/manurs.github.io/master/MRS.bib</a>
+
 <ul class="nav2">
-<li><a href="/" class="button">Home page</a></li>
 
-<li><a target="_blank" href="https://github.com/GNB-UAM" class="button">GNB Repository</a></li>
-<li><a target="_blank" href="https://github.com/manurs" class="button">My GitHub profile</a></li>
-
-<li><a href="mailto:manuel.reyes@uam.es" target="_blank" class="button">Email me!</a></li>
-<li><a target="_blank" href="https://raw.githubusercontent.com/manurs/manurs.github.io/master/MRS.bib" class="button">BibTeX file</a></li>
-
+<li><a target="_blank" href="https://github.com/manurs" class="button">GitHub</a></li>
 <li><a target="_blank" href="https://linkedin.com/in/manuelrs/" class="button">Linkedin</a></li>
+
 <li><a target="_blank" href="https://orcid.org/0000-0003-2909-4664" class="button">ORCID</a></li>
 <li><a target="_blank" href="https://scholar.google.es/citations?user=JlKzj1cAAAAJ" class="button">Google Scholar</a></li>
+
 </ul>
