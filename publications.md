@@ -79,13 +79,16 @@ Final degree dissertation in spanish (TFG): http://repositorio.uam.es/handle/104
 </p>
 -->
 
-# Links
 
-Email me at: manuel.reyes@uam.com
+<ul class="nav2">
 
-GNB Repository: <a href="https://github.com/GNB-UAM" target="_blank">https://github.com/GNB-UAM</a>
+<li><a target="_blank" href="https://github.com/GNB-UAM" class="button">GNB Repository</a></li>
 
-BibTeX file: <a href="https://raw.githubusercontent.com/manurs/manurs.github.io/master/MRS.bib" target="_blank">https://raw.githubusercontent.com/manurs/manurs.github.io/master/MRS.bib</a>
+<li><a target="_blank" href="https://raw.githubusercontent.com/manurs/manurs.github.io/master/MRS.bib" class="button">BibTeX file</a></li>
+
+<li><a href="mailto:manuel.reyes@uam.es" target="_blank" class="button">manuel.reyes@uam.es</a></li>
+
+</ul>
 
 <ul class="nav2">
 
