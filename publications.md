@@ -5,9 +5,14 @@ layout: publications
 
 # Publications
 
-Reyes-Sanchez, M., Amaducci, R., Elices, I., Rodriguez, F. B., & Varona, P. (2020). Automatic Adaptation of Model Neurons and Connections to Build Hybrid Circuits with Living Networks. Neuroinformatics, 18(3), 377–393. <a href="https://doi.org/10.1007/s12021-019-09440-z" target="_blank">https://doi.org/10.1007/s12021-019-09440-z</a>
+<a href="https://doi.org/10.1007/s12021-019-09440-z" target="_blank">
+M. Reyes-Sanchez, R. Amaducci, I. Elices, F.B. Rodriguez, P. Varona. 2020. Automatic Adaptation of Model Neurons and Connections to Build Hybrid Circuits with Living Networks. Neuroinformatics 18:377–393.
+</a>
 
-Amaducci, R., Reyes-Sanchez, M., Elices, I., Rodriguez, F.B., & Varona, P. (2019). RTHybrid: a standardized and open-source real-time software model library for experimental neuroscience. Frontiers in Neuroinformatics, 13, 11. <a href="https://doi.org/10.3389/fninf.2019.00011" target="_blank">https://doi.org/10.3389/fninf.2019.00011</a>
+
+<a href="https://doi.org/10.3389/fninf.2019.00011" target="_blank">
+R. Amaducci, M. Reyes-Sanchez, I. Elices, F.B. Rodriguez, P. Varona. 2019. RTHybrid: A Standardized and Open-Source Real-Time Software Model Library for Experimental Neuroscience. Frontiers in Neuroinformatics 13:11.
+</a>
 
 # Congress
 
