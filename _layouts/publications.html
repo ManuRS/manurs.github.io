@@ -14,7 +14,7 @@
     <meta charset="UTF-8">
 
 {% seo %}
-    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
@@ -25,7 +25,8 @@
   <body>
     
     <header class="page-header" role="banner">
-      <h1 class="project-name"><a href="/">Manuel Reyes Sánchez</a></h1>
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+
       <!--<a href="/" class="btn">Main page</a>
       <a target="_blank" href="https://raw.githubusercontent.com/manurs/manurs.github.io/master/MRS.bib" class="btn">BibTeX</a>
       <a target="_blank" href="https://orcid.org/0000-0003-2909-4664" class="btn">ORCID</a>

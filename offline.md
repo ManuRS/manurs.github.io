@@ -1,6 +1,10 @@
-# manurs web site source code
+---
+title:
+layout: publications
+---
 
 ### How to run offline
+
 https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
 
 1. Install ruby and bundler
