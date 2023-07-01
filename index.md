@@ -13,6 +13,10 @@ layout: publications
 
 ## Publications
 
+<a href="https://doi.org/10.1016/j.neunet.2023.04.034" target="_blank">
+M. Reyes-Sanchez, R. Amaducci, P. Sanchez-Martin, I. Elices, F.B. Rodriguez, P. Varona. 2023. Automatized offline and online exploration to achieve a target dynamics in biohybrid neural circuits built with living and model neuron. Neural Networks.
+</a>
+
 <a href="https://doi.org/10.1007/s12021-019-09440-z" target="_blank">
 M. Reyes-Sanchez, R. Amaducci, I. Elices, F.B. Rodriguez, P. Varona. 2020. Automatic Adaptation of Model Neurons and Connections to Build Hybrid Circuits with Living Networks. Neuroinformatics.
 </a>
