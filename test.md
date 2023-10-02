@@ -3,17 +3,11 @@ title: Manuel Reyes Sánchez
 layout: future
 ---
 
-<ul class="nav2">
-	
-<li>
 	<div class="container">
 	<a href="https://github.com/manurs" target="_blank"> <img src="resources/banner_web.png" alt="Banner" object-fit="cover" padding="0rem 0rem"> </a>
 	<div class="textbanner">This is a test text</div>
 	</div>
-</li>
-	
-</ul>
- 
+
 <ul class="nav2">
 
 <li>
