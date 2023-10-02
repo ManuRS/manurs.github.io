@@ -3,8 +3,13 @@ title: Manuel Reyes Sánchez
 layout: future
 ---
 
+<picture>
+  <source media="(max-width: #{$large-breakpoint})" srcset="resources/github.png">
+  <source media="(min-width: #{$medium-breakpoint})" srcset="resources/banner_web_phone.png">
+  <img src="resources/banner_web_phone.png" alt="Banner">
+</picture>
 
-<a href="https://github.com/manurs" target="_blank"> <img src="resources/banner_web.png" alt="Banner" object-fit="cover" padding="0rem 0rem"> </a>
+<a href="https://github.com/manurs" target="_blank"> <img src="resources/banner_web_phone.png" alt="Banner" object-fit="cover" padding="0rem 0rem"> </a>
 
 
 <ul class="nav2">
