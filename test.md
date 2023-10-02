@@ -9,9 +9,6 @@ layout: future
   <img src="resources/banner_web_phone.png" alt="Banner">
 </picture>
 
-<a href="https://github.com/manurs" target="_blank"> <img src="resources/banner_web_phone.png" alt="Banner" object-fit="cover" padding="0rem 0rem"> </a>
-
-
 <ul class="nav2">
 
 <li>
