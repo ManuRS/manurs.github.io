@@ -584,17 +584,17 @@ body {
   }
 
   @include large {
-    max-width: 42rem;
+    max-width: 60rem;
     padding: 2rem 2rem;
     margin: 0 auto;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
   }
 
   @include medium {
-    max-width: 42rem;
-    padding: 2rem 2rem;
+    max-width: 70rem;
+    padding: 2rem 4rem;
     margin: 0 auto;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
   }
 
   @include small {
