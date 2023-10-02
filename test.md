@@ -4,6 +4,15 @@ layout: future
 ---
 
 <ul class="nav2">
+	
+<li>
+	<a href="https://github.com/manurs" target="_blank"> <img src="resources/banner_web.pnh" alt="Banner" height="100" width="250"> </a>
+	<div class="textbanner">This is a test text</div>
+</li>
+	
+</ul>
+ 
+<ul class="nav2">
 
 <li>
 	<a href="https://github.com/manurs" target="_blank"> <img src="resources/github.png" alt="Github" height="50" width="50"> </a>
