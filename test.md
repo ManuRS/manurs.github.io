@@ -4,8 +4,8 @@ layout: future
 ---
 
 <picture>
-  <source media="(max-width: #{$large-breakpoint})" srcset="resources/github.png">
-  <source media="(min-width: #{$medium-breakpoint})" srcset="resources/banner_web_phone.png">
+  <source media="(max-width: 42em)" srcset="resources/banner_web_phone.png">
+  <source media="(min-width: 42em)" srcset="resources/banner_web_desktop.png">
   <img src="resources/banner_web_phone.png" alt="Banner">
 </picture>
 
