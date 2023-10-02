@@ -6,7 +6,7 @@ layout: future
 <ul class="nav2">
 	
 <li>
-	<a href="https://github.com/manurs" target="_blank"> <img src="resources/banner_web.png" alt="Banner" height="160" width="400"> </a>
+	<a href="https://github.com/manurs" target="_blank"> <img src="resources/banner_web.png" alt="Banner"  object-fit="cover"> </a>
 	<div class="textbanner">This is a test text</div>
 </li>
 	
