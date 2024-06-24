@@ -1,0 +1,32 @@
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ master ]
+  schedule:
+    - cron: '5 0 * * 0'
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions: write-all
+
+    steps:
+      - name: Delete deployment
+        uses: strumwolf/delete-deployment-environment@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          environment: github-pages
+          onlyRemoveDeployments: true
+
+  delete_runs:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Delete workflow runs
+        uses: dmvict/clean-workflow-runs@v1.0.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          save_period: 10
+          save_min_runs_number: 1

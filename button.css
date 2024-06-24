@@ -1,0 +1,26 @@
+.button {
+    background-color: #189959; /*#4CAF50; Green */
+    border-color: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0px;
+
+    @include large {
+      padding: 16px 18px;
+    }
+    @include medium {
+      padding: 16px 18px;
+    }
+    @include small {
+      padding: 16px 18px;
+    }
+}
+
+.button:hover {
+  background-color: #555;
+  text-decoration: none;
+  color: white;
+}
