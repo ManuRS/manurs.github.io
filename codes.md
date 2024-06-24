@@ -1,21 +1,29 @@
 ---
-title: Projects
-layout: projects
+title: Codes
+layout: future
 ---
 
 
-## More
+<picture>
+  <source media="(max-width: 42em)" srcset="resources/banner_web_phone.png">
+  <source media="(min-width: 42em)" srcset="resources/banner_web_desktop.png">
+  <img src="resources/banner_web_phone.png" alt="Banner">
+</picture>
+
+<a class="btnmenu" href="/index">Home</a> | <a class="btnmenu" href="/phd">PhD</a>
+
+<h2 style="margin-top: 2rem;">Some of my codes</h2>
 
 <a href="http://www.github.com/manurs/SSH-Alert" target="_blank">SSH-Alert</a>
 <br>Get notified via email when somehting happend in the ssh
 
 <a href="http://www.github.com/manurs/retweets-away" target="_blank">Retweets-away</a>
-<br>Search and filter tweets from an official twitter .csv archive
+<br>Search and filter tweets from an official Twitter .csv archive
 
-## Python codes
+<h2 style="margin-top: 2rem;"> Python codes </h2>
 
 <a href="http://www.github.com/manurs/disease-spread" target="_blank">Disease spread</a>
-<br>Simulate disease spread using graphs
+<br>Simulate disease spread using graphs theory
 
 <a href="http://www.github.com/manurs/random-walk" target="_blank">Random walk</a>
 <br>Implementation and analisys of a levy bio-inspired random search
@@ -26,7 +34,7 @@ layout: projects
 <a href="http://www.github.com/manurs/python-graphs" target="_blank">Python graphs</a>
 <br>Basic exercises and library
 
-## Jupyter Notebooks
+<h2 style="margin-top: 2rem;"> Jupyter Notebooks </h2>
 
 <a href="http://www.github.com/manurs/stochastic-neurons-net" target="_blank">Stochastic neurons net</a>
 <br>Connected in grid this neurons generate waves across the net 
@@ -34,20 +42,19 @@ layout: projects
 <a href="http://www.github.com/manurs/signal-filter" target="_blank">Signal filter</a>
 <br>Basic tutorial about frequency domain filtering
 
-
-## Games
+<h2 style="margin-top: 2rem;"> Video games </h2>
 
 <a href="http://www.github.com/manurs/RogueCastle" target="_blank">Rogue Castle: video game developed with phaser</a>
 
-<a href="https://manurs.github.io/RogueCastle/web/index.html" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Game page</a>
+<a href="https://manurs.github.io/RogueCastle/web/index.html" target="_blank">&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Game page</a>
 
-<a href="https://manurs.github.io/RogueCastle" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Play now</a>
+<a href="https://manurs.github.io/RogueCastle" target="_blank">&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Play now</a>
 
 <a href="https://github.com/manurs/android-connect4" target="_blank">Connect 4: Android app (Android 7 Nougat)</a>
 
-<a href="https://www.dropbox.com/s/gem1lv7zg4mdg97/conecta4_v3_offline.apk" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Download</a>
+<a href="https://www.dropbox.com/s/gem1lv7zg4mdg97/conecta4_v3_offline.apk" target="_blank">&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Download</a>
 
-## Old projects
+<h2 style="margin-top: 2rem;"> Old projects </h2>
 
 <a href="http://www.github.com/manurs/GetPulse" target="_blank">GetPulse</a>
 <br>Demo android app to measure heart rate via flashlight    
@@ -64,19 +71,14 @@ layout: projects
 <a href="http://www.github.com/manurs/search_algorithms" target="_blank">Search algorithms</a>
 <br>Search algorithms implemented in C (withs tools to measure time)
 
-<a href="http://www.github.com/manurs/neuron-models" target="_blank">Neuron-models</a>
-<br>My first attempt with neuron hybrid circuits
-
-## Other things
+<h2 style="margin-top: 2rem;"> Other things </h2>
 
 <a href="http://www.github.com/manurs/dotfiles" target="_blank">dotfiles</a>
 <br>Personal config files
 
 <a href="http://www.github.com/manurs/xfce_config" target="_blank">xfce_config</a>
-<br>Files to configure Xfce as I like        
+<br>Files to configure my Xfce      
   
 <a href="http://www.github.com/manurs/guides.md" target="_blank">guides.md</a>
 <br>Small tutorials, instructions or configuration guides     
 
-<a href="http:/gist.github.com/manurs/" target="_blank">Gist</a>
-<br>Sometimes I put small codes on Github Gist
