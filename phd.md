@@ -60,7 +60,8 @@ R. Amaducci, M. Reyes-Sanchez, I. Elices, F.B. Rodriguez, P. Varona. 2019. RTHyb
 
 **32th Annual Computational Neuroscience Meeting - CNS 2023, Leipzig, Germany**
 
-A. Garrido-Peña, P. Sánchez-Martín, I. Elices, M. Reyes-Sanchez, B. Berbel, R. Latorre, F.B. Rodriguez, P. Varona. 2023. Exploring the ability of biophysical models to reproduce the functional variability of neurons. CNS 2024.
+A. Garrido-Peña, P. Sánchez-Martín, I. Elices, M. Reyes-Sanchez, B. Berbel, R. Latorre, F.B. Rodriguez, P. Varona. 2023. Exploring the ability of biophysical models to reproduce the functional variability of neurons (P208). <a href="https://doi.org/10.1007/s10827-024-00871-5" target="_blank">Journal of Computational Neuroscience.</a>
+
 
 **31th Annual Computational Neuroscience Meeting - CNS 2022, Melbourne, Australia**
 

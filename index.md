@@ -34,7 +34,8 @@ layout: future
     <h2 style="margin-top: 1rem; padding: 0;"> ¡Hola! </h2>
     
     <p style="padding: 0;">
-    Entre otras cosas soy zillenial, periodista e ingeniero informático. Lo primero, <a target="_blank" href="https://es.wikipedia.org/wiki/Zillenial">no me lo he inventado, existe</a>. A ser lo segundo, aprendo actualmente en El País. Lo tercero, me llevó a doctorarme con una <a href="/phd">tesis sobre neurociencia</a>. La vida da muchas vueltas.
+    
+    Entre otras muchas cosas soy zillenial, periodista e ingeniero informático. Lo primero, <a target="_blank" href="https://es.wikipedia.org/wiki/Zillenial">no me lo he inventado, existe</a>. A ser lo segundo aprendí en El País y ahora trabajo en los informativos de la Cadena SER. Lo tercero, me llevó a doctorarme con una <a href="/phd">tesis sobre neurociencia</a>. La vida da muchas vueltas.
     </p>
     
 <ul class="nav2">
@@ -48,7 +49,7 @@ layout: future
 </li>
 
 <li>
-	<a href="https://instagram.com/nuscrito" target="_blank"> <img src="resources/instagram4.png" alt="Instagram" height="50" width="50"> </a>
+	<a href="https://instagram.com/manu.resan" target="_blank"> <img src="resources/instagram4.png" alt="Instagram" height="50" width="50"> </a>
 </li>
 
 </ul>
