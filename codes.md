@@ -10,7 +10,7 @@ layout: future
   <img src="resources/banner_web_phone.png" alt="Banner">
 </picture>
 
-<a class="btnmenu" href="/index">Home</a> | <a class="btnmenu" href="/phd">PhD</a>
+<a class="btnmenu" href="/index">Home</a> | 
 
 <h2 style="margin-top: 2rem;">Some of my codes</h2>
 

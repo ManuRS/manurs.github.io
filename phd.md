@@ -3,18 +3,29 @@ title: PhD
 layout: future
 ---
 
-
 <picture>
   <source media="(max-width: 42em)" srcset="resources/banner_web_phone.png">
   <source media="(min-width: 42em)" srcset="resources/banner_web_desktop.png">
   <img src="resources/banner_web_phone.png" alt="Banner">
 </picture>
 
-<a class="btnmenu" href="/index">Home</a> | <a class="btnmenu" style="font-weight: bold;">PhD</a>
+<a class="btnmenu" href="/index">Home</a> | <a class="btnmenu" style="font-weight: bold;">PhD | <a class="btnmenu" href="/radio">Radio</a>
 
 <h2 style="margin-top: 2rem;"> Doctoral Thesis </h2>
 
 **Automatic signal adaptation for real-time bidirectional interaction with the nervous system.**
+
+<center><picture>
+  <source media="(max-width: 42em)" srcset="img/tesis_phone.jpg" width="1800">
+  <source media="(min-width: 42em)" srcset="img/tesis_phone.jpg" width="0">
+  <img src="img/tesis_phone.jpg" alt="Foto" style="padding-right: 32px; padding-left: 32px;">
+</picture></center>
+
+<picture>
+    <source media="(max-width: 42em)" srcset="img/tesis_desktop.jpg" width="0">
+    <source media="(min-width: 42em)" srcset="img/tesis_desktop.jpg" width="1200">
+    <img src="img/tesis_desktop.jpg" alt="Foto" style="padding-right: 32px; padding-left: 32px;">
+</picture>
 
 Closed-loop computational neuroscience thesis focused on the creation of hybrid neuronal circuits between model neurons and living neurons. These circuits are useful for addressing neuronal, synaptic and network dynamics in neuroscience research.
 

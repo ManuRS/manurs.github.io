@@ -9,13 +9,13 @@ layout: future
   <img src="resources/banner_web_phone.png" alt="Banner">
 </picture>
 
-<a class="btnmenu" style="font-weight: bold;">Home</a> | <a class="btnmenu" href="/phd">PhD</a>
+<a class="btnmenu" style="font-weight: bold;">Home</a> | <a class="btnmenu" href="/phd">PhD | <a class="btnmenu" href="/radio">Radio</a>
 
 <h2 style="margin-top: 1rem;"></h2>
 
 <center><picture>
-  <source media="(max-width: 42em)" srcset="img/img1_phone.jpg" width="1800">
-  <source media="(min-width: 42em)" srcset="img/img1_phone.jpg" width="0">
+  <source media="(max-width: 42em)" srcset="img/img2_phone.webp" width="1800">
+  <source media="(min-width: 42em)" srcset="img/img2_phone.webp" width="0">
   <img src="img/img1.jpg" alt="Foto">
 </picture></center>
 
@@ -23,8 +23,8 @@ layout: future
 
     <div class="img_container">
         <picture>
-          <source media="(max-width: 42em)" srcset="img/img1_desktop.webp" width="0">
-          <source media="(min-width: 42em)" srcset="img/img1_desktop.webp" width="1200">
+          <source media="(max-width: 42em)" srcset="img/img2_desktop.webp" width="0">
+          <source media="(min-width: 42em)" srcset="img/img2_desktop.webp" width="1200">
           <img src="img/img1.jpg" alt="Foto">
         </picture>
     </div>
@@ -41,7 +41,7 @@ layout: future
 <ul class="nav2">
 
 <li>
-	<a href="https://twitter.com/manuresan" target="_blank"> <img src="resources/twitterx.png" alt="Twitter" height="50" width="50"> </a>                                                         
+	<a href="https://twitter.com/manuresan" target="_blank"> <img src="resources/twitterx.png" alt="Twitter" height="50" width="50"> </a>
 </li>
 
 <li>
