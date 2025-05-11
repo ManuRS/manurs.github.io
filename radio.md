@@ -8,6 +8,10 @@ video {
   max-width: 100%;
   height: auto;
 }
+video::-webkit-media-controls-enclosure {
+    border-radius: 0;
+}
+
 </style>
 
 <picture>
@@ -23,42 +27,42 @@ video {
 <ul class="nav2">
     <li style="margin-top: 0rem">
         <p style="text-align: center; padding: 0;"><b>Mix edición de boletines informativos</b></p>
-        <video controls="" autoplay="" name="mixboletos" object-fit="cover" width="320" poster="audio/boleto.jpg">
+        <video controls="" name="mixboletos" object-fit="cover" width="320" poster="audio/boleto.jpg">
             <source src="audio/mixboletos.mp3" type="audio/mp3">
         </video>
     </li>
     
     <li style="margin-top: 0rem; text-align: center;">
         <p style="text-align: center; padding: 0;"><b>Hoy por Hoy, crónica internacional</b></p>
-        <video controls="" autoplay="" name="hxhturquia" object-fit="cover" width="320" poster="audio/hxh.png">
+        <video controls="" name="hxhturquia" object-fit="cover" width="320" poster="audio/hxh.png">
             <source src="audio/hxhturquia.mp3" type="audio/mp3">
         </video>
     </li>
 
     <li style="margin-top: 0rem;">
         <p style="text-align: center; padding: 0;"><b>Hora 25, política española</b></p>
-        <video controls="" autoplay="" name="h25migracion" object-fit="cover" width="320" poster="audio/h25aida.png">
+        <video controls="" name="h25migracion" object-fit="cover" width="320" poster="audio/h25aida.png">
             <source src="audio/h25migracion.mp3" type="audio/mp3">
         </video>
     </li>
     
     <li style="margin-top: 0rem; text-align: center;">
         <p style="text-align: center; padding: 0;"><b>Hora 25, conexión en directo (apagón)</b></p>
-        <video controls="" autoplay="" name="h25apagon" object-fit="cover" width="320" poster="audio/h25aimar.png">
+        <video controls="" name="h25apagon" object-fit="cover" width="320" poster="audio/h25aimar.png">
             <source src="audio/h25apagon.mp3" type="audio/mp3">
         </video>
     </li>
     
     <li style="margin-top: 0rem; text-align: center;">
         <p style="text-align: center; padding: 0;"><b>Matinal SER, crónica internacional</b></p>
-        <video controls="" autoplay="" name="matinalisrael" object-fit="cover" width="320" poster="audio/matinal.png">
+        <video controls="" name="matinalisrael" object-fit="cover" width="320" poster="audio/matinal.png">
             <source src="audio/matinalisrael.mp3" type="audio/mp3">
         </video>
     </li>
     
     <li style="margin-top: 0rem; text-align: center;">
         <p style="text-align: center; padding: 0;"><b>Apertura en un boletín informativo</b></p>
-        <video controls="" autoplay="" name="boletochina" object-fit="cover" width="320" poster="audio/boleto.jpg">
+        <video controls="" name="boletochina" object-fit="cover" width="320" poster="audio/boleto.jpg">
             <source src="audio/boletochina.mp3" type="audio/mp3">
         </video>
     </li>
@@ -82,25 +86,6 @@ video {
 **<a href="https://cadenaser.com/nacional/2025/04/03/asi-es-la-formula-arancelaria-de-trump-una-simple-division-para-equilibrar-la-balanza-comercial-por-la-fuerza-cadena-ser/" target="_blank">Así es la fórmula arancelaria de Trump: una simple división para equilibrar la balanza comercial a la fuerza</a>**
 
 **<a href="https://cadenaser.com/nacional/2025/03/21/el-tribunal-supremo-israeli-paraliza-el-despido-del-jefe-de-la-inteligencia-interior-ordenada-por-netanyahu-cadena-ser/" target="_blank">El Supremo israelí paraliza el despido del jefe de la inteligencia interior ordenado por Netanyahu</a>**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
