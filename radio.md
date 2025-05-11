@@ -6,7 +6,6 @@ layout: future
 <style>
 video {
   max-width: 100%;
-  height: auto;
 }
 video::-webkit-media-controls-enclosure {
     border-radius: 0;
