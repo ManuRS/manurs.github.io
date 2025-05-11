@@ -11,7 +11,6 @@ video {
 video::-webkit-media-controls-enclosure {
     border-radius: 0;
 }
-
 </style>
 
 <picture>
@@ -22,7 +21,7 @@ video::-webkit-media-controls-enclosure {
 
 <a class="btnmenu" href="/index">Home</a> | <a class="btnmenu" href="/phd">PhD</a> | <a class="btnmenu" style="font-weight: bold;">Radio</a>
 
-<h3 style="margin-top: 2rem; text-align: center;">Algunos ejemplos de mi trabajo en la Cadena SER</h3>
+<h3 style="margin-top: 2rem; text-align: center;">Ejemplos de mi trabajo en la Cadena SER</h3>
 
 <ul class="nav2">
     <li style="margin-top: 0rem">
@@ -69,23 +68,38 @@ video::-webkit-media-controls-enclosure {
     
 </ul>
 
-<h3 style="margin-top: 2rem; text-align: center;">Reportajes</h3>
+<h2 style="margin-top: 2rem; text-align: left;">Reportajes</h2>
 
 **<a href="https://cadenaser.com/nacional/2024/12/29/la-teleasistencia-no-solo-salva-vidas-una-herramienta-contra-la-soledad-no-deseada-cadena-ser/" target="_blank">La teleasistencia no solo salva vidas: una herramienta contra la soledad no deseada</a>**
 
+<video controls="" name="a1" width="320" height="40">
+    <source src="https://prisa-es.mc.tritondigital.com/HORA_14_FIN_DE_SEMANA_SER_PODCAST_1717_P/media/playser/audio/202412/29/4280726.mp3" type="audio/mp3">
+</video>
+
 **<a href="https://cadenaser.com/nacional/2024/10/13/las-maneras-de-conmemorar-el-12-de-octubre-que-explican-la-peticion-de-perdon-de-mexico-y-la-reaccion-espanola-cadena-ser/" target="_blank">Las maneras de conmemorar el 12 de octubre que explican la petición de perdón de México y la reacción española</a>**
+
+<video controls="" name="a2" width="320" height="40">
+    <source src="https://prisa-es.mc.tritondigital.com/HORA_14_SER_PODCAST_775_P/media/playser/audio/202410/13/4178943.mp3" type="audio/mp3">
+</video>
 
 **<a href="https://cadenaser.com/nacional/2025/01/11/pedro-sanchez-esta-en-funciones-y-busca-formar-un-nuevo-gobierno-de-coalicion-por-que-los-asistentes-de-voz-cometen-errores-cadena-ser/" target="_blank">Gemini, el nuevo asistente de Google: "Pedro Sánchez está en funciones y busca formar un nuevo Gobierno de coalición"</a>**
 
+<video controls="" name="matinalisrael" width="320" height="40">
+    <source src="https://prisa-es.mc.tritondigital.com/HORA_14_FIN_DE_SEMANA_SER_PODCAST_1717_P/media/playser/audio/20251/11/4296589.mp3" type="audio/mp3">
+</video>
+
 **<a href="https://cadenaser.com/nacional/2024/12/27/de-brat-a-podredumbre-cerebral-la-palabra-del-ano-no-solo-se-elige-en-espana-cadena-ser/" target="_blank">De 'brat' a podredumbre cerebral: la palabra del año no solo se elige en España</a>**
 
-<h3 style="margin-top: 2rem; text-align: center;">Noticias en la web</h3>
+<video controls="" name="matinalisrael" width="320" height="40">
+    <source src="https://prisa-es.mc.tritondigital.com/HORA_14_FIN_DE_SEMANA_SER_PODCAST_1717_P/media/playser/audio/202412/21/4273465.mp3" type="audio/mp3">
+</video>
+
+<h2 style="margin-top: 2rem; text-align: left;">Noticias en la web</h2>
 
 **<a href="https://cadenaser.com/nacional/2025/02/14/vance-y-su-amenaza-a-europa-desde-la-conferencia-de-seguridad-de-munich-hay-un-nuevo-sheriff-en-washington-cadena-ser/" target="_blank">Vance se lanza contra Europa desde la Conferencia de Seguridad de Múnich y avisa: "Hay un nuevo sheriff en Washington"</a>**
 
 **<a href="https://cadenaser.com/nacional/2025/04/03/asi-es-la-formula-arancelaria-de-trump-una-simple-division-para-equilibrar-la-balanza-comercial-por-la-fuerza-cadena-ser/" target="_blank">Así es la fórmula arancelaria de Trump: una simple división para equilibrar la balanza comercial a la fuerza</a>**
 
 **<a href="https://cadenaser.com/nacional/2025/03/21/el-tribunal-supremo-israeli-paraliza-el-despido-del-jefe-de-la-inteligencia-interior-ordenada-por-netanyahu-cadena-ser/" target="_blank">El Supremo israelí paraliza el despido del jefe de la inteligencia interior ordenado por Netanyahu</a>**
-
 
 
