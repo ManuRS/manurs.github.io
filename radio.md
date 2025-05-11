@@ -20,7 +20,7 @@ video::-webkit-media-controls-enclosure {
 
 <a class="btnmenu" href="/index">Home</a> | <a class="btnmenu" href="/phd">PhD</a> | <a class="btnmenu" style="font-weight: bold;">Radio</a>
 
-<h3 style="margin-top: 2rem; text-align: center;">Ejemplos de mi trabajo en la Cadena SER</h3>
+<h2 style="margin-top: 2rem; text-align: center;">Ejemplos de mi trabajo en la SER</h2>
 
 <ul class="nav2">
     <li style="margin-top: 0rem">
