@@ -61,8 +61,8 @@ video::-webkit-media-controls-enclosure {
     
      <li style="margin-top: 0rem; text-align: center;">
         <p style="text-align: center; padding: 0;"><b>Hora 25, conexión en directo (incendio)</b></p>
-        <video controls="" name="h25apagon" object-fit="cover" width="320" poster="audio/h25pablo.png">
-            <source src="audio/h25apagon.mp3" type="audio/mp3">
+        <video controls="" name="h25incendio" object-fit="cover" width="320" poster="audio/h25pablo.png">
+            <source src="audio/h25incendio.mp3" type="audio/mp3">
         </video>
     </li>   
         
