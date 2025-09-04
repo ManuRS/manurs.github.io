@@ -20,8 +20,7 @@ video::-webkit-media-controls-enclosure {
 
 <a class="btnmenu" href="/index">Home</a> | <a class="btnmenu" href="/phd">PhD</a> | <a class="btnmenu" style="font-weight: bold;">Radio</a>
 
-<h2 style="margin-top: 2rem; text-align: center;">Portfolio radio</h2>
-<h3 style="margin-top: 2rem; text-align: center; font-style: italic">Cadena SER</h3>
+<h2 style="margin-top: 2rem; text-align: center;">Portfolio radio (Cadena SER)</h2>
 
 <ul class="nav2">
     <li style="margin-top: 0rem">
