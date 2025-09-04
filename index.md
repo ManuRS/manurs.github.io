@@ -35,7 +35,7 @@ layout: future
     
     <p style="padding: 0;">
     
-    Entre otras muchas cosas soy zillenial, periodista e ingeniero informático. Lo primero, <a target="_blank" href="https://es.wikipedia.org/wiki/Zillenial">no me lo he inventado, existe</a>. A ser lo segundo aprendí en El País y ahora trabajo en los informativos de la Cadena SER. Lo tercero, me llevó a doctorarme con una <a href="/phd">tesis sobre neurociencia</a>. La vida da muchas vueltas.
+    Entre otras muchas cosas soy zillenial, periodista e ingeniero informático. Lo primero, <a target="_blank" href="https://es.wikipedia.org/wiki/Zillenial">no me lo he inventado, existe</a>. A ser lo segundo aprendí en diario El País y en los servicios informativos de la Cadena SER. Lo tercero, me llevó a doctorarme con una <a href="/phd">tesis sobre neurociencia</a>. La vida da muchas vueltas.
     </p>
     
 <ul class="nav2">
