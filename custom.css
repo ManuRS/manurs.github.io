@@ -1,0 +1,56 @@
+/* Mejorando el encaje de los controles en las portadas */
+video {
+  max-width: 100%;
+}
+
+video::-webkit-media-controls-enclosure {
+  border-radius: 0;
+}
+
+
+/* Solo afecta a los videos que tengan la clase "sin-tiempo" */
+video.video-audio::-webkit-media-controls-current-time-display,
+video.video-audio::-webkit-media-controls-time-remaining-display,
+video.video-audio::-webkit-media-controls-time-remaining-display {
+    display: none !important;
+}
+
+/* Caso PC */
+@media (min-width: 42em) {
+  .video-audio {
+    width: 240px;
+  }
+  .audio-grid {
+    grid-template-columns: 1fr 1fr; /* Dos columnas */
+  }
+}
+
+/* Caso móvil */
+@media (max-width: 42em) {
+  .video-audio {
+    width: 320px;
+  }
+  .audio-grid {
+    grid-template-columns: 1fr; /* Una columna */
+  }
+}
+
+/* Estilos para la rejilla de audios */
+.audio-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.audio-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.audio-item video {
+  width: 100% !important;
+  height: 40px; 
+  margin-top: 0.5rem;
+}
+

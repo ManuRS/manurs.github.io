@@ -3,6 +3,8 @@ title: PhD
 layout: future
 ---
 
+<!-- La plantilla carga custom.css -->
+
 <picture>
   <source media="(max-width: 42em)" srcset="resources/banner_web_phone.png">
   <source media="(min-width: 42em)" srcset="resources/banner_web_desktop.png">
