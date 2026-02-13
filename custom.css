@@ -18,7 +18,7 @@ video.video-audio::-webkit-media-controls-time-remaining-display {
 /* Caso PC */
 @media (min-width: 42em) {
   .video-audio {
-    width: 240px;
+    width: 260px;
   }
   .audio-grid {
     grid-template-columns: 1fr 1fr; /* Dos columnas */
@@ -28,7 +28,7 @@ video.video-audio::-webkit-media-controls-time-remaining-display {
 /* Caso móvil */
 @media (max-width: 42em) {
   .video-audio {
-    width: 320px;
+    width: 300px;
   }
   .audio-grid {
     grid-template-columns: 1fr; /* Una columna */
@@ -38,8 +38,9 @@ video.video-audio::-webkit-media-controls-time-remaining-display {
 /* Estilos para la rejilla de audios */
 .audio-grid {
   display: grid;
-  gap: 1.5rem;
+  gap: 3.0rem;
   margin-bottom: 2rem;
+  padding: 0% 5% 0%;
 }
 
 .audio-item {

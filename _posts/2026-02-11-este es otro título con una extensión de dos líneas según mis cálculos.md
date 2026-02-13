@@ -11,9 +11,9 @@ fecha: "11 de febrero de 2026"
   <img src="/resources/banner_web_phone.png" alt="Banner">
 </picture>
 
-<a class="btnmenu" href="javascript:history.back()">Atrás</a> | 
+<a class="btnmenu" href="/blog">Todas las entradas del blog</a> |
 
-# *{{ page.title }}*
+<h2 style="margin-top: 2rem; font-style: italic;"> {{ page.title }} </h2>
 
 ### {{ page.subtitle }}
 

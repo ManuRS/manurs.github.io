@@ -55,21 +55,21 @@ Tras la carrera y el doctorado, siempre entre líneas de código, fueron dos añ
 <h2 style="margin-top: 2rem; text-align: center;">Portfolio</h2>
 
 <ul class="nav2">
-    <li style="margin-top: 0rem">
+    <li style="margin-top: 0rem; padding: 3% 2% 0%;">
         <p style="text-align: center; padding: 0;"><b>Mix edición boletines</b></p>
         <video class="video-audio" controls="" name="mixboletos" object-fit="cover" poster="audio/boleto_up.jpg">
             <source src="audio/mixboletos.mp3" type="audio/mp3">
         </video>
     </li>
 
-    <li style="margin-top: 0rem">
+    <li style="margin-top: 0rem; padding: 3% 2% 0%;">
         <p style="text-align: center; padding: 0;"><b>Boletín completo</b></p>
         <video class="video-audio" controls="" name="boleto2" object-fit="cover" poster="audio/boleto2_up.jpg">
             <source src="audio/boleto2.mp3" type="audio/mp3">
         </video>
     </li>
 
-    <li style="margin-top: 0rem">
+    <li style="margin-top: 0rem; padding: 3% 2% 0%;">
         <p style="text-align: center; padding: 0;"><b>Crónica internacional</b></p>
         <video class="video-audio" controls="" name="h25gaza" object-fit="cover" poster="audio/h25_up.png">
             <source src="audio/h25gaza.mp3" type="audio/mp3">
@@ -133,7 +133,6 @@ Tras la carrera y el doctorado, siempre entre líneas de código, fueron dos añ
         <source src="audio/h25apagon.mp3" type="audio/mp3">
     </video>
   </div>
-
   <div class="audio-item">
     <b> Directo incendio </b>
     <video controls="" name="a1">
@@ -149,7 +148,6 @@ Tras la carrera y el doctorado, siempre entre líneas de código, fueron dos añ
         <source src="audio/h14boton.mp3" type="audio/mp3">
     </video>
   </div>
-
   <div class="audio-item">
     <b><a href="https://cadenaser.com/nacional/2025/01/11/pedro-sanchez-esta-en-funciones-y-busca-formar-un-nuevo-gobierno-de-coalicion-por-que-los-asistentes-de-voz-cometen-errores-cadena-ser/" target="_blank">Errores en Gemini, el asistente de Google</a></b>
     <video controls="" name="a1">
