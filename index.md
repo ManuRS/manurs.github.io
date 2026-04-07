@@ -16,8 +16,8 @@ layout: future
 <h2 style="margin-top: 1rem;"></h2>
 
 <center><picture>
-  <source media="(max-width: 42em)" srcset="img/img1_phone.jpg" width="1800">
-  <source media="(min-width: 42em)" srcset="img/img1_phone.jpg" width="0">
+  <source media="(max-width: 42em)" srcset="img/img1b_phone.webp" width="1800">
+  <source media="(min-width: 42em)" srcset="img/img1b_phone.webp" width="0">
   <img src="img/img1.jpg" alt="Foto">
 </picture></center>
 
@@ -25,8 +25,8 @@ layout: future
 
     <div class="img_container">
         <picture>
-          <source media="(max-width: 42em)" srcset="img/img1_desktop.webp" width="0">
-          <source media="(min-width: 42em)" srcset="img/img1_desktop.webp" width="1200">
+          <source media="(max-width: 42em)" srcset="img/img1b_desktop.webp" width="0">
+          <source media="(min-width: 42em)" srcset="img/img1b_desktop.webp" width="1200">
           <img src="img/img1.jpg" alt="Foto">
         </picture>
     </div>
