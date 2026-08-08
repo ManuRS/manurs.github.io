@@ -63,9 +63,9 @@ Tras la carrera y el doctorado, siempre entre líneas de código, fueron dos añ
     </li>
 
     <li style="margin-top: 0rem; padding: 3% 2% 0%;">
-        <p style="text-align: center; padding: 0;"><b>Boletín completo</b></p>
+        <p style="text-align: center; padding: 0;"><b>Boletines completos</b></p>
         <video class="video-audio" controls="" name="boleto2" object-fit="cover" poster="audio/boleto2_up.jpg">
-            <source src="audio/boleto2.mp3" type="audio/mp3">
+            <source src="audio/boleto_join.mp3" type="audio/mp3">
         </video>
     </li>
 
