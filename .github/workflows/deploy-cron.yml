@@ -1,0 +1,26 @@
+name: Keep Alive / Refresh Pages
+
+on:
+  schedule:
+    # Se ejecuta a la medianoche (00:00 UTC) el 1 de enero, 1 de mayo y 1 de septiembre
+    - cron: '0 0 1 1,5,9 *'
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Configurar Git
+        run: |
+          git config --global user.name "github-actions-recompile"
+          git config --global user.email "github-actions-recompile@bot.noreply.github.com"
+
+      - name: Forzar un cambio menor para actualizar dependencias
+        run: |
+          date -u > timestamp.txt
+          git add timestamp.txt
+          git commit -m "chore: actualización automática de dependencias"
+          git push
