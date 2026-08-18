@@ -44,7 +44,7 @@ layout: future
     <img src="img/tesis_desktop.jpg" alt="Foto" style="padding-right: 0px; padding-left: 0px;">
 </picture>
 
-Tras un año en la Escuela de Periodismo de El País, realicé practicas en la SER. En un primer momento formé parte del equipo de fin de semana de los servicios informativos. Tras la segunda victoria presidencial de Donald Trump en Estados Unidos, y el permanente aluvión de noticias que producía, pasé a trabajar de lunes a viernes en la sección de internacional.
+Tras un año en la Escuela de Periodismo de El País, realicé practicas en la SER. En un primer momento formé parte del equipo de fin de semana de los servicios informativos. Tras la segunda victoria presidencial de Donald Trump en EEUU, y el permanente aluvión de noticias que producía, pasé a trabajar de lunes a viernes en la sección de internacional.
 
 A lo largo de un año, sin ninguna experiencia como periodista, edite y presenté boletines horarios, realicé reportajes, crónicas y producción en todos los espacios informativos de la cadena (Hoy por Hoy, Hora 14, Hora 25 y Matinal SER).
 
