@@ -55,3 +55,13 @@ video.video-audio::-webkit-media-controls-time-remaining-display {
   margin-top: 0.5rem;
 }
 
+@media (min-width: 42em) {
+  .img_container {
+    flex: 0 0 320px;
+  }
+
+  .txt_container {
+    flex: 1;
+    min-width: 0;
+  }
+}
