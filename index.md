@@ -37,7 +37,7 @@ layout: future
     
     <p style="padding: 0;">
 
-    Soy muchas cosas, pero aquí va lo básico: <a target="_blank" href="https://es.wikipedia.org/wiki/zillenial">zillenial</a> en lo temporal, informático en lo espacial y periodista en lo ucrónico. Esta web aloja mis portfolios, recuerdos y eras pasadas. Hay una relación de las publicaciones de mi <a href="/phd">doctorado</a> en informática y neurociencia computacional y un porfolio de mi paso por el <a href="/radio">periodismo</a>. También hay un <a target="_blank" href="https://manurs.github.io/RogueCastle">videojuego</a> y mi <a target="_blank" href="https://manurs.github.io/radio_web_fast">reproductor</a> personal de radio y podcast.
+    Soy muchas cosas, pero aquí va lo básico: <a target="_blank" href="https://es.wikipedia.org/wiki/zillenial">zillenial</a> en lo temporal, informático en lo espacial y periodista en lo ucrónico. Esta web aloja mis portfolios, recuerdos y eras pasadas. Hay una relación de las publicaciones de mi <a href="/phd">doctorado</a> en informática y neurociencia y un porfolio de mi paso por el <a href="/radio">periodismo</a>. También un <a target="_blank" href="https://manurs.github.io/RogueCastle">videojuego</a> y mi <a target="_blank" href="https://manurs.github.io/radio_web_fast">reproductor</a> de radio y podcast.
     </p>
     
 <ul class="nav2">
