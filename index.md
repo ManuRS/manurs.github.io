@@ -43,15 +43,7 @@ layout: future
 <ul class="nav2">
 
 <li>
-	<a href="https://twitter.com/manuresan" target="_blank"> <img src="resources/twitterx.png" alt="Twitter" height="50" width="50"> </a>
-</li>
-
-<li>
-	<a href="https://linkedin.com/in/manuelrs" target="_blank"> <img src="resources/linkedin.png" alt="Linkedin" height="50" width="50"> </a>
-</li>
-
-<li>
-	<a href="https://instagram.com/manu.resan" target="_blank"> <img src="resources/instagram4.png" alt="Instagram" height="50" width="50"> </a>
+	<a href="https://linkedin.com/in/manuelrs" target="_blank"> <img src="resources/banner_linkedin.png" alt="Linkedin" height="40" width="160" /> </a>
 </li>
 
 </ul>
