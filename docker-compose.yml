@@ -1,7 +1,11 @@
 services:
   jekyll:
-    image: bretfisher/jekyll-serve
-    volumes:
-      - .:/site
+    image: jekyll/builder:4.2.0
+    container_name: jekyll-blog
     ports:
-      - '80:4000'
+      - "4000:4000"
+    volumes:
+      - .:/srv/jekyll
+    environment:
+      - PAGES_REPO_NWO=ManuRS/manurs.github.io
+    command: jekyll serve --livereload --force-polling

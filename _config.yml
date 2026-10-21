@@ -3,3 +3,6 @@ description: MRS
 show_downloads: false
 google_analytics: UA-132559789-1
 theme: jekyll-theme-cayman
+
+url: "http://localhost:4000"
+baseurl: ""
