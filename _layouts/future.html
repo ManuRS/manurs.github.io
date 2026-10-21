@@ -22,18 +22,17 @@
     <link rel="shortcut icon" type="image/x-icon" href="resources/favicon.ico">
     
     <link rel="stylesheet" href="custom.css">
+
+    <script>
+      // Cargar preferencia guardada o detectar preferencia del sistema
+      if (storedTheme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        toggleBtn.textContent = 'Modo Claro';
+    </script>
     
   </head>
   <body>
     
-
-
-
-
-
-
-    
-
     <main id="content" class="main-content-future" role="main">
 
       {{ content }}
@@ -42,7 +41,7 @@
               <footer class="site-footer">
                   <span class="site-footer-credits">
                   <text style="float: left; color: #191c30;">
-                  	
+                    <a class="btnmenu" id="theme-toggle-btn">Modo oscuro</a>  
                   </text>
                   <text style="float: right;">
                   	<a class="btnmenu" href="/about">MRS, 2026</a>	  
@@ -72,5 +71,35 @@
       <!--Common end-->
 
     </main>
+
+    <script>
+      const toggleBtn = document.getElementById('theme-toggle-btn');
+      const storedTheme = localStorage.getItem('theme');
+
+      // Cargar preferencia guardada o detectar preferencia del sistema
+      if (storedTheme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        toggleBtn.textContent = 'Modo Claro';
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        toggleBtn.textContent = 'Modo Oscuro';
+      }
+
+      // Alternar al hacer clic
+      toggleBtn.addEventListener('click', () => {
+        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        
+        if (isDark) {
+          document.documentElement.setAttribute('data-theme', 'light');
+          localStorage.setItem('theme', 'light');
+          toggleBtn.textContent = 'Modo Oscuro';
+        } else {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          localStorage.setItem('theme', 'dark');
+          toggleBtn.textContent = 'Modo Claro';
+        }
+      });
+    </script>
+
   </body>
 </html>

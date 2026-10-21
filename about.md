@@ -16,7 +16,7 @@ layout: future
 
 La web utiliza [Jekyll](https://jekyllrb.com/) y aunque empecé con la base del tema [Cayman](https://pages-themes.github.io/cayman/), he modificado tanto la plantilla que ya es otra cosa completamente diferente. Utilizo páginas sencillas y en el momento de su creación me centré sobre todo en poder añadir fácilmente elementos a las listas.
 
-A pesar de estar pensada para utilizar Markdown, por costumbre y capacidad de personalización, he escrito mucho HTML también. Tiene estilo *inline*, lo reconozco, pero es tan sencilla que en este caso para mi es más cómodo tenerlo todo junto. No he utilizado IA, nunca ha sido necesario.
+A pesar de estar pensada para utilizar Markdown, por costumbre y capacidad de personalización, también he escrito mucho HTML. Tiene dosis de estilos *inline*, pero es tan sencilla y directa que a veces era más cómodo tenerlo todo junto (de hecho, su gran defecto es un CSS algo desastroso). No he utilizado IA generativa, es un proyecto anterior al maremoto.
 		  		
 *Proudly hosted on GitHub Pages.*
 

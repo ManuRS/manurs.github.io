@@ -3,6 +3,53 @@
 
 @import "{{ site.theme }}";
 
+/* --------------------------------------------------
+   VARIABLES PARA MODO CLARO / OSCURO
+   -------------------------------------------------- */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #606c71; /*Ok*/
+  --header-bg-primary: #159957;
+  --header-bg-secondary: #155799;
+  --header-text: #ffffff;
+  --link-color: #1A0DAB;
+  --nav-border: #189959;
+  --btn-menu-color: #191c30;
+  --code-bg: #f8f9fa;
+  --code-text: #333333;
+  --border-color: #e9ecef;
+  --future-h1: #ef2056;  /*Ok*/
+  --future-h3: #b42056;  /*Ok*/
+  --future-table-border: #191c30;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --header-bg-primary: #0d1b2a;
+  --header-bg-secondary: #1b263b;
+  --header-text: #ffffff;
+  --link-color: #64b5f6; /*Ok*/
+  --nav-border: #2ecc71;
+  --btn-menu-color: #e0e0e0;
+  --code-bg: #1e1e1e;
+  --code-text: #e0e0e0;
+  --border-color: #333333;
+  --future-h1: #ff5277;
+  --future-h3: #ff7597;
+  --future-table-border: #1f274a; /*Ok*/
+}
+
+/* Cuando el tema es oscuro, invertimos los colores del icono */
+[data-theme="dark"] .github-icon {
+  filter: invert(1);
+}
+
+[data-theme="dark"] video[controls] {
+  background-color: #1e1e1e;
+  color-scheme: dark;
+}
+
 /* The typing effect */
 @keyframes typing {
   from { opacity: 0 }
@@ -10,6 +57,10 @@
 }
 
 body {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
   @include large {
     overflow-y:scroll;
   }
@@ -34,7 +85,7 @@ body {
     padding: 0;
     margin: 0;
     border-style: solid;
-    border-color: #189959;
+    border-color: var(--nav-border);
     border-radius: 12px;  
 }
 
@@ -152,10 +203,10 @@ body {
 }
 
 .page-header {
-  color: $header-heading-color;
+  color: var(--header-text) !important;
   text-align: center;
-  background-color: $header-bg-color;
-  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  background-color: var(--header-bg-primary) !important;
+  background-image: linear-gradient(120deg, var(--header-bg-secondary), var(--header-bg-primary)) !important;
 
   @include large {
     padding: 1rem 3rem;
@@ -175,8 +226,8 @@ body {
   margin-bottom: 0rem;
 
   a {
-  color: inherit;
   text-decoration: none;
+  color: var(--link-color);
   }
 
   @include large {
@@ -242,7 +293,7 @@ body {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: $section-headings-color;
+    color: var(--text-color) !important;
   }
 
   p {
@@ -253,8 +304,8 @@ body {
     padding: 2px 4px;
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 0.9rem;
-    color: $code-text-color;
-    background-color: $code-bg-color;
+    color: var(--code-text) !important;
+    background-color: var(--code-bg) !important;
     border-radius: 0.3rem;
   }
 
@@ -263,17 +314,17 @@ body {
     margin-top: 0;
     margin-bottom: 1rem;
     font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    color: $code-text-color;
+    color: var(--code-text) !important;
     word-wrap: normal;
-    background-color: $code-bg-color;
-    border: solid 1px $border-color;
+    background-color: var(--code-bg) !important;
+    border: solid 1px var(--border-color) !important;
     border-radius: 0.3rem;
 
     > code {
       padding: 0;
       margin: 0;
       font-size: 0.9rem;
-      color: $code-text-color;
+      color: var(--code-text) !important;
       word-break: normal;
       white-space: pre;
       background: transparent;
@@ -326,8 +377,8 @@ body {
   blockquote {
     padding: 0 1rem;
     margin-left: 0;
-    color: $blockquote-text-color;
-    border-left: 0.3rem solid $border-color;
+    color: var(--text-color);
+    border-left: 0.3rem solid var(--border-color);
 
     > :first-child {
       margin-top: 0;
@@ -353,7 +404,7 @@ body {
     th,
     td {
       padding: 0.5rem 1rem;
-      border: 1px solid $table-border-color;
+      border: 1px solid var(--future-table-border);
     }
   }
 
@@ -377,7 +428,7 @@ body {
     height: 2px;
     padding: 0;
     margin: 1rem 0;
-    background-color: $hr-border-color;
+    background-color: var(--border-color);
     border: 0;
   }
 }
@@ -386,6 +437,8 @@ body {
 /* More space for the text */
 
 .main-content-publications {
+
+  color: var(--text-color) !important;
 
   /* Write effect*/
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -430,7 +483,7 @@ body {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: $section-headings-color;
+    color: var(--future-h1) !important;
   }
 
   p {
@@ -441,8 +494,8 @@ body {
     padding: 2px 4px;
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 0.9rem;
-    color: $code-text-color;
-    background-color: $code-bg-color;
+    color: var(--code-text) !important;
+    background-color: var(--code-bg) !important;
     border-radius: 0.3rem;
   }
 
@@ -451,17 +504,17 @@ body {
     margin-top: 0;
     margin-bottom: 1rem;
     font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    color: $code-text-color;
+    color: var(--code-text) !important;
     word-wrap: normal;
-    background-color: $code-bg-color;
-    border: solid 1px $border-color;
+    background-color: var(--code-bg) !important;
+    border: solid 1px var(--border-color) !important;
     border-radius: 0.3rem;
 
     > code {
       padding: 0;
       margin: 0;
       font-size: 0.9rem;
-      color: $code-text-color;
+      color: var(--code-text) !important;
       word-break: normal;
       white-space: pre;
       background: transparent;
@@ -514,8 +567,8 @@ body {
   blockquote {
     padding: 0 1rem;
     margin-left: 0;
-    color: $blockquote-text-color;
-    border-left: 0.3rem solid $border-color;
+    color: var(--text-color);
+    border-left: 0.3rem solid var(--border-color);
 
     > :first-child {
       margin-top: 0;
@@ -541,7 +594,7 @@ body {
     th,
     td {
       padding: 0.5rem 1rem;
-      border: 1px solid $table-border-color;
+      border: 1px solid var(--future-table-border);
     }
   }
 
@@ -565,7 +618,7 @@ body {
     height: 2px;
     padding: 0;
     margin: 1rem 0;
-    background-color: $hr-border-color;
+    background-color: var(--border-color);
     border: 0;
   }
 }
@@ -577,6 +630,8 @@ body {
 /**********************/
 
 .main-content-future {
+
+  color: var(--text-color) !important;
 
   /* Write effect*/
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -623,6 +678,7 @@ body {
     font-weight: bold;
     color: #ef2056;
     padding: 0rem 0rem;
+    color: var(--future-h1) !important;
   }
 
   h3, h4 {
@@ -631,20 +687,27 @@ body {
     font-weight: bold;
     color: #b42056;
     padding: 0rem 0rem;
+    color: var(--future-h3) !important;
   }
 
   p {
     margin-bottom: 1em;
     padding: 0rem 0rem;
     // text-align: justify; // Para justificar texto
+
+    > a {
+      
+      color: var(--link-color) !important;
+
+    }
   }
 
   code {
     padding: 2px 4px;
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 0.9rem;
-    color: $code-text-color;
-    background-color: $code-bg-color;
+    color: var(--code-text) !important;
+    background-color: var(--code-bg) !important;
     border-radius: 0.3rem;
   }
 
@@ -653,17 +716,17 @@ body {
     margin-top: 0;
     margin-bottom: 1rem;
     font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    color: $code-text-color;
+    color: var(--code-text) !important;
     word-wrap: normal;
-    background-color: $code-bg-color;
-    border: solid 1px $border-color;
+    background-color: var(--code-bg) !important;
+    border: solid 1px var(--border-color) !important;
     border-radius: 0.3rem;
 
     > code {
       padding: 0;
       margin: 0;
       font-size: 0.9rem;
-      color: $code-text-color;
+      color: var(--code-text) !important;
       word-break: normal;
       white-space: pre;
       background: transparent;
@@ -716,8 +779,8 @@ body {
   blockquote {
     padding: 0 1rem;
     margin-left: 0;
-    color: $blockquote-text-color;
-    border-left: 0.3rem solid $border-color;
+    color: var(--text-color);
+    border-left: 0.3rem solid var(--border-color);
 
     > :first-child {
       margin-top: 0;
@@ -745,8 +808,8 @@ body {
     td {
       padding: 0.5rem 1rem;
       //border: 1px solid $table-border-color;
-      border-top: 0px solid #191c30;
-      border-bottom: 3px solid #191c30;
+      border-top: 0px solid var(--future-table-border);
+      border-bottom: 3px solid var(--future-table-border);
       //background-color: #404259;
       text-align: center;
       width: 20%;
@@ -773,7 +836,7 @@ body {
     height: 2px;
     padding: 0;
     margin: 1rem 0;
-    background-color: $hr-border-color;
+    background-color: var(--border-color);
     border: 0;
   }
 }
@@ -785,7 +848,8 @@ body {
 /**********************/
 
 .btnmenu {
-  color: #191c30; 
+  color: var(--btn-menu-color) !important; 
+  cursor: pointer;
 }
 
 .btnmenu:hover {
@@ -794,7 +858,7 @@ body {
 }
 
 .site-footer{
-  border-top: 3px solid #191c30;
+  border-top: 3px solid var(--future-table-border);
 }
 
 /**********************/

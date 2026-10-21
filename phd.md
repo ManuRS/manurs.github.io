@@ -52,7 +52,7 @@ R. Amaducci, M. Reyes-Sanchez, I. Elices, F.B. Rodriguez, P. Varona. 2019. RTHyb
 <ul class="nav2">
 
 <li>
-	<a href="https://github.com/manurs" target="_blank"> <img src="resources/github.png" alt="Github" height="50" width="50"> </a>
+	<a href="https://github.com/manurs" target="_blank"> <img src="resources/github.png" class="github-icon" alt="Github" height="50" width="50"> </a>
 </li>
 
 <li>
