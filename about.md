@@ -12,7 +12,7 @@ special_header: true
   <img src="resources/banner_web_phone.png" alt="Banner">
 </picture>
 
-<a class="btnmenu" href="/index">Home</a> | 
+<a class="btnmenu" href="/">Home</a> | 
 
 <h2 style="margin-top: 2rem;">Sobre la página web</h2>
 

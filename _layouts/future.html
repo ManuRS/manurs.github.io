@@ -139,29 +139,28 @@
     <script>
       function destacarMenuActual() {
         // Obtenemos la ruta actual (ej. "/phd" o "/") y normalizamos quitando la barra final si la tiene
-        const currentPath = window.location.pathname.replace(/\/$/, "");
+        const currentPath = window.location.pathname.replace(/\/+$/, "") || "/";
 
-        document.querySelectorAll('.btnmenu').forEach(link => {
-          // Ignorar otros botones
-          if (!link.getAttribute('hx-get')) return;
+        document.querySelectorAll('header .btnmenu[hx-get]').forEach(link => {
+          const linkPath = new URL(link.href, window.location.origin)
+            .pathname.replace(/\/+$/, "") || "/";
 
-          // Extraemos la ruta del enlace del menú
-          const linkPath = new URL(link.href, window.location.origin).pathname.replace(/\/$/, "");
-
-          // Si coincide, lo ponemos en negrita; si no, lo dejamos normal
-          if (linkPath === currentPath) {
-            link.classList.add('is-active');
-          } else {
-            link.classList.remove('is-active');
-          }
+          link.classList.toggle('is-active', linkPath === currentPath);
         });
       }
 
-      // 1. Al cargar la página inicialmente
+      // Al cargar la página
       document.addEventListener('DOMContentLoaded', destacarMenuActual);
 
-      // 2. Cada vez que htmx termine de cargar una nueva sección en segundo plano
+      // Al navegar mediante HTMX
       document.addEventListener('htmx:afterSettle', destacarMenuActual);
+
+      // Al volver o avanzar con el historial del navegador
+      window.addEventListener('pageshow', destacarMenuActual);
+
+      // Al cambiar la URL mediante navegación del historial
+      window.addEventListener('popstate', destacarMenuActual);
+      
     </script>
 
   </body>
