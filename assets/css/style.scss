@@ -852,13 +852,51 @@ body {
   cursor: pointer;
 }
 
-.btnmenu:hover {
+.btnmenu:hover,
+.btnmenu.is-active {
   text-decoration: none;
   font-weight: bold;
 }
 
-.site-footer{
-  border-top: 3px solid var(--future-table-border);
+.site-footer {
+  position: relative;
+  border-top: none;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    right: 2rem;
+    border-top: 3px solid var(--future-table-border);
+  }
+
+  @include medium {
+    &::before {
+      left: 4rem;
+      right: 4rem;
+    }
+  }
+
+  @include small {
+    &::before {
+      left: 1rem;
+      right: 1rem;
+    }
+  }
+}
+
+.site-footer-credits {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.site-footer-credits > span:last-child {
+  margin-left: auto;
+  text-align: right;
 }
 
 /**********************/
@@ -867,4 +905,69 @@ body {
 /**********************/
 /**********************/
 
+
+.nav-distribuido {
+  display: flex;
+  justify-content: space-between; /* Reparte los elementos cubriendo todo el ancho */
+  align-items: center;
+  width: 100%;
+  max-width: 100%; /* O el ancho máximo que use tu diseño */
+  margin-top: 1rem;
+}
+
+.nav-distribuido .btnmenu {
+  /* Si necesitas algún ajuste de padding o tamaño individual para que respire bien */
+  flex: 1;
+  text-align: center;
+}
+
+/* Ajustes exclusivos para páginas especiales */
+.special-page {
+  padding-top: 2rem !important;
+  padding-bottom: 0 !important;
+}
+
+.special-page > #content > :last-child {
+
+  @include large {
+    margin-bottom: 2rem;
+  }
+
+  @include medium {
+    margin-bottom: 0rem;
+  }
+
+  @include small {
+    margin-bottom: 0rem;
+  }
+
+}
+
+
+/* Padding vertical del contenido de las páginas principales */
+main.main-content-future:not(.special-page) {
+
+  @include large {
+    padding-top: 1 !important;
+    padding-bottom: 1 !important;
+  }
+
+  @include medium {
+    padding-top: 1 !important;
+    padding-bottom: 0 !important;
+  }
+
+  @include small {
+    padding-top: 1 !important;
+    padding-bottom: 0 !important;
+  }
+
+}
+
+
+.site-footer {
+  @include small {
+    font-size: 0.9rem;
+  }
+}
 

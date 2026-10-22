@@ -20,14 +20,6 @@ layout: future
   }
 </script>
 
-<picture>
-  <source media="(max-width: 42em)" srcset="resources/banner_web_phone.png">
-  <source media="(min-width: 42em)" srcset="resources/banner_web_desktop.png">
-  <img src="resources/banner_web_phone.png" alt="Banner">
-</picture>
-
-<a class="btnmenu" href="/index">Home</a> | <a class="btnmenu" href="/phd">PhD</a> | <a class="btnmenu" style="font-weight: bold;">Radio</a>
-
 <h2 style="margin-top: 2rem;"> Periodismo </h2>
 
 **Cadena SER, 2024 y 2025**

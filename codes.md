@@ -1,8 +1,10 @@
 ---
-title: Codes
+title: Radio
 layout: future
+special_header: true
 ---
 
+<!-- La plantilla carga custom.css -->
 
 <picture>
   <source media="(max-width: 42em)" srcset="resources/banner_web_phone.png">

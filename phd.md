@@ -5,14 +5,6 @@ layout: future
 
 <!-- La plantilla carga custom.css -->
 
-<picture>
-  <source media="(max-width: 42em)" srcset="resources/banner_web_phone.png">
-  <source media="(min-width: 42em)" srcset="resources/banner_web_desktop.png">
-  <img src="resources/banner_web_phone.png" alt="Banner">
-</picture>
-
-<a class="btnmenu" href="/index">Home</a> | <a class="btnmenu" style="font-weight: bold;">PhD | <a class="btnmenu" href="/radio">Radio</a>
-
 <h2 style="margin-top: 2rem;"> Doctoral Thesis </h2>
 
 **Automatic signal adaptation for real-time bidirectional interaction with the nervous system.**

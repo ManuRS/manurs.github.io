@@ -2,7 +2,7 @@ name: Keep Alive / Refresh Pages
 
 on:
   schedule:
-    # Se ejecuta a la medianoche (00:00 UTC) el 1 de enero, 1 de mayo y 1 de septiembre
+    # Se ejecuta a la medianoche (00:00 UTC) el día 1 de cada mes
     - cron: '0 0 1 * *'
   workflow_dispatch:
 

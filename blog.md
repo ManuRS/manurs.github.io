@@ -1,6 +1,7 @@
 ---
 title: Radio
 layout: future
+special_header: true
 ---
 
 <!-- La plantilla carga custom.css -->
@@ -11,7 +12,7 @@ layout: future
   <img src="resources/banner_web_phone.png" alt="Banner">
 </picture>
 
-<a class="btnmenu" href="/index">Home</a> | <a class="btnmenu" href="/phd">PhD</a> | <a class="btnmenu" href="/radio">Radio</a> | <a class="btnmenu" style="font-weight: bold;">Blog</a>
+<a class="btnmenu" href="/index">Home</a> | 
 
 <h2 style="margin-top: 2rem;"> Blog </h2>
 

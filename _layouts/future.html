@@ -11,66 +11,101 @@
         gtag('config', '{{ site.google_analytics }}');
       </script>
     {% endif %}
-    <meta charset="UTF-8">
 
-{% seo %}
+    <meta charset="UTF-8">
+    {% seo %}
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="shortcut icon" type="image/x-icon" href="resources/favicon.ico">
-    
     <link rel="stylesheet" href="custom.css">
 
+    <script src="https://unpkg.com/htmx.org@1.9.12"></script>
+
     <script>
-      // Cargar preferencia guardada o detectar preferencia del sistema
-      if (storedTheme === 'dark') {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        toggleBtn.textContent = 'Modo Claro';
+        (() => {
+          const storedTheme = localStorage.getItem('theme');
+
+          if (storedTheme === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+          } else {
+            document.documentElement.setAttribute('data-theme', 'light');
+          }
+        })();
     </script>
     
   </head>
+
   <body>
-    
-    <main id="content" class="main-content-future" role="main">
 
-      {{ content }}
+    {% unless page.special_header %}
+    <header class="main-content-future" style="margin-bottom: 0; padding-bottom: 0;">
+      
+      <picture>
+        <source media="(max-width: 42em)" srcset="{{ 'resources/banner_web_phone.png' | relative_url }}">
+        <source media="(min-width: 42em)" srcset="{{ 'resources/banner_web_desktop.png' | relative_url }}">
+        <img src="{{ 'resources/banner_web_phone.png' | relative_url }}" alt="Banner">
+      </picture>
 
-      <!--Common-->
-              <footer class="site-footer">
-                  <span class="site-footer-credits">
-                  <text style="float: left; color: #191c30;">
-                    <a class="btnmenu" id="theme-toggle-btn">Modo oscuro</a>  
-                  </text>
-                  <text style="float: right;">
-                  	<a class="btnmenu" href="/about">MRS, 2026</a>	  
-                  </text>
-                  </span><br>
-              </footer>
+      <table>
+        <tr>
+          <td style="text-align: center;">
+            <a class="btnmenu" href="{{ '/' | relative_url }}" hx-get="{{ '/' | relative_url }}" hx-target="#content" hx-select="#content" hx-push-url="true">Home</a>
+          </td>
+          <td style="text-align: center;">
+            <a class="btnmenu" href="{{ '/phd' | relative_url }}" hx-get="{{ '/phd' | relative_url }}" hx-target="#content" hx-select="#content" hx-push-url="true">PhD</a>
+          </td>
+          <td style="text-align: center;">
+            <a class="btnmenu" href="{{ '/radio' | relative_url }}" hx-get="{{ '/radio' | relative_url }}" hx-target="#content" hx-select="#content" hx-push-url="true">Radio</a>
+          </td>
+        </tr>
+      </table>
 
-              <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-              <script>
-                  // When the user scrolls down from the top of the document, show the button
-                  window.onscroll = function() {scrollFunction()};
+    </header>
+    {% endunless %}
 
-                  function scrollFunction() {
-                      if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-                          document.getElementById("myBtn").style.display = "block";
-                      } else {
-                          document.getElementById("myBtn").style.display = "none";
-                      }
-                  }
-
-                  // When the user clicks on the button, scroll to the top of the document
-                  function topFunction() {
-                      document.body.scrollTop = 0;
-                      document.documentElement.scrollTop = 0;
-                  }
-              </script>
-      <!--Common end-->
-
+    <main class="main-content-future{% if page.special_header %} special-page{% endif %}" role="main" style="margin-top: 0; padding-top: 1rem;">
+      <div id="content">
+        {{ content }}
+      </div>
     </main>
+
+    <!--Common-->
+    <footer class="site-footer main-content-future">
+      <div class="site-footer-credits">
+        <span style="color: #191c30;">
+          <a class="btnmenu" id="theme-toggle-btn">Modo oscuro</a>
+        </span>
+        <span>
+          <a class="btnmenu" href="/about">MRS, 2026</a>
+        </span>
+      </div>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+      // When the user scrolls down from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+          if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+              document.getElementById("myBtn").style.display = "block";
+          } else {
+              document.getElementById("myBtn").style.display = "none";
+          }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+      }
+    </script>
+
+    <!--Common end-->
 
     <script>
       const toggleBtn = document.getElementById('theme-toggle-btn');
@@ -99,6 +134,34 @@
           toggleBtn.textContent = 'Modo Claro';
         }
       });
+    </script>
+
+    <script>
+      function destacarMenuActual() {
+        // Obtenemos la ruta actual (ej. "/phd" o "/") y normalizamos quitando la barra final si la tiene
+        const currentPath = window.location.pathname.replace(/\/$/, "");
+
+        document.querySelectorAll('.btnmenu').forEach(link => {
+          // Ignorar otros botones
+          if (!link.getAttribute('hx-get')) return;
+
+          // Extraemos la ruta del enlace del menú
+          const linkPath = new URL(link.href, window.location.origin).pathname.replace(/\/$/, "");
+
+          // Si coincide, lo ponemos en negrita; si no, lo dejamos normal
+          if (linkPath === currentPath) {
+            link.classList.add('is-active');
+          } else {
+            link.classList.remove('is-active');
+          }
+        });
+      }
+
+      // 1. Al cargar la página inicialmente
+      document.addEventListener('DOMContentLoaded', destacarMenuActual);
+
+      // 2. Cada vez que htmx termine de cargar una nueva sección en segundo plano
+      document.addEventListener('htmx:afterSettle', destacarMenuActual);
     </script>
 
   </body>

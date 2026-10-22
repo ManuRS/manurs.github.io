@@ -5,16 +5,6 @@ layout: future
 
 <!-- La plantilla carga custom.css -->
 
-<picture>
-  <source media="(max-width: 42em)" srcset="resources/banner_web_phone.png">
-  <source media="(min-width: 42em)" srcset="resources/banner_web_desktop.png">
-  <img src="resources/banner_web_phone.png" alt="Banner">
-</picture>
-
-<a class="btnmenu" style="font-weight: bold;">Home</a> | <a class="btnmenu" href="/phd">PhD | <a class="btnmenu" href="/radio">Radio</a>
-
-<h2 style="margin-top: 1rem;"></h2>
-
 <center><picture>
   <source media="(max-width: 42em)" srcset="img/img1b_phone.webp" width="1800">
   <source media="(min-width: 42em)" srcset="img/img1b_phone.webp" width="0">
