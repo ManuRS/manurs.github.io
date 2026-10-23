@@ -7,9 +7,9 @@ special_header: true
 <!-- La plantilla carga custom.css -->
 
 <picture>
-  <source media="(max-width: 42em)" srcset="resources/banner_web_phone.png">
-  <source media="(min-width: 42em)" srcset="resources/banner_web_desktop.png">
-  <img src="resources/banner_web_phone.png" alt="Banner">
+  <source media="(max-width: 42em)" srcset="{{ '/resources/banner_web_phone.png' | relative_url }}">
+  <source media="(min-width: 42em)" srcset="{{ '/resources/banner_web_desktop.png' | relative_url }}">
+  <img src="{{ '/resources/banner_web_phone.png' | relative_url }}" alt="Banner">
 </picture>
 
 <a class="btnmenu" href="/">Home</a> | 

@@ -25,15 +25,15 @@ layout: future
 **Cadena SER, 2024 y 2025**
 
 <center><picture>
-  <source media="(max-width: 42em)" srcset="img/radio_phone_2.webp" width="1800">
-  <source media="(min-width: 42em)" srcset="img/radio_phone_2.webp" width="0">
-  <img src="img/tesis_phone.jpg" alt="Foto" style="padding-right: 0px; padding-left: 0px;">
+  <source media="(max-width: 42em)" srcset="{{ '/img/radio_phone_2.webp' | relative_url }}" width="1800">
+  <source media="(min-width: 42em)" srcset="{{ '/img/radio_phone_2.webp' | relative_url }}" width="0">
+  <img src="{{ '/img/tesis_phone.jpg' | relative_url }}" alt="Foto" style="padding-right: 0px; padding-left: 0px;">
 </picture></center>
 
 <picture>
-    <source media="(max-width: 42em)" srcset="img/radio_desktop_1.jpg" width="0">
-    <source media="(min-width: 42em)" srcset="img/radio_desktop_1.jpg" width="1200">
-    <img src="img/tesis_desktop.jpg" alt="Foto" style="padding-right: 0px; padding-left: 0px;">
+    <source media="(max-width: 42em)" srcset="{{ '/img/radio_desktop_1.jpg' | relative_url }}" width="0">
+    <source media="(min-width: 42em)" srcset="{{ '/img/radio_desktop_1.jpg' | relative_url }}" width="1200">
+    <img src="{{ '/img/tesis_desktop.jpg' | relative_url }}" alt="Foto" style="padding-right: 0px; padding-left: 0px;">
 </picture>
 
 Tras un año en la Escuela de Periodismo de El País, realicé practicas en la SER. En un primer momento formé parte del equipo de fin de semana de los servicios informativos. Tras la segunda victoria presidencial de Donald Trump en EEUU, y el permanente aluvión de noticias que producía, pasé a trabajar de lunes a viernes en la sección de internacional.
@@ -49,22 +49,22 @@ Tras la carrera y el doctorado, siempre entre líneas de código, fueron dos añ
 <ul class="nav2">
     <li style="margin-top: 0rem; padding: 3% 2% 0%;">
         <p style="text-align: center; padding: 0;"><b>Mix edición boletines</b></p>
-        <video class="video-audio" controls="" name="mixboletos" object-fit="cover" poster="audio/boleto_up.jpg">
-            <source src="audio/mixboletos.mp3" type="audio/mp3">
+        <video class="video-audio" controls="" name="mixboletos" object-fit="cover" poster="{{ '/audio/boleto_up.jpg' | relative_url }}">
+            <source src="{{ '/audio/mixboletos.mp3' | relative_url }}" type="audio/mp3">
         </video>
     </li>
 
     <li style="margin-top: 0rem; padding: 3% 2% 0%;">
         <p style="text-align: center; padding: 0;"><b>Boletines completos</b></p>
-        <video class="video-audio" controls="" name="boleto2" object-fit="cover" poster="audio/boleto2_up.jpg">
-            <source src="audio/boleto_join.mp3" type="audio/mp3">
+        <video class="video-audio" controls="" name="boleto2" object-fit="cover" poster="{{ '/audio/boleto2_up.jpg' | relative_url }}">
+            <source src="{{ '/audio/boleto_join.mp3' | relative_url }}" type="audio/mp3">
         </video>
     </li>
 
     <li style="margin-top: 0rem; padding: 3% 2% 0%;">
         <p style="text-align: center; padding: 0;"><b>Crónica internacional</b></p>
-        <video class="video-audio" controls="" name="h25gaza" object-fit="cover" poster="audio/h25_up.png">
-            <source src="audio/h25gaza.mp3" type="audio/mp3">
+        <video class="video-audio" controls="" name="h25gaza" object-fit="cover" poster="{{ '/audio/h25_up.png' | relative_url }}">
+            <source src="{{ '/audio/h25gaza.mp3' | relative_url }}" type="audio/mp3">
         </video>
     </li>
 </ul>
@@ -75,13 +75,13 @@ Tras la carrera y el doctorado, siempre entre líneas de código, fueron dos añ
   <div class="audio-item">
     <b> Pacto migratorio español </b>
     <video controls="" name="a1">
-        <source src="audio/h25migracion.mp3" type="audio/mp3">
+        <source src="{{ '/audio/h25migracion.mp3' | relative_url }}" type="audio/mp3">
     </video>
   </div>
   <div class="audio-item">
     <b> Netanyahu en la ONU </b>
     <video controls="" name="a1">
-        <source src="audio/matinalisrael.mp3" type="audio/mp3">
+        <source src="{{ '/audio/matinalisrael.mp3' | relative_url }}" type="audio/mp3">
     </video>
   </div>
 </div>
@@ -90,13 +90,13 @@ Tras la carrera y el doctorado, siempre entre líneas de código, fueron dos añ
   <div class="audio-item">
     <b> Guerra arancelaria estadounidense </b>
     <video controls="" name="a1">
-        <source src="audio/boletochina.mp3" type="audio/mp3">
+        <source src="{{ '/audio/boletochina.mp3' | relative_url }}" type="audio/mp3">
     </video>
   </div>
   <div class="audio-item">
     <b> Crisis política en Turquía </b>
     <video controls="" name="a1">
-        <source src="audio/hxhturquia.mp3" type="audio/mp3">
+        <source src="{{ '/audio/hxhturquia.mp3' | relative_url }}" type="audio/mp3">
     </video>
   </div>
 </div>
@@ -105,13 +105,13 @@ Tras la carrera y el doctorado, siempre entre líneas de código, fueron dos añ
   <div class="audio-item">
     <b> Entrevista parafraseada </b>
     <video controls="" name="a1">
-        <source src="audio/h14flotilla.mp3" type="audio/mp3">
+        <source src="{{ '/audio/h14flotilla.mp3' | relative_url }}" type="audio/mp3">
     </video>
   </div>
   <div class="audio-item">
     <b> Cierre / Pieza de color </b>
     <video controls="" name="a1">
-        <source src="audio/h14palabras.mp3" type="audio/mp3">
+        <source src="{{ '/audio/h14palabras.mp3' | relative_url }}" type="audio/mp3">
     </video>
   </div>
 </div>
@@ -122,13 +122,13 @@ Tras la carrera y el doctorado, siempre entre líneas de código, fueron dos añ
   <div class="audio-item">
     <b> Directo apagón en España </b>
     <video controls="" name="a1">
-        <source src="audio/h25apagon.mp3" type="audio/mp3">
+        <source src="{{ '/audio/h25apagon.mp3' | relative_url }}" type="audio/mp3">
     </video>
   </div>
   <div class="audio-item">
     <b> Directo incendio </b>
     <video controls="" name="a1">
-        <source src="audio/h25incendio.mp3" type="audio/mp3">
+        <source src="{{ '/audio/h25incendio.mp3' | relative_url }}" type="audio/mp3">
     </video>
   </div>
 </div>
@@ -137,13 +137,13 @@ Tras la carrera y el doctorado, siempre entre líneas de código, fueron dos añ
   <div class="audio-item">
     <b><a href="https://cadenaser.com/nacional/2024/12/29/la-teleasistencia-no-solo-salva-vidas-una-herramienta-contra-la-soledad-no-deseada-cadena-ser/" target="_blank">La teleasistencia no solo salva vidas</a></b>
     <video controls="" name="a1">
-        <source src="audio/h14boton.mp3" type="audio/mp3">
+        <source src="{{ '/audio/h14boton.mp3' | relative_url }}" type="audio/mp3">
     </video>
   </div>
   <div class="audio-item">
     <b><a href="https://cadenaser.com/nacional/2025/01/11/pedro-sanchez-esta-en-funciones-y-busca-formar-un-nuevo-gobierno-de-coalicion-por-que-los-asistentes-de-voz-cometen-errores-cadena-ser/" target="_blank">Errores en Gemini, el asistente de Google</a></b>
     <video controls="" name="a1">
-        <source src="audio/h14asistentes.mp3" type="audio/mp3">
+        <source src="{{ '/audio/h14asistentes.mp3' | relative_url }}" type="audio/mp3">
     </video>
   </div>
 </div>

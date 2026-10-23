@@ -10,15 +10,15 @@ layout: future
 **Automatic signal adaptation for real-time bidirectional interaction with the nervous system.**
 
 <center><picture>
-  <source media="(max-width: 42em)" srcset="img/tesis_phone.jpg" width="1800">
-  <source media="(min-width: 42em)" srcset="img/tesis_phone.jpg" width="0">
-  <img src="img/tesis_phone.jpg" alt="Foto" style="padding-right: 0px; padding-left: 0px;">
+  <source media="(max-width: 42em)" srcset="{{ '/img/tesis_phone.jpg' | relative_url }}" width="1800">
+  <source media="(min-width: 42em)" srcset="{{ '/img/tesis_phone.jpg' | relative_url }}" width="0">
+  <img src="{{ '/img/tesis_phone.jpg' | relative_url }}" alt="Foto" style="padding-right: 0px; padding-left: 0px;">
 </picture></center>
 
 <picture>
-    <source media="(max-width: 42em)" srcset="img/tesis_desktop.jpg" width="0">
-    <source media="(min-width: 42em)" srcset="img/tesis_desktop.jpg" width="1200">
-    <img src="img/tesis_desktop.jpg" alt="Foto" style="padding-right: 0px; padding-left: 0px;">
+    <source media="(max-width: 42em)" srcset="{{ '/img/tesis_desktop.jpg' | relative_url }}" width="0">
+    <source media="(min-width: 42em)" srcset="{{ '/img/tesis_desktop.jpg' | relative_url }}" width="1200">
+    <img src="{{ '/img/tesis_desktop.jpg' | relative_url }}" alt="Foto" style="padding-right: 0px; padding-left: 0px;">
 </picture>
 
 Closed-loop computational neuroscience thesis focused on the creation of hybrid neuronal circuits between model neurons and living neurons. These circuits are useful for addressing neuronal, synaptic and network dynamics in neuroscience research.
@@ -44,19 +44,27 @@ R. Amaducci, M. Reyes-Sanchez, I. Elices, F.B. Rodriguez, P. Varona. 2019. RTHyb
 <ul class="nav2">
 
 <li>
-	<a href="https://github.com/manurs" target="_blank"> <img src="resources/github.png" class="github-icon" alt="Github" height="50" width="50"> </a>
+  <a href="https://github.com/manurs" target="_blank">
+    <img src="{{ '/resources/github.png' | relative_url }}" class="github-icon" alt="GitHub" height="50" width="50">
+  </a>
 </li>
 
 <li>
-	<a href="https://linkedin.com/in/manuelrs" target="_blank"> <img src="resources/linkedin.png" alt="Linkedin" height="50" width="50"> </a>
+  <a href="https://linkedin.com/in/manuelrs" target="_blank">
+    <img src="{{ '/resources/linkedin.png' | relative_url }}" alt="LinkedIn" height="50" width="50">
+  </a>
 </li>
 
 <li>
-	<a href="https://orcid.org/0000-0003-2909-4664" target="_blank"> <img src="resources/orcid.png" alt="ORCID" height="50" width="50"></a>
+  <a href="https://orcid.org/0000-0003-2909-4664" target="_blank">
+    <img src="{{ '/resources/orcid.png' | relative_url }}" alt="ORCID" height="50" width="50">
+  </a>
 </li>
 
 <li>
-	<a href="https://scholar.google.es/citations?user=JlKzj1cAAAAJ" target="_blank"> <img src="resources/google_scholar.png" alt="Google Scholar" height="50" width="50"> </a>
+  <a href="https://scholar.google.es/citations?user=JlKzj1cAAAAJ" target="_blank">
+    <img src="{{ '/resources/google_scholar.png' | relative_url }}" alt="Google Scholar" height="50" width="50">
+  </a>
 </li>
 
 </ul>

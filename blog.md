@@ -7,9 +7,9 @@ special_header: true
 <!-- La plantilla carga custom.css -->
 
 <picture>
-  <source media="(max-width: 42em)" srcset="resources/banner_web_phone.png">
-  <source media="(min-width: 42em)" srcset="resources/banner_web_desktop.png">
-  <img src="resources/banner_web_phone.png" alt="Banner">
+  <source media="(max-width: 42em)" srcset="{{ '/resources/banner_web_phone.png' | relative_url }}">
+  <source media="(min-width: 42em)" srcset="{{ '/resources/banner_web_desktop.png' | relative_url }}">
+  <img src="{{ '/resources/banner_web_phone.png' | relative_url }}" alt="Banner">
 </picture>
 
 <a class="btnmenu" href="/">Home</a> | 
@@ -19,15 +19,15 @@ special_header: true
 **Mi espacio personal para compartir textos**
 
 <center><picture>
-  <source media="(max-width: 42em)" srcset="img/blog_phone_1.jpg" width="1800">
-  <source media="(min-width: 42em)" srcset="img/blog_phone_1.jpg" width="0">
-  <img src="img/tesis_phone.jpg" alt="Foto" style="padding-right: 0px; padding-left: 0px;">
+  <source media="(max-width: 42em)" srcset="{{ '/img/blog_phone_1.jpg' | relative_url }}" width="1800">
+  <source media="(min-width: 42em)" srcset="{{ '/img/blog_phone_1.jpg' | relative_url }}" width="0">
+  <img src="{{ '/img/tesis_phone.jpg' | relative_url }}" alt="Foto" style="padding-right: 0px; padding-left: 0px;">
 </picture></center>
 
 <picture>
-    <source media="(max-width: 42em)" srcset="img/blog_desktop_1.jpg" width="0">
-    <source media="(min-width: 42em)" srcset="img/blog_desktop_1.jpg" width="1200">
-    <img src="img/tesis_desktop.jpg" alt="Foto" style="padding-right: 0px; padding-left: 0px;">
+    <source media="(max-width: 42em)" srcset="{{ '/img/blog_desktop_1.jpg' | relative_url }}" width="0">
+    <source media="(min-width: 42em)" srcset="{{ '/img/blog_desktop_1.jpg' | relative_url }}" width="1200">
+    <img src="{{ '/img/tesis_desktop.jpg' | relative_url }}" alt="Foto" style="padding-right: 0px; padding-left: 0px;">
 </picture>
 
 {% for post in site.posts %}

@@ -20,9 +20,9 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="shortcut icon" type="image/x-icon" href="resources/favicon.ico">
-    <link rel="stylesheet" href="custom.css">
-
+    <link rel="shortcut icon" type="image/x-icon" href="{{ '/resources/favicon.ico' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/custom.css' | relative_url }}">
+    
     <script src="https://unpkg.com/htmx.org@1.9.12"></script>
 
     <script>
@@ -45,9 +45,9 @@
     <header class="main-content-future" style="margin-bottom: 0; padding-bottom: 0;">
       
       <picture>
-        <source media="(max-width: 42em)" srcset="{{ 'resources/banner_web_phone.png' | relative_url }}">
-        <source media="(min-width: 42em)" srcset="{{ 'resources/banner_web_desktop.png' | relative_url }}">
-        <img src="{{ 'resources/banner_web_phone.png' | relative_url }}" alt="Banner">
+        <source media="(max-width: 42em)" srcset="{{ '/resources/banner_web_phone.png' | relative_url }}">
+        <source media="(min-width: 42em)" srcset="{{ '/resources/banner_web_desktop.png' | relative_url }}">
+        <img src="{{ '/resources/banner_web_phone.png' | relative_url }}" alt="Banner">
       </picture>
 
       <table>

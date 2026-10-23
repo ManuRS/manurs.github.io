@@ -7,14 +7,14 @@ special_header: true
 <!-- La plantilla carga custom.css -->
 
 <picture>
-  <source media="(max-width: 42em)" srcset="resources/banner_web_phone.png">
-  <source media="(min-width: 42em)" srcset="resources/banner_web_desktop.png">
-  <img src="resources/banner_web_phone.png" alt="Banner">
+  <source media="(max-width: 42em)" srcset="{{ '/resources/banner_web_phone.png' | relative_url }}">
+  <source media="(min-width: 42em)" srcset="{{ '/resources/banner_web_desktop.png' | relative_url }}">
+  <img src="{{ '/resources/banner_web_phone.png' | relative_url }}" alt="Banner">
 </picture>
 
 <a class="btnmenu" href="/">Home</a> | 
 
-<h2 style="margin-top: 1rem;">Sobre la página web</h2>
+<h2 class="h2-aux" style="margin-top: 1rem;">Sobre la página web</h2>
 
 La web utiliza [Jekyll](https://jekyllrb.com/) y aunque empecé con la base del tema [Cayman](https://pages-themes.github.io/cayman/), he modificado tanto la plantilla que ya es otra cosa completamente diferente. Utilizo páginas sencillas y en el momento de su creación me centré sobre todo en poder añadir fácilmente elementos a las listas.
 
@@ -22,3 +22,4 @@ A pesar de estar pensada para utilizar Markdown, por costumbre y capacidad de pe
 		  		
 *Proudly hosted on GitHub Pages.*
 
+<div style="height: 0; margin-bottom: -1rem;"></div>

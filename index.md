@@ -6,18 +6,18 @@ layout: future
 <!-- La plantilla carga custom.css -->
 
 <center class="intro-photo"><picture>
-  <source media="(max-width: 42em)" srcset="img/img1b_phone.webp" width="1800">
-  <source media="(min-width: 42em)" srcset="img/img1b_phone.webp" width="0">
-  <img src="img/img1.jpg" alt="Foto">
+  <source media="(max-width: 42em)" srcset="{{ '/img/img1b_phone.webp' | relative_url }}" width="1800">
+  <source media="(min-width: 42em)" srcset="{{ '/img/img1b_phone.webp' | relative_url }}" width="0">
+  <img src="{{ '/img/img1.jpg' | relative_url }}" alt="Foto">
 </picture></center>
 
 <div style="display: flex; justify-content: space-around;">
 
 <div class="img_container">
     <picture>
-      <source media="(max-width: 42em)" srcset="img/img1b_desktop.webp" width="0">
-      <source media="(min-width: 42em)" srcset="img/img1b_desktop.webp" width="1200">
-      <img src="img/img1.jpg" alt="Foto">
+      <source media="(max-width: 42em)" srcset="{{ '/img/img1b_desktop.webp' | relative_url }}" width="0">
+      <source media="(min-width: 42em)" srcset="{{ '/img/img1b_desktop.webp' | relative_url }}" width="1200">
+      <img src="{{ '/img/img1.jpg' | relative_url }}" alt="Foto">
     </picture>
 </div>
 
@@ -34,7 +34,9 @@ Soy muchas cosas, pero aquí va lo básico: <a target="_blank" href="https://es.
 <ul class="nav2">
 
 <li>
-	<a href="https://linkedin.com/in/manuelrs" target="_blank"> <img src="resources/banner_linkedin.png" alt="Linkedin" height="40" width="160" /> </a>
+  <a href="https://linkedin.com/in/manuelrs" target="_blank">
+    <img src="{{ '/resources/banner_linkedin.png' | relative_url }}" alt="LinkedIn" height="40" width="160" />
+  </a>
 </li>
 
 </ul>

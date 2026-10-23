@@ -924,7 +924,6 @@ body {
 /* Ajustes exclusivos para páginas especiales */
 .special-page {
   padding-top: 2rem !important;
-  padding-bottom: 0 !important;
 
   @include large {
     padding-bottom: 2rem !important;
@@ -942,22 +941,26 @@ body {
 
 /* Padding vertical del contenido de las páginas principales */
 main.main-content-future:not(.special-page) {
+  padding-top: 1rem !important;
 
   @include large {
-    padding-top: 1 !important;
     padding-bottom: 2rem !important;
   }
 
   @include medium {
-    padding-top: 1 !important;
     padding-bottom: 1rem !important;
   }
 
   @include small {
-    padding-top: 1 !important;
     padding-bottom: 0rem !important;
   }
 
+}
+
+@include small {
+  .h2-aux {
+    margin-top: 1.2rem !important;
+  }
 }
 
 
