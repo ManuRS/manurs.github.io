@@ -1,7 +1,6 @@
 ---
 title: Radio
 layout: future
-permalink: /radio/
 ---
 
 <!-- La plantilla carga custom.css -->
