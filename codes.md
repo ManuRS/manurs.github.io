@@ -14,7 +14,7 @@ special_header: true
 
 <a class="btnmenu" href="/">Home</a> | 
 
-<h2 style="margin-top: 2rem;">Some of my codes</h2>
+<h2 style="margin-top: 1rem;">Some of my codes</h2>
 
 <a href="http://www.github.com/manurs/SSH-Alert" target="_blank">SSH-Alert</a>
 <br>Get notified via email when somehting happend in the ssh

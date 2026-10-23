@@ -20,7 +20,7 @@ layout: future
   }
 </script>
 
-<h2 style="margin-top: 2rem;"> Periodismo </h2>
+<h2 style="margin-top: 0rem;"> Periodismo </h2>
 
 **Cadena SER, 2024 y 2025**
 

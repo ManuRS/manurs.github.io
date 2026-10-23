@@ -5,7 +5,7 @@ layout: future
 
 <!-- La plantilla carga custom.css -->
 
-<h2 style="margin-top: 2rem;"> Doctoral Thesis </h2>
+<h2 style="margin-top: 0rem;"> Doctoral Thesis </h2>
 
 **Automatic signal adaptation for real-time bidirectional interaction with the nervous system.**
 

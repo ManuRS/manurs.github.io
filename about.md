@@ -14,7 +14,7 @@ special_header: true
 
 <a class="btnmenu" href="/">Home</a> | 
 
-<h2 style="margin-top: 2rem;">Sobre la página web</h2>
+<h2 style="margin-top: 1rem;">Sobre la página web</h2>
 
 La web utiliza [Jekyll](https://jekyllrb.com/) y aunque empecé con la base del tema [Cayman](https://pages-themes.github.io/cayman/), he modificado tanto la plantilla que ya es otra cosa completamente diferente. Utilizo páginas sencillas y en el momento de su creación me centré sobre todo en poder añadir fácilmente elementos a las listas.
 

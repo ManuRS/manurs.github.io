@@ -14,7 +14,7 @@ special_header: true
 
 <a class="btnmenu" href="/">Home</a> | 
 
-<h2 style="margin-top: 2rem;"> Blog </h2>
+<h2 style="margin-top: 1rem;"> Blog </h2>
 
 **Mi espacio personal para compartir textos**
 

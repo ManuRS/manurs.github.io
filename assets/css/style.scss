@@ -971,3 +971,9 @@ main.main-content-future:not(.special-page) {
   }
 }
 
+
+@include small {
+  .intro-photo {
+    padding-top: 1.1rem;
+  }
+}

@@ -5,7 +5,7 @@ layout: future
 
 <!-- La plantilla carga custom.css -->
 
-<center><picture>
+<center class="intro-photo"><picture>
   <source media="(max-width: 42em)" srcset="img/img1b_phone.webp" width="1800">
   <source media="(min-width: 42em)" srcset="img/img1b_phone.webp" width="0">
   <img src="img/img1.jpg" alt="Foto">
@@ -13,22 +13,23 @@ layout: future
 
 <div style="display: flex; justify-content: space-around;">
 
-    <div class="img_container">
-        <picture>
-          <source media="(max-width: 42em)" srcset="img/img1b_desktop.webp" width="0">
-          <source media="(min-width: 42em)" srcset="img/img1b_desktop.webp" width="1200">
-          <img src="img/img1.jpg" alt="Foto">
-        </picture>
-    </div>
-    
-    <div class="txt_container">
-    
-    <h2 style="margin-top: 1rem; padding: 0;"> ¡Hola! </h2>
-    
-    <p style="padding: 0;">
+<div class="img_container">
+    <picture>
+      <source media="(max-width: 42em)" srcset="img/img1b_desktop.webp" width="0">
+      <source media="(min-width: 42em)" srcset="img/img1b_desktop.webp" width="1200">
+      <img src="img/img1.jpg" alt="Foto">
+    </picture>
+</div>
 
-    Soy muchas cosas, pero aquí va lo básico: <a target="_blank" href="https://es.wikipedia.org/wiki/zillenial">zillenial</a> en lo temporal, informático en lo espacial y periodista en lo ucrónico. Esta web aloja mis portfolios, recuerdos y eras pasadas. Hay una relación de las publicaciones de mi <a href="/phd">doctorado</a> en informática y un porfolio de mi paso por el <a href="/radio">periodismo</a>. También mi <a target="_blank" href="https://manurs.github.io/radio_web_fast">reproductor</a> de radio y podcast. Hay hasta un <a target="_blank" href="https://manurs.github.io/RogueCastle">videojuego</a>.
-    </p>
+<div class="txt_container">
+
+<h2 style="margin-top: 1rem; padding: 0;"> ¡Hola! </h2>
+
+<p style="padding: 0;">
+
+Soy muchas cosas, pero aquí va lo básico: <a target="_blank" href="https://es.wikipedia.org/wiki/zillenial">zillenial</a> en lo temporal, informático en lo espacial y periodista en lo ucrónico. Esta web aloja mis portfolios, recuerdos y eras pasadas. Hay una relación de las publicaciones de mi <a href="/phd">doctorado</a> en informática y un porfolio de mi paso por el <a href="/radio">periodismo</a>. También mi <a target="_blank" href="https://manurs.github.io/radio_web_fast">reproductor</a> de radio y podcast. Hay hasta un <a target="_blank" href="https://manurs.github.io/RogueCastle">videojuego</a>.
+
+</p>
     
 <ul class="nav2">
 
@@ -38,5 +39,6 @@ layout: future
 
 </ul>
 
-    </div>
+</div>
+
 </div>
