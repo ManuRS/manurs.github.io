@@ -1,8 +1,9 @@
-title: MRS
-description: MRS
+title: Manuel Reyes Sánchez
+description: "Web personal de Manuel Reyes Sánchez"
 show_downloads: false
 google_analytics: UA-132559789-1
 theme: jekyll-theme-cayman
 
-url: "http://localhost:4000"
+url: "https://manurs.github.io"
 baseurl: ""
+image: /resources/og-image.png

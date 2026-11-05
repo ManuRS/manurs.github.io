@@ -1,5 +1,5 @@
 ---
-title: PhD
+title: Doctorado
 layout: future
 ---
 

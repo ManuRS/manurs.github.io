@@ -1,5 +1,5 @@
 ---
-title: Radio
+title: Periodismo
 layout: future
 ---
 

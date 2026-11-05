@@ -1,5 +1,5 @@
 ---
-title: Radio
+title: Blog
 layout: future
 special_header: true
 ---

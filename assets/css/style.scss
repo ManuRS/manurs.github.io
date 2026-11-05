@@ -3,6 +3,32 @@
 
 @import "{{ site.theme }}";
 
+/********************************
+ * TIPOGRAFÍA DE ENCABEZADOS
+ ********************************/
+
+.project-name,
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6,
+.main-content-publications h1,
+.main-content-publications h2,
+.main-content-publications h3,
+.main-content-publications h4,
+.main-content-publications h5,
+.main-content-publications h6,
+.main-content-future h1,
+.main-content-future h2,
+.main-content-future h3,
+.main-content-future h4,
+.main-content-future h5,
+.main-content-future h6 {
+  font-family: 'Schibsted Grotesk', sans-serif;
+}
+
 /* --------------------------------------------------
    VARIABLES PARA MODO CLARO / OSCURO
    -------------------------------------------------- */
@@ -15,9 +41,9 @@
   --link-color: #1A0DAB;
   --nav-border: #189959;
   --btn-menu-color: #191c30;
-  --code-bg: #f8f9fa;
-  --code-text: #333333;
-  --border-color: #e9ecef;
+  --code-bg: #f6f8fa;
+  --code-text: #2D3748;
+  --border-color: #f6f8fa;
   --future-h1: #ef2056;  /*Ok*/
   --future-h3: #b42056;  /*Ok*/
   --future-table-border: #191c30;

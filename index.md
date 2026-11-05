@@ -1,5 +1,5 @@
 ---
-title: Manuel Reyes Sánchez
+title: Inicio
 layout: future
 ---
 
