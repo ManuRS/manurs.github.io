@@ -2,23 +2,31 @@
 title: Manuel Reyes Sánchez
 description: "Web personal de Manuel Reyes Sánchez, PhD en ingeniería informática: contiene la lista de sus publicaciones científicas, su portfolio como periodista de radio y enlaces a otros proyectos personales."
 
+locale: es-ES
 show_downloads: false
-jekyll-seo-tag:
-  google_analytics: UA-132559789-1
 
 theme: jekyll-theme-cayman
 
 url: "https://manurs.github.io"
 baseurl: ""
 
-image: /resources/og-image.png
-
 plugins:
   - jekyll-seo-tag
 
-# Información básica para el SEO (puedes adaptarla a tu sitio)
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /resources/og-image.png
+        alt: "Manuel Reyes Sánchez"
+
 social:
   name: Manuel Reyes Sánchez
   links:
     - https://github.com/ManuRS
     - https://linkedin.com/ManuRS
+
+twitter:
+  card: false
+
