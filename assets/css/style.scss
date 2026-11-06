@@ -47,6 +47,7 @@
   --future-h1: #ef2056;  /*Ok*/
   --future-h3: #b42056;  /*Ok*/
   --future-table-border: #191c30;
+  --blog-title: #43434a;
 }
 
 [data-theme="dark"] {
@@ -64,6 +65,7 @@
   --future-h1: #ff5277;
   --future-h3: #ff7597;
   --future-table-border: #1f274a; /*Ok*/
+  --blog-title: #F8F8F8;
 }
 
 /* Cuando el tema es oscuro, invertimos los colores del icono */
@@ -402,9 +404,9 @@ body {
 
   blockquote {
     padding: 0 1rem;
-    margin-left: 0;
+    margin-left: 2rem;
     color: var(--text-color);
-    border-left: 0.3rem solid var(--border-color);
+    border-left: 0.6rem solid var(--future-h1);
 
     > :first-child {
       margin-top: 0;
@@ -592,9 +594,9 @@ body {
 
   blockquote {
     padding: 0 1rem;
-    margin-left: 0;
+    margin-left: 2rem;
     color: var(--text-color);
-    border-left: 0.3rem solid var(--border-color);
+    border-left: 0.6rem solid var(--future-h1);
 
     > :first-child {
       margin-top: 0;
@@ -804,9 +806,9 @@ body {
 
   blockquote {
     padding: 0 1rem;
-    margin-left: 0;
+    margin-left: 2rem;
     color: var(--text-color);
-    border-left: 0.3rem solid var(--border-color);
+    border-left: 0.6rem solid var(--future-h1);
 
     > :first-child {
       margin-top: 0;

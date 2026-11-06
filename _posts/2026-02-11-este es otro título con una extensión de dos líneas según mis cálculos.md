@@ -1,5 +1,6 @@
 ---
 layout: future
+special_header: true
 title:  "Este es OTRO título con una extensión de dos líneas según mis cálculos"
 subtitle: "El subtítulo debería ocupar las mismas lineas aunque tenga más texto, porque se usa una fuente de menor tamaño"
 fecha: "11 de febrero de 2026"
@@ -13,7 +14,7 @@ fecha: "11 de febrero de 2026"
 
 <a class="btnmenu" href="/blog">Todas las entradas del blog</a> |
 
-<h2 style="margin-top: 2rem; font-style: italic;"> {{ page.title }} </h2>
+<h1 style="margin-top: 2rem; font-style: italic; color: var(--blog-title) !important"> {{ page.title }} </h1>
 
 ### {{ page.subtitle }}
 
