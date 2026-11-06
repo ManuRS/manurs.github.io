@@ -1,5 +1,5 @@
 ---
-title: Periodismo
+title: Manuel Reyes Sánchez - Periodismo
 layout: future
 ---
 

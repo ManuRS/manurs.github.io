@@ -1,5 +1,5 @@
 ---
-title: Proyectos
+title: Manuel Reyes Sánchez - Proyectos
 layout: future
 special_header: true
 ---

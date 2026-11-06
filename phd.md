@@ -1,5 +1,5 @@
 ---
-title: Doctorado
+title: Manuel Reyes Sánchez - Doctorado
 layout: future
 ---
 

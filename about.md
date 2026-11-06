@@ -1,5 +1,5 @@
 ---
-title: About
+title: Manuel Reyes Sánchez - About
 layout: future
 special_header: true
 ---

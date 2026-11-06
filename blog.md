@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Manuel Reyes Sánchez - Blog
 layout: future
 special_header: true
 ---
