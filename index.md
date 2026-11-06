@@ -1,5 +1,5 @@
 ---
-title: Manuel Reyes Sánchez
+title: Manuel Reyes Sánchez, PhD en ingeniería informática
 layout: future
 ---
 
