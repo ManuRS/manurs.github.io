@@ -12,11 +12,12 @@
       </script>
     {% endif %}
 
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     {% seo title=false %}
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{{ site.title }} - {% endif %}{{ page.title }}</title>
     
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta property="og:image" content="/resources/og-image.png">
+
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
