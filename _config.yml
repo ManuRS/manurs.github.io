@@ -18,7 +18,7 @@ defaults:
       path: ""
     values:
       image:
-        path: /resources/og-img.png
+        path: /resources/og-img.webp
         alt: "Manuel Reyes Sánchez"
 
 social:
