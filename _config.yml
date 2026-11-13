@@ -1,5 +1,5 @@
 
-title: Manuel Reyes Sánchez, PhD Ingeniería Informática
+title: Manuel Reyes Sánchez, PhD ingeniería informática
 description: "Web con mis publicaciones científicas, mi paso por el periodismo y otros proyectos"
 
 locale: es-ES
@@ -12,7 +12,6 @@ baseurl: ""
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap
 
 defaults:
   - scope:
@@ -22,13 +21,8 @@ defaults:
         path: /resources/og-img.webp
         alt: "Manuel Reyes Sánchez"
 
-seo:
-  type: Person
-  name: Manuel Reyes Sánchez
-
 social:
   name: Manuel Reyes Sánchez
   links:
     - https://github.com/ManuRS
     - https://www.linkedin.com/in/manuelrs/
-

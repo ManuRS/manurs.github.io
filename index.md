@@ -1,6 +1,9 @@
 ---
 title: Manuel Reyes Sánchez, PhD en ingeniería informática
 layout: future
+seo:
+  type: Person
+  name: Manuel Reyes Sánchez
 ---
 
 <!-- La plantilla carga custom.css -->
