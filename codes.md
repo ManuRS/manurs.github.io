@@ -1,5 +1,6 @@
 ---
 title: Manuel Reyes Sánchez - Proyectos
+description: "Lista de otros proyectos en GitHub"
 layout: future
 special_header: true
 ---

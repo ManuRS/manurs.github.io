@@ -1,5 +1,6 @@
 ---
 title: Manuel Reyes Sánchez - Doctorado
+description: "Publicaciones científicas en neurociencia computacional"
 layout: future
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Manuel Reyes Sánchez - About
+description: "Sobre esta página"
 layout: future
 special_header: true
 ---

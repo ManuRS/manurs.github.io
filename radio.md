@@ -1,5 +1,6 @@
 ---
 title: Manuel Reyes Sánchez - Periodismo
+description: "Experiencia como periodista en la Cadena SER"
 layout: future
 ---
 

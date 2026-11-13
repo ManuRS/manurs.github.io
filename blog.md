@@ -1,5 +1,6 @@
 ---
 title: Manuel Reyes Sánchez - Blog
+description: "Mi blog personal"
 layout: future
 special_header: true
 ---
