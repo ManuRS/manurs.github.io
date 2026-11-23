@@ -19,17 +19,21 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{ '/resources/favicon.ico' | relative_url }}">
     <link rel="stylesheet" href="{{ '/custom.css' | relative_url }}">
     
-    <script src="https://unpkg.com/htmx.org@1.9.12"></script>
+    <script src="https://unpkg.com/htmx.org@1.9.12" integrity="sha384-ujb1lZYygJmzgSwoxRggbCHcjc0rB2XoQrxeTUQyRjrOnlCoYta87iKBWq3EsdM2" crossorigin="anonymous"></script>
 
     <script>
+        // Tema guardado por el usuario y, si no ha elegido ninguno, el del dispositivo
         (() => {
-          const storedTheme = localStorage.getItem('theme');
-
-          if (storedTheme === 'dark') {
-            document.documentElement.setAttribute('data-theme', 'dark');
-          } else {
-            document.documentElement.setAttribute('data-theme', 'light');
+          let theme = null;
+          try {
+            theme = localStorage.getItem('theme');
+          } catch (error) {
+            // Almacenamiento bloqueado: se usa el del dispositivo
           }
+          if (theme !== 'dark' && theme !== 'light') {
+            theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          }
+          document.documentElement.setAttribute('data-theme', theme);
         })();
     </script>
     
@@ -105,30 +109,35 @@
 
     <script>
       const toggleBtn = document.getElementById('theme-toggle-btn');
-      const storedTheme = localStorage.getItem('theme');
 
-      // Cargar preferencia guardada o detectar preferencia del sistema
-      if (storedTheme === 'dark') {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        toggleBtn.textContent = 'Modo Claro';
-      } else {
-        document.documentElement.setAttribute('data-theme', 'light');
-        toggleBtn.textContent = 'Modo Oscuro';
+      function applyTheme(theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+        toggleBtn.textContent = theme === 'dark' ? 'Modo Claro' : 'Modo Oscuro';
       }
 
-      // Alternar al hacer clic
+      // El tema inicial lo ha fijado el script del head (guardado o, si no hay, el del dispositivo)
+      applyTheme(document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light');
+
+      // Alternar al hacer clic: la elección se guarda y manda sobre el dispositivo
       toggleBtn.addEventListener('click', () => {
-        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-        
-        if (isDark) {
-          document.documentElement.setAttribute('data-theme', 'light');
-          localStorage.setItem('theme', 'light');
-          toggleBtn.textContent = 'Modo Oscuro';
-        } else {
-          document.documentElement.setAttribute('data-theme', 'dark');
-          localStorage.setItem('theme', 'dark');
-          toggleBtn.textContent = 'Modo Claro';
+        const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        applyTheme(next);
+        try {
+          localStorage.setItem('theme', next);
+        } catch (error) {
+          // El botón sigue funcionando sin almacenamiento
         }
+      });
+
+      // Sin tema elegido, la web sigue al del dispositivo también cuando este cambia
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+        try {
+          const stored = localStorage.getItem('theme');
+          if (stored === 'dark' || stored === 'light') return;
+        } catch (error) {
+          // Sin almacenamiento no hay elección guardada
+        }
+        applyTheme(event.matches ? 'dark' : 'light');
       });
     </script>
 
