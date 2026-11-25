@@ -34,12 +34,12 @@
    -------------------------------------------------- */
 :root {
   --bg-color: #ffffff;
-  --text-color: #606c71; /*Ok*/
+  --text-color: #55646a; /*Ok*/
   --header-bg-primary: #159957;
   --header-bg-secondary: #155799;
   --header-text: #ffffff;
   --link-color: #1A0DAB;
-  --nav-border: #189959;
+  --link-strong: #1A0DAB;
   --btn-menu-color: #191c30;
   --code-bg: #f6f8fa;
   --code-text: #2D3748;
@@ -51,21 +51,31 @@
 }
 
 [data-theme="dark"] {
-  --bg-color: #121212;
+  --bg-color: #11131b;
   --text-color: #e0e0e0;
   --header-bg-primary: #0d1b2a;
   --header-bg-secondary: #1b263b;
   --header-text: #ffffff;
-  --link-color: #64b5f6; /*Ok*/
-  --nav-border: #2ecc71;
+  --link-color: #8ab4f8; /*Ok*/
+  --link-strong: #4d9bff;
   --btn-menu-color: #e0e0e0;
   --code-bg: #1e1e1e;
   --code-text: #e0e0e0;
   --border-color: #333333;
-  --future-h1: #ff5277;
-  --future-h3: #ff7597;
-  --future-table-border: #1f274a; /*Ok*/
+  --future-h1: #ff2d55;
+  --future-h3: #ff2d55;
+  --future-table-border: #3b4678; /*Ok*/
   --blog-title: #F8F8F8;
+}
+
+/* Modo oscuro: todos los enlaces del mismo azul (los de negrita tomaban el del tema) */
+[data-theme="dark"] .main-content-future a:not(.btnmenu) {
+  color: var(--link-color);
+}
+
+/* Enlace destacado: en claro ya es el azul fuerte, en oscuro un azul más vivo */
+[data-theme="dark"] .main-content-future .enlace-destacado > a {
+  color: var(--link-strong) !important;
 }
 
 /* Cuando el tema es oscuro, invertimos los colores del icono */
@@ -107,21 +117,6 @@ body {
 }
 
 
-.nav {
-    list-style-type: none;
-    text-align: center; 
-    padding: 0;
-    margin: 0;
-    border-style: solid;
-    border-color: var(--nav-border);
-    border-radius: 12px;  
-}
-
-.nav li {
-    display: inline-block;
-    padding: 3%;
-}
-
 .navb {
     list-style-type: none;
     text-align: center; 
@@ -155,7 +150,7 @@ body {
 }
 
 .button {
-    background-color: #189959; /*#4CAF50; Green */
+    background-color: #ef2056;
     border: none;
     color: white;
     text-align: center;

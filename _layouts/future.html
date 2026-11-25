@@ -8,7 +8,6 @@
     
     {% seo title=false %}
     
-    <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -60,6 +59,9 @@
           </td>
           <td style="text-align: center;">
             <a class="btnmenu" href="{{ '/radio' | relative_url }}" hx-get="{{ '/radio' | relative_url }}" hx-target="#content" hx-select="#content" hx-push-url="true">Radio</a>
+          </td>
+          <td style="text-align: center;">
+            <a class="btnmenu" href="{{ '/proyectos' | relative_url }}" hx-get="{{ '/proyectos' | relative_url }}" hx-target="#content" hx-select="#content" hx-push-url="true">Proyectos</a>
           </td>
         </tr>
       </table>
@@ -165,8 +167,64 @@
 
       // Al cambiar la URL mediante navegación del historial
       window.addEventListener('popstate', destacarMenuActual);
-      
+
     </script>
+
+    <script>
+      // Con la web ya cargada, descarga  las otras páginas del menú
+      (() => {
+        const ruta = url => url.pathname.replace(/\/+$/, '') || '/';
+        const retenidas = []; // evita que se descarten antes de terminar
+
+        function urlsDeImagenes(html) {
+          const doc = new DOMParser().parseFromString(html, 'text/html');
+          const urls = new Set();
+
+          doc.querySelectorAll('#content img').forEach(img => {
+            let raw = img.getAttribute('src');
+            const picture = img.closest('picture');
+
+            if (picture) {
+              // La primera <source> cuyo media coincide con esta pantalla
+              const source = [...picture.querySelectorAll('source')]
+                .find(s => !s.media || window.matchMedia(s.media).matches);
+              const srcset = source && source.getAttribute('srcset');
+              if (srcset) raw = srcset.split(',')[0].trim().split(/\s+/)[0];
+            }
+
+            if (raw) urls.add(new URL(raw, window.location.href).href);
+          });
+
+          return urls;
+        }
+
+        function precargar() {
+          const actual = ruta(window.location);
+
+          document.querySelectorAll('header a[hx-get]').forEach(link => {
+            const url = new URL(link.href, window.location.href);
+            if (ruta(url) === actual) return;
+
+            fetch(url)
+              .then(r => (r.ok ? r.text() : ''))
+              .then(html => {
+                urlsDeImagenes(html).forEach(src => {
+                  const img = new Image();
+                  img.decoding = 'async';
+                  img.src = src;
+                  retenidas.push(img);
+                });
+              })
+              .catch(() => {});
+          });
+        }
+
+        const cuandoLibre = window.requestIdleCallback || (fn => setTimeout(fn, 1500));
+        window.addEventListener('load', () => cuandoLibre(precargar));
+      })();
+    </script>
+
+    <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "4894a1f038d945d9b0ad817b887eec18"}'></script>
 
   </body>
 </html>

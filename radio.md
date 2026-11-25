@@ -25,16 +25,9 @@ layout: future
 
 **Cadena SER, 2024 y 2025**
 
-<center><picture>
-  <source media="(max-width: 42em)" srcset="{{ '/img/radio_phone_2.webp' | relative_url }}" width="1800">
-  <source media="(min-width: 42em)" srcset="{{ '/img/radio_phone_2.webp' | relative_url }}" width="0">
-  <img src="{{ '/img/tesis_phone.jpg' | relative_url }}" alt="Foto" style="padding-right: 0px; padding-left: 0px;">
-</picture></center>
-
 <picture>
-    <source media="(max-width: 42em)" srcset="{{ '/img/radio_desktop_1.jpg' | relative_url }}" width="0">
-    <source media="(min-width: 42em)" srcset="{{ '/img/radio_desktop_1.jpg' | relative_url }}" width="1200">
-    <img src="{{ '/img/tesis_desktop.jpg' | relative_url }}" alt="Foto" style="padding-right: 0px; padding-left: 0px;">
+  <source media="(min-width: 42em)" srcset="{{ '/img/radio_desktop_1.webp' | relative_url }}" width="1200">
+  <img src="{{ '/img/radio_phone_2.webp' | relative_url }}" alt="Foto" style="padding-right: 0px; padding-left: 0px;">
 </picture>
 
 Tras un año en la Escuela de Periodismo de El País, realicé practicas en la SER. En un primer momento formé parte del equipo de fin de semana de los servicios informativos. Tras la segunda victoria presidencial de Donald Trump en EEUU, y el permanente aluvión de noticias que producía, pasé a trabajar de lunes a viernes en la sección de internacional.
@@ -50,21 +43,21 @@ Tras la carrera y el doctorado, siempre entre líneas de código, fueron dos añ
 <ul class="nav2">
     <li style="margin-top: 0rem; padding: 3% 2% 0%;">
         <p style="text-align: center; padding: 0;"><b>Mix edición boletines</b></p>
-        <video class="video-audio" controls="" name="mixboletos" object-fit="cover" poster="{{ '/audio/boleto_up.jpg' | relative_url }}">
+        <video class="video-audio" controls="" name="mixboletos" object-fit="cover" poster="{{ '/audio/boleto_up.webp' | relative_url }}">
             <source src="{{ '/audio/mixboletos.mp3' | relative_url }}" type="audio/mp3">
         </video>
     </li>
 
     <li style="margin-top: 0rem; padding: 3% 2% 0%;">
         <p style="text-align: center; padding: 0;"><b>Boletines completos</b></p>
-        <video class="video-audio" controls="" name="boleto2" object-fit="cover" poster="{{ '/audio/boleto2_up.jpg' | relative_url }}">
+        <video class="video-audio" controls="" name="boleto2" object-fit="cover" poster="{{ '/audio/boleto2_up.webp' | relative_url }}">
             <source src="{{ '/audio/boleto_join.mp3' | relative_url }}" type="audio/mp3">
         </video>
     </li>
 
     <li style="margin-top: 0rem; padding: 3% 2% 0%;">
         <p style="text-align: center; padding: 0;"><b>Crónica internacional</b></p>
-        <video class="video-audio" controls="" name="h25gaza" object-fit="cover" poster="{{ '/audio/h25_up.png' | relative_url }}">
+        <video class="video-audio" controls="" name="h25gaza" object-fit="cover" poster="{{ '/audio/h25_up.webp' | relative_url }}">
             <source src="{{ '/audio/h25gaza.mp3' | relative_url }}" type="audio/mp3">
         </video>
     </li>
@@ -167,6 +160,6 @@ Tras la carrera y el doctorado, siempre entre líneas de código, fueron dos añ
 
 **<a href="https://cadenaser.com/nacional/2025/05/14/el-fuerte-pasado-del-presidente-sirio-al-sharaa-al-que-se-refiere-trump-cuando-habla-de-su-nuevo-aliado-cadena-ser/" target="_blank">El "fuerte pasado" del presidente sirio al que se refiere Trump al hablar de su nuevo aliado</a>**
 
-<p style="margin-top: 2rem; font-style:italic; font-weight: bold;">
+<p class="enlace-destacado" style="margin-top: 2rem; font-style:italic; font-weight: bold;">
 <a href="https://cadenaser.com/autor/manuel_reyes_sanchez/a/" target="_blank">PERFIL COMPLETO EN CADENASER.COM</a>
 </p>

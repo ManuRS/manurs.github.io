@@ -10,16 +10,9 @@ layout: future
 
 **Automatic signal adaptation for real-time bidirectional interaction with the nervous system.**
 
-<center><picture>
-  <source media="(max-width: 42em)" srcset="{{ '/img/tesis_phone.jpg' | relative_url }}" width="1800">
-  <source media="(min-width: 42em)" srcset="{{ '/img/tesis_phone.jpg' | relative_url }}" width="0">
-  <img src="{{ '/img/tesis_phone.jpg' | relative_url }}" alt="Foto" style="padding-right: 0px; padding-left: 0px;">
-</picture></center>
-
 <picture>
-    <source media="(max-width: 42em)" srcset="{{ '/img/tesis_desktop.jpg' | relative_url }}" width="0">
-    <source media="(min-width: 42em)" srcset="{{ '/img/tesis_desktop.jpg' | relative_url }}" width="1200">
-    <img src="{{ '/img/tesis_desktop.jpg' | relative_url }}" alt="Foto" style="padding-right: 0px; padding-left: 0px;">
+  <source media="(min-width: 42em)" srcset="{{ '/img/tesis_desktop.webp' | relative_url }}" width="1200">
+  <img src="{{ '/img/tesis_phone.webp' | relative_url }}" alt="Foto" style="padding-right: 0px; padding-left: 0px;">
 </picture>
 
 Closed-loop computational neuroscience thesis focused on the creation of hybrid neuronal circuits between model neurons and living neurons. These circuits are useful for addressing neuronal, synaptic and network dynamics in neuroscience research.
