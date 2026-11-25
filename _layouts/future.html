@@ -224,6 +224,13 @@
       })();
     </script>
 
+    <script>
+      // Solo un audio a la vez: al empezar uno se pausan los demás
+      document.addEventListener('play', e => {
+        document.querySelectorAll('audio, video').forEach(m => { if (m !== e.target) m.pause(); });
+      }, true);
+    </script>
+
     <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "4894a1f038d945d9b0ad817b887eec18"}'></script>
 
   </body>

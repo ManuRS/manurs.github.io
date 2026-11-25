@@ -133,3 +133,21 @@ video.video-audio::-webkit-media-controls-time-remaining-display {
   color: var(--text-color);
   opacity: 0.75;
 }
+
+.proyecto-links {
+  font-size: 0.85em;
+  display: flex;
+  gap: 1rem;
+}
+
+.proyecto-links a {
+  color: var(--text-color) !important;
+  opacity: 0.7;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.proyecto-links a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
