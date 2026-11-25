@@ -126,3 +126,10 @@ video.video-audio::-webkit-media-controls-time-remaining-display {
 .proyecto-txt p {
   margin-bottom: 0.6rem;
 }
+
+.proyecto-meta {
+  font-size: 0.7em;
+  font-weight: 400;
+  color: var(--text-color);
+  opacity: 0.75;
+}

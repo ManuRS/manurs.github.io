@@ -8,7 +8,7 @@ layout: future
 
 <h2 style="margin-top: 0rem;"> Doctoral Thesis </h2>
 
-**Automatic signal adaptation for real-time bidirectional interaction with the nervous system.**
+**Automatic signal adaptation for real-time bidirectional interaction with the nervous system**
 
 <picture>
   <source media="(min-width: 42em)" srcset="{{ '/img/tesis_desktop.webp' | relative_url }}" width="1200">

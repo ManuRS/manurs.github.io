@@ -30,7 +30,7 @@ seo:
 
 <p style="padding: 0;">
 
-Soy muchas cosas, pero aquí va lo básico: <a target="_blank" href="https://es.wikipedia.org/wiki/zillenial">zillenial</a> en lo temporal, informático en lo espacial y periodista en lo ucrónico. Esta web aloja mis portfolios, recuerdos y eras pasadas. Hay una relación de las publicaciones de mi <a href="/phd">doctorado</a> en informática y un porfolio de mi paso por el <a href="/radio">periodismo</a>. También mi <a target="_blank" href="https://manurs.github.io/radio_web_fast">reproductor</a> de radio y podcast. Hay hasta un <a target="_blank" href="https://manurs.github.io/RogueCastle">videojuego</a>.
+Soy muchas cosas, pero aquí va lo básico: <a target="_blank" href="https://es.wikipedia.org/wiki/zillenial">zillenial</a> en lo temporal, informático en lo espacial y periodista en lo ucrónico. Esta web aloja mis portfolios, recuerdos y eras pasadas. Hay una relación de las publicaciones de mi <a href="/phd" hx-get="/phd" hx-target="#content" hx-select="#content" hx-push-url="true">doctorado</a> en informática y un porfolio de mi paso por el <a href="/radio" hx-get="/radio" hx-target="#content" hx-select="#content" hx-push-url="true">periodismo</a>. También proyectos, como un videojuego o un <a target="_blank" href="https://radioneo.pages.dev">reproductor</a> de radio.
 
 </p>
     
