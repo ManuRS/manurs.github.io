@@ -21,117 +21,182 @@ A lo largo de un año, sin ninguna experiencia como periodista, edité y present
 
 Tras la carrera y el doctorado, siempre entre líneas de código, fueron dos años de un aprendizaje muy gratificante en un campo totalmente diferente. La aventura no duró más porque a veces la vida nos pone ante decisiones imposibles y nos obliga a elegir, pero la radio siempre será mi gran pasión.
 
----
+<h2 style="margin-top: 4rem; text-align: center;">Portfolio</h2>
 
-<h2 style="margin-top: 2rem; text-align: center;">Portfolio</h2>
+<div class="audio-grid sonidos portadas">
+  <div class="audio-item">
+    <b>Mix edición boletines</b>
+    <div class="tarjeta-audio con-portada" style="--tinte: #fabf02;">
+      <img src="{{ '/audio/boleto_up.webp' | relative_url }}" alt="" width="600" height="600">
+      <div class="pista">
+        <button class="pista-play" aria-label="Reproducir"></button>
+        <div class="pista-barra"><span></span></div>
+        <audio preload="none" src="{{ '/audio/mixboletos.mp3' | relative_url }}"></audio>
+      </div>
+    </div>
+  </div>
 
-<ul class="nav2">
-    <li style="margin-top: 0rem; padding: 3% 2% 0%;">
-        <p style="text-align: center; padding: 0;"><b>Mix edición boletines</b></p>
-        <video class="video-audio" controls="" name="mixboletos" object-fit="cover" poster="{{ '/audio/boleto_up.webp' | relative_url }}">
-            <source src="{{ '/audio/mixboletos.mp3' | relative_url }}" type="audio/mp3">
-        </video>
-    </li>
+  <div class="audio-item">
+    <b>Boletines completos</b>
+    <div class="tarjeta-audio con-portada" style="--tinte: #071637;">
+      <img src="{{ '/audio/boleto2_up.webp' | relative_url }}" alt="" width="600" height="600">
+      <div class="pista">
+        <button class="pista-play" aria-label="Reproducir"></button>
+        <div class="pista-barra"><span></span></div>
+        <audio preload="none" src="{{ '/audio/boleto_join.mp3' | relative_url }}"></audio>
+      </div>
+    </div>
+  </div>
 
-    <li style="margin-top: 0rem; padding: 3% 2% 0%;">
-        <p style="text-align: center; padding: 0;"><b>Boletines completos</b></p>
-        <video class="video-audio" controls="" name="boleto2" object-fit="cover" poster="{{ '/audio/boleto2_up.webp' | relative_url }}">
-            <source src="{{ '/audio/boleto_join.mp3' | relative_url }}" type="audio/mp3">
-        </video>
-    </li>
-
-    <li style="margin-top: 0rem; padding: 3% 2% 0%;">
-        <p style="text-align: center; padding: 0;"><b>Crónica internacional</b></p>
-        <video class="video-audio" controls="" name="h25gaza" object-fit="cover" poster="{{ '/audio/h25_up.webp' | relative_url }}">
-            <source src="{{ '/audio/h25gaza.mp3' | relative_url }}" type="audio/mp3">
-        </video>
-    </li>
-</ul>
+  <div class="audio-item">
+    <b>Crónica internacional</b>
+    <div class="tarjeta-audio con-portada" style="--tinte: #001446;">
+      <img src="{{ '/audio/h25_up.webp' | relative_url }}" alt="" width="600" height="600">
+      <div class="pista">
+        <button class="pista-play" aria-label="Reproducir"></button>
+        <div class="pista-barra"><span></span></div>
+        <audio preload="none" src="{{ '/audio/h25gaza.mp3' | relative_url }}"></audio>
+      </div>
+    </div>
+  </div>
+</div>
 
 <br>
 
-<div class="audio-grid">
+<div class="audio-grid sonidos">
   <div class="audio-item">
-    <b> Pacto migratorio español </b>
-    <video controls="" name="a1">
-        <source src="{{ '/audio/h25migracion.mp3' | relative_url }}" type="audio/mp3">
-    </video>
+    <b>Pacto migratorio español</b>
+    <div class="tarjeta-audio pista">
+      <button class="pista-play" aria-label="Reproducir"></button>
+      <div class="pista-barra"><span></span></div>
+      <audio preload="none" src="{{ '/audio/h25migracion.mp3' | relative_url }}"></audio>
+    </div>
   </div>
   <div class="audio-item">
-    <b> Netanyahu en la ONU </b>
-    <video controls="" name="a1">
-        <source src="{{ '/audio/matinalisrael.mp3' | relative_url }}" type="audio/mp3">
-    </video>
+    <b>Guerra arancelaria estadounidense</b>
+    <div class="tarjeta-audio pista">
+      <button class="pista-play" aria-label="Reproducir"></button>
+      <div class="pista-barra"><span></span></div>
+      <audio preload="none" src="{{ '/audio/boletochina.mp3' | relative_url }}"></audio>
+    </div>
+  </div>  
+</div>
+
+<div class="audio-grid sonidos">
+  <div class="audio-item">
+    <b>Crisis política en Turquía</b>
+    <div class="tarjeta-audio pista">
+      <button class="pista-play" aria-label="Reproducir"></button>
+      <div class="pista-barra"><span></span></div>
+      <audio preload="none" src="{{ '/audio/hxhturquia.mp3' | relative_url }}"></audio>
+    </div>
+  </div>
+  <div class="audio-item">
+    <b>Cierre / Pieza de color</b>
+    <div class="tarjeta-audio pista">
+      <button class="pista-play" aria-label="Reproducir"></button>
+      <div class="pista-barra"><span></span></div>
+      <audio preload="none" src="{{ '/audio/h14palabras.mp3' | relative_url }}"></audio>
+    </div>
   </div>
 </div>
 
-<div class="audio-grid">
+<!--  <div class="audio-grid sonidos">
   <div class="audio-item">
-    <b> Guerra arancelaria estadounidense </b>
-    <video controls="" name="a1">
-        <source src="{{ '/audio/boletochina.mp3' | relative_url }}" type="audio/mp3">
-    </video>
+    <b>Netanyahu en la ONU</b>
+    <div class="tarjeta-audio pista">
+      <button class="pista-play" aria-label="Reproducir"></button>
+      <div class="pista-barra"><span></span></div>
+      <audio preload="none" src="{{ '/audio/matinalisrael.mp3' | relative_url }}"></audio>
+    </div>
+  </div>
+  <b>Entrevista parafraseada</b>
+    <div class="tarjeta-audio pista">
+      <button class="pista-play" aria-label="Reproducir"></button>
+      <div class="pista-barra"><span></span></div>
+      <audio preload="none" src="{{ '/audio/h14flotilla.mp3' | relative_url }}"></audio>
+    </div>
+  </div>
+</div> -->
+
+<h2 style="margin-top: 4rem; text-align: center;">Conexiones y reportajes</h2>
+
+<div class="audio-grid sonidos">
+  <div class="audio-item">
+    <b>Directo apagón en España</b>
+    <div class="tarjeta-audio pista">
+      <button class="pista-play" aria-label="Reproducir"></button>
+      <div class="pista-barra"><span></span></div>
+      <audio preload="none" src="{{ '/audio/h25apagon.mp3' | relative_url }}"></audio>
+    </div>
   </div>
   <div class="audio-item">
-    <b> Crisis política en Turquía </b>
-    <video controls="" name="a1">
-        <source src="{{ '/audio/hxhturquia.mp3' | relative_url }}" type="audio/mp3">
-    </video>
+    <b>Directo incendio</b>
+    <div class="tarjeta-audio pista">
+      <button class="pista-play" aria-label="Reproducir"></button>
+      <div class="pista-barra"><span></span></div>
+      <audio preload="none" src="{{ '/audio/h25incendio.mp3' | relative_url }}"></audio>
+    </div>
   </div>
 </div>
 
-<div class="audio-grid">
-  <div class="audio-item">
-    <b> Entrevista parafraseada </b>
-    <video controls="" name="a1">
-        <source src="{{ '/audio/h14flotilla.mp3' | relative_url }}" type="audio/mp3">
-    </video>
-  </div>
-  <div class="audio-item">
-    <b> Cierre / Pieza de color </b>
-    <video controls="" name="a1">
-        <source src="{{ '/audio/h14palabras.mp3' | relative_url }}" type="audio/mp3">
-    </video>
-  </div>
-</div>
-
-<h2 style="margin-top: 3rem; text-align: center;">Conexiones y reportajes</h2>
-
-<div class="audio-grid">
-  <div class="audio-item">
-    <b> Directo apagón en España </b>
-    <video controls="" name="a1">
-        <source src="{{ '/audio/h25apagon.mp3' | relative_url }}" type="audio/mp3">
-    </video>
-  </div>
-  <div class="audio-item">
-    <b> Directo incendio </b>
-    <video controls="" name="a1">
-        <source src="{{ '/audio/h25incendio.mp3' | relative_url }}" type="audio/mp3">
-    </video>
-  </div>
-</div>
-
-<div class="audio-grid">
+<div class="audio-grid sonidos">
   <div class="audio-item">
     <b><a href="https://cadenaser.com/nacional/2024/12/29/la-teleasistencia-no-solo-salva-vidas-una-herramienta-contra-la-soledad-no-deseada-cadena-ser/" target="_blank">La teleasistencia no solo salva vidas</a></b>
-    <video controls="" name="a1">
-        <source src="{{ '/audio/h14boton.mp3' | relative_url }}" type="audio/mp3">
-    </video>
+    <div class="tarjeta-audio pista">
+      <button class="pista-play" aria-label="Reproducir"></button>
+      <div class="pista-barra"><span></span></div>
+      <audio preload="none" src="{{ '/audio/h14boton.mp3' | relative_url }}"></audio>
+    </div>
   </div>
   <div class="audio-item">
     <b><a href="https://cadenaser.com/nacional/2025/01/11/pedro-sanchez-esta-en-funciones-y-busca-formar-un-nuevo-gobierno-de-coalicion-por-que-los-asistentes-de-voz-cometen-errores-cadena-ser/" target="_blank">Errores en Gemini, el asistente de Google</a></b>
-    <video controls="" name="a1">
-        <source src="{{ '/audio/h14asistentes.mp3' | relative_url }}" type="audio/mp3">
-    </video>
+    <div class="tarjeta-audio pista">
+      <button class="pista-play" aria-label="Reproducir"></button>
+      <div class="pista-barra"><span></span></div>
+      <audio preload="none" src="{{ '/audio/h14asistentes.mp3' | relative_url }}"></audio>
+    </div>
   </div>
 </div>
 
----
+<script>
+  // Reproductor de las tarjetas de sonido (se registra una sola vez, también al navegar con htmx)
+  if (!window.pistasListas) {
+    window.pistasListas = true;
 
-<br>
+    const pinta = a => {
+      const p = a.closest('.pista');
+      if (!p) return;
+      p.querySelector('.pista-barra span').style.width = a.duration ? (a.currentTime / a.duration * 100) + '%' : '0';
+    };
 
-## Crónicas en la web
+    document.addEventListener('click', e => {
+      const p = e.target.closest('.pista');
+      if (!p) return;
+      const a = p.querySelector('audio');
+
+      if (e.target.closest('.pista-play')) {
+        if (a.paused) {
+          document.querySelectorAll('.pista audio').forEach(o => o !== a && o.pause());
+          a.play().catch(() => {});
+        } else {
+          a.pause();
+        }
+      } else if (e.target.closest('.pista-barra') && a.duration) {
+        const r = p.querySelector('.pista-barra').getBoundingClientRect();
+        a.currentTime = Math.min(Math.max((e.clientX - r.left) / r.width, 0), 1) * a.duration;
+      }
+    });
+
+    // Los eventos de audio no burbujean: se escuchan en captura
+    document.addEventListener('play', e => e.target.closest?.('.pista')?.classList.add('sonando'), true);
+    document.addEventListener('pause', e => e.target.closest?.('.pista')?.classList.remove('sonando'), true);
+    document.addEventListener('timeupdate', e => pinta(e.target), true);
+    document.addEventListener('loadedmetadata', e => pinta(e.target), true);
+  }
+</script>
+
+<h2 style="margin-top: 4rem;">Crónicas en la web</h2>
 
 **<a href="https://cadenaser.com/nacional/2025/02/14/vance-y-su-amenaza-a-europa-desde-la-conferencia-de-seguridad-de-munich-hay-un-nuevo-sheriff-en-washington-cadena-ser/" target="_blank">Vance se lanza contra Europa desde la Conferencia de Seguridad de Múnich y avisa: "Hay un nuevo sheriff en Washington"</a>**
 
